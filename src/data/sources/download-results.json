@@ -1,0 +1,1618 @@
+{
+  "successful": [
+    {
+      "url": "http://opiniojuris.org/2024/03/29/governance-of-mgrs-in-abnj-and-interests-of-developing-states-a-move-away-from-scientific-colonialism/",
+      "text": "http://opiniojuris.org/2024/03/29/governance-of-mgrs-in-abnj-and-interests-of-developing-states-a-move-away-from-scientific-colonialism/",
+      "source": "CHM-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/httpopiniojuris.org20240329governance-of-mgrs-in-abnj-and-interests-of-developing-states-a-move-away",
+      "filename": "httpopiniojuris.org20240329governance-of-mgrs-in-abnj-and-interests-of-developing-states-a-move-away",
+      "needsScraping": true
+    },
+    {
+      "url": "https://blogs.ed.ac.uk/ecolaw/2023/06/01/how-does-the-new-bbnj-agreement-regulate-access-to-and-benefit-sharing-of-marine-genetic-resources-at-deep-sea-hydrothermal-vents/",
+      "text": "ECO Law Blog",
+      "source": "CHM-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/ECO_Law_Blog.json",
+      "filename": "ECO_Law_Blog.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/",
+      "text": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/httpscil.nus.edu.sgblogsthe-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-mar",
+      "filename": "httpscil.nus.edu.sgblogsthe-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-mar",
+      "needsScraping": true
+    },
+    {
+      "url": "https://opiniojuris.org/2024/03/29/governance-of-mgrs-in-abnj-and-interests-of-developing-states-a-move-away-from-scientific-colonialism/",
+      "text": "Opinio Juris",
+      "source": "CHM-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/Opinio_Juris.json",
+      "filename": "Opinio_Juris.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://site.uit.no/nclos/2023/04/18/cites-and-the-bbnj-treaty-some-reflections/",
+      "text": "NCLOS Blog",
+      "source": "CHM-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/NCLOS_Blog.json",
+      "filename": "NCLOS_Blog.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000387385",
+      "text": "PDF",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/pf0000387385.json",
+      "filename": "pf0000387385.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.ejiltalk.org/dispute-settlement-under-the-bbnj-agreement/",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/file_127.json",
+      "filename": "file_127.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.ejiltalk.org/the-bbnj-agreement-and-itlos-advisory-jurisdiction/",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/file_128.json",
+      "filename": "file_128.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.ejiltalk.org/the-bbnj-agreement-and-the-international-seabed-authority/",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/file_129.json",
+      "filename": "file_129.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.iddri.org/en/publications-and-events/policy-brief/bbnj-initial-reflections-support-rapid-effective-and-equitable",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/bbnj-initial-reflections-support-rapid-effective-and-equitable.json",
+      "filename": "bbnj-initial-reflections-support-rapid-effective-and-equitable.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.iddri.org/en/publications-and-events/policy-brief/first-substantive-bbnj-agreement-preparatory-committee",
+      "text": "IDDRI Policy Brief, April 2025",
+      "source": "CHM-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/IDDRI_Policy_Brief_April_2025.json",
+      "filename": "IDDRI_Policy_Brief_April_2025.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.insideeulifesciences.com/2023/06/21/historic-marine-biodiversity-treaty-creates-new-access-and-benefit-sharing-obligations-for-life-sciences-companies/",
+      "text": "Inside EU Life Sciences",
+      "source": "CHM-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/Inside_EU_Life_Sciences.json",
+      "filename": "Inside_EU_Life_Sciences.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.iucn.org/resources/issue-briefs/high-seas-biodiversity-treaty",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/high-seas-biodiversity-treaty.json",
+      "filename": "high-seas-biodiversity-treaty.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.iucn.org/resources/publication/high-seas-biodiversity-treaty-explanatory-guide-factsheet",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/high-seas-biodiversity-treaty-explanatory-guide-factsheet.json",
+      "filename": "high-seas-biodiversity-treaty-explanatory-guide-factsheet.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.nature.com/articles/d41586-023-01894-0",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/d41586-023-01894-0.json",
+      "filename": "d41586-023-01894-0.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2023/06/inside-the-new-high-seas-treaty",
+      "text": "Brief",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/Brief.json",
+      "filename": "Brief.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.unep.org/resources/factsheet/bbnj-high-seas-treaty",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "article",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/bbnj-high-seas-treaty.json",
+      "filename": "bbnj-high-seas-treaty.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://enb.iisd.org/bbnj-high-seas-treaty-summary",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "official",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/bbnj-high-seas-treaty-summary.json",
+      "filename": "bbnj-high-seas-treaty-summary.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "official",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/marine-biodiversity-beyond-national-jurisdiction-bbnj.json",
+      "filename": "marine-biodiversity-beyond-national-jurisdiction-bbnj.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Treaties/BBNJ/Report",
+      "text": "Report",
+      "source": "BBNJ-references.md",
+      "type": "official",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/Report.json",
+      "filename": "Report.html",
+      "needsScraping": true
+    },
+    {
+      "url": "https://highseasalliance.org/wp-content/uploads/2025/04/PrepCom-Deep-Dive-CIHM-April-2025-1.pdf",
+      "text": "https://highseasalliance.org/wp-content/uploads/2025/04/PrepCom-Deep-Dive-CIHM-April-2025-1.pdf",
+      "source": "CHM-references.md",
+      "type": "pdf",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/httpshighseasalliance.orgwp-contentuploads202504PrepCom-Deep-Dive-CIHM-April-2025-1.pdf",
+      "filename": "httpshighseasalliance.orgwp-contentuploads202504PrepCom-Deep-Dive-CIHM-April-2025-1.pdf"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf",
+      "text": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "pdf",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/httpsiucn.orgsitesdefaultfiles2024-01iucn-bbnj-treaty-policy-brief.pdf",
+      "filename": "httpsiucn.orgsitesdefaultfiles2024-01iucn-bbnj-treaty-policy-brief.pdf"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "text": "https://www.isa.org.jm/wp-content/uploads/2024/06/The\\_contribution\\_of\\_ISA\\_to\\_the\\_BBNJ\\_objectives.pdf",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "pdf",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/httpswww.isa.org.jmwp-contentuploads202406The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "filename": "httpswww.isa.org.jmwp-contentuploads202406The_contribution_of_ISA_to_the_BBNJ_objectives.pdf"
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://crsreports.congress.gov/product/pdf/IF/IF12398",
+      "text": "PDF",
+      "source": "BBNJ-references.md",
+      "type": "pdf",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The\\_contribution\\_of\\_ISA\\_to\\_the\\_BBNJ\\_objectives.pdf",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.pewtrusts.org/-/media/assets/2023/06/inside-the-new-high-seas-treaty.pdf",
+      "text": "PDF",
+      "source": "BBNJ-references.md",
+      "type": "pdf",
+      "error": "Invalid URL"
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-13235-6_9",
+      "text": "Link",
+      "source": "BBNJ-references.md",
+      "type": "academic",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/978-3-031-13235-6_9.html"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7_2",
+      "text": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7\\_2",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/httpslink.springer.comchapter10.1007978-3-031-72100-7_2"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7_2#:~:text=As%20discussed%20above%2C%20the%20BBNJ,pilot%20studies%20to%20determine%20the",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7_2#:~:text=monitoring%20and%20transparency%20with%20regard,MGR%20Framework%E2%80%99s%20requirements%20will%20be",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7_2#:~:text=proper%20capabilities%20to%20execute%20its,the%20best%20information%20technology%20infrastructure",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7_2#:~:text=The%20architecture%20of%20the%20ClHM,inclusivity%20provisions%20in%20the%20Agreement",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7_2#:~:text=The%20BBNJ%20Agreement%20established%20the,based%20management%20tools%2C%20including",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7_2#:~:text=The%20MGR%20Framework%20is%20heavily,relevant%20traditional%20knowledge%20of%20Indigenous",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72100-7\\_2",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/978-3-031-72100-7_2.html"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2024.1497476/full",
+      "text": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2024.1497476/full",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/httpswww.frontiersin.orgjournalsclimatearticles10.3389fclim.2024.1497476full"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2024.1497476/full#:~:text=their%20assessment%20and%20governance,making%20on",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full",
+      "text": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/httpswww.frontiersin.orgjournalsocean-sustainabilityarticles10.3389focsu.2025.1584927full"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=,associated%20relevant%20information",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=108%2C693%20for%20program%20support%20costs%2C,other%20staff%20from%20across%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=2017%E2%80%932018%2C87%20%20the%20largest%20expenditure,member%20were%20required%20for%20optimal",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Advisory%20Committee%20was%20then%20established,house%20and%20its%20functionalities",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Agreement%20also%20establishes%20the%20foundational,in%20practice%20and%20what%20success",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=and%20gene%20banks8%20%3B%20fostering,merely%20sharing%20information%20about%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Article%2051%20affords%20the%20ClHM,12%20Therefore%2C%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=BBNJ%20Agreement%20establishes%20a%20Clearing,The%20multifaceted",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Capacity,from%20existing%20mechanisms%20and%20databases",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=ClHM%20is%20envisioned%20to%20play,users%20of%20the%20BBNJ",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Concerning%20the%20biological%20diversity%20of,EIAs%3B%20Part",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=data%20are%20FAIR%20,information%20should%20be%20easily%20discoverable",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=disaggregated%2C%20insights%20into%20potential%20costs,Union%20and%20Switzerland%20150%20and",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=during%20the%20negotiations%20of%20the,users",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=EIA%20processes%2C%20and%20ABMT%20provisions%2C,CIHM%20for%20the%20BBNJ%20Agreement",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=envisioned%20to%20be%20around%20USD,154",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=example%2C%20the%20joint%20clearing,154",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=facilitate%20and%20advance%20data%20sharing,which%20are%20critical%20for%20implementing",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=holistic%20and%20cooperative%20approach%20to,the%20Agreement%2C%20namely%20Marine%20Genetic",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=hub,and%20information%20sources%2C%20and%20help",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=if%20an%20EIA%20for%20a,Notably%2C%20this%20presents%20potential",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=implementation%20of%20the%20BBNJ%20Agreement,critical%20task%20of%20designing%20and",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Importantly%2C%20lessons%20pertaining%20to%20cost,However",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=international%20cooperation%20and%20collaboration%2C%20including,and%20sustainable%20use%20of%20BBNJ",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=knowledge%2C%20and%20information%20repository%20hosting,for%20biodiversity%20of%20areas%20beyond",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Lessons%20from%20other%20existing%20CIHMs,the%20development%20of%20the%20pilot",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=likely%20need%20to%20be%20more,users%2C%20is%20critical%20and%20necessitates",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=match%20at%20L551%20provisions%20on,a%20central%20role%20in%20operationalising",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=match%20at%20L578%20if%20an,Notably%2C%20this%20presents%20potential",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=match%20at%20L589%20screening%20to,activity%20will%20not%20cause%20substantial",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=match%20at%20L619%20public%20consultation,Subsequently%2C%20the%20Secretariat%20will%20notify",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=mechanism%20that%20is%20built%20both,effective%20functioning%20of%20the%20ClHM",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=mechanisms%20is%20an%20ongoing%2C%20continuous,147%20Notably%2C%20during%20this%20process",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Nagoya%20Protocol%20entered%20into%20force,modalities%20for%20operation%20were%20agreed",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=needs%20and%20opportunities,and%20sustainable%20use%20of%20BBNJ",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=needs%20are%20could%20prove%20advantageous,critical%20and%20necessitates%20proactive%20consideration",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=of%20the%20CBD%27s%20Biosafety%20Clearing,Sain%20et%20al.%2C%202018",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Part%20V%29,of%20the%20measures%20and%20actions",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=process%20to%20support%20and%20facilitate,of%20the%20measures%20and%20actions",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=provisions%20on%20EIAs%20is%20to,a%20central%20role%20in%20operationalising",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=public%20consultation%20stage%2C%20the%20Party,Subsequently%2C%20the%20Secretariat%20will%20notify",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=ratification%20and%20implementation%20of%20the,house%20and%20its%20functionalities",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=realising%20these%20ambitions%2C%20however%2C%20is,Moreover%2C%20it%20is%20to",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Reflecting%20the%20importance%20afforded%20to,transparency%2C%20including%20through%20the%20facilitation",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=relating%20to%20the%20four%20elements,insights%20on%20what%20this%20might",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Resources%2C%20Area,envisioned%20functions%20of%20the%20ClHM",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=screening%20to%20determine%20whether%20an,activity%20will%20not%20cause%20substantial",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Similar%20to%20other%20ClHMs%20explored,and%20information%20sources%2C%20and%20help",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=specifically%20to%20the%20conservation%20and,and%20sustainable%20use%20actions%20for",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Tanaka%2C%202024%29,Beyond%20a%20simple%20notification%20of",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=that%20were%20either%20not%20foreseen,this%20process%20is%20that%20registered",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=The%20exact%20form%20and%20function,it%20is%20likely%20that%20without",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=The%20exact%20form%20and%20function,technical%20assistance%2C%20some%20actors%2C%20particularly",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=the%20Scientific%20and%20Technical%20Body%2C,this%20process%20is%20that%20registered",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Under%20the%20Agreement%2C%20States%20Parties,also%20to%20ensure%20that%20%E2%80%9Crelevant",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=Under%20the%20BBNJ%20Agreement%27s%20EIA,Beyond%20a%20simple%20notification%20of",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/ocean-sustainability/articles/10.3389/focsu.2025.1584927/full#:~:text=will%20likely%20be%20very%20important,technical%20assistance%2C%20some%20actors%2C%20particularly",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2021.637127/full",
+      "text": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2021.637127/full",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/httpswww.frontiersin.orgjournalsresearch-metrics-and-analyticsarticles10.3389frma.2021.637127full"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2021.637127/full#:~:text=Ocean%20Science%20Diplomacy%20can%20Be,America%20and%20the%20Caribbean",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Architecture_of_Ocean_Governance",
+      "text": "https://www.researchgate.net/publication/380493071\\_The\\_Likely\\_Impact\\_of\\_the\\_BBNJ\\_Agreement\\_on\\_the\\_Architecture\\_of\\_Ocean\\_Governance",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/httpswww.researchgate.netpublication380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Archite"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Architecture_of_Ocean_Governance#:~:text=stakeholders%20%28art.%2048%29.%20The%20Clearing,Mechanism%20presents%20another",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Architecture_of_Ocean_Governance#:~:text=the%20BBNJ%20environmental%20impact%20assessment,and%20putting%20forward%20recommendations%20to",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/380493071\\_The\\_Likely\\_Impact\\_of\\_the\\_BBNJ\\_Agreement\\_on\\_the\\_Architecture\\_of\\_Ocean\\_Governance",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "academic",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Architecture_of_Ocean_Governance.html"
+    },
+    {
+      "url": "http://opiniojuris.org/2024/03/29/governance-of-mgrs-in-abnj-and-interests-of-developing-states-a-move-away-from-scientific-colonialism/#:~:text=all%20Parties%2C%20irrespective%20of%20their,Art%2012",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "http://opiniojuris.org/2024/03/29/governance-of-mgrs-in-abnj-and-interests-of-developing-states-a-move-away-from-scientific-colonialism/#:~:text=treaty%20adopted%20a%20notification,collection%2C%20utilization%2C%20and%20commercialization%20of",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://blogs.ed.ac.uk/ecolaw/2023/06/01/how-does-the-new-bbnj-agreement-regulate-access-to-and-benefit-sharing-of-marine-genetic-resources-at-deep-sea-hydrothermal-vents/#:~:text=5,Resources%3A%20Notification%20upon%20Utilization",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://blogs.ed.ac.uk/ecolaw/2023/06/01/how-does-the-new-bbnj-agreement-regulate-access-to-and-benefit-sharing-of-marine-genetic-resources-at-deep-sea-hydrothermal-vents/#:~:text=If%20one%20wants%20to%20collect,10%2C%20BBNJ%20Agreement",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://blogs.ed.ac.uk/ecolaw/2023/06/01/how-does-the-new-bbnj-agreement-regulate-access-to-and-benefit-sharing-of-marine-genetic-resources-at-deep-sea-hydrothermal-vents/#:~:text=Well%2C%20aside%20from%20notification%20obligations,10%286%29%2C%20BBNJ%20Agreement",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=19,and%20equality%20as%20one%20of",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=and%20equitable%20manner%2C%20and%20it,enhance%20their%20implementation%20of%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=Conference%20of%20the%20Parties%20will,they%20are%20not%20empty%20promises",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=First%2C%20gathering%20economic%20benefits%20from,Article",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=hand%20with%20the%20obligation%20to,in%20ABNJ%20that%20might%20potentially",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=includes%20a%20section%20on%20CBTMT,which%20will%20identify%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=mechanism%20,international%20law%20and%20diplomacy%20today",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=mechanism%20,the%20lack%20of%20women%E2%80%99s%20representation",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=MGRs%20in%20areas%20of%20the,Article%2011bis",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=monitoring%20and%20review%20of%20a,featured%20in%20other%20environmental%20treaties",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=More%20than%20an%20implementation%20agreement,developed%20worlds%20to%20consolidate%20consensus",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=resources,from%20stipulating%20the%20general%20obligations",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=states%20to%20submit%20proposals%20to,and%20procedural%20requirements%20for%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://cil.nus.edu.sg/blogs/the-bbnj-agreement-links-between-the-new-and-existing-laws-on-protecting-marine-biodiversity/#:~:text=Third%2C%20accessing%20genetic%20resources%20in,exhaustive%20list%20of%20CBTMT",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://highseasalliance.org/wp-content/uploads/2025/04/PrepCom-Deep-Dive-CIHM-April-2025-1.pdf#:~:text=Alliance%20highseasalliance,intended%20to%20mean%20the",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=%E2%80%9C,%E2%80%9Cfurther%20international%20cooperation%20and%20coordination%E2%80%9D",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=%E2%80%A2%20%E2%80%9CIt%20shall%20be%20interpreted,further%20guidance%20from%20the%20Conference",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=6,punitive%20manner",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=6,to%20the%20COP%20on%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=6.4.%20Clearing,fulfill%20other%20functions%2C%20including%20facilitating",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=and%20technical%20advice%2C%20including%20in,balance%20and%20equitable%20geographical%20representation",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=CHM%20are%20yet%20to%20be,the%20experience%20of%20other%20CHMs",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=equitable%20geographical%20representation,be%20determined%20by%20the%20CoP",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=implementation%20of%20large%20parts%20of,Committee%20What%20does%20it%20do",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=Insights%20Volume%2027%2C%20Issue%206,not%20apply%20to%20military%20vessels",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=mechanism,Implementation%20and%20Compliance",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=mechanism,the%20mobilization%20goal%20to%202030",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=Open%20Questions%20and%20Considerations%20Specific,start%20thinking%20about%20its%20operationalization",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=Open%20Questions%20The%20finance%20committee,first%20CoP%20will%20need%20to",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=Open%20Questions%20The%20finance%20committee,the%20mobilization%20goal%20to%202030",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=organizing%20and%20servicing%20of%20meetings,of%20the%20CHM%20outlined%20below",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=reviewed%20by%20the%20Scientific%20and,consultations%2C%20including%20with%20adjacent%20States",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=Specific%20Modalities%20for%20the%20operation,from%20the%20experience%20of%20other",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=The%20CHM%20will%20primarily%20consist,large%20parts%20of%20the%20Agreement",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=The%20CHM%20will%20primarily%20consist,support%20available%20and%20facilitate%20cooperation",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=The%20implementation%20and%20compliance%20committee%E2%80%99s,punitive",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=The%20STB%20is%20an%20advisory,into%20account%20the%20need%20for",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=The%20STB%20will%20be%20composed,selection%20process%20and%20terms%20of",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=The%20terms%20of%20reference%20and,report%20on%20other%20funding%20mechanisms",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://iucn.org/sites/default/files/2024-01/iucn-bbnj-treaty-policy-brief.pdf#:~:text=What%20does%20it%20do%3F%20The,This%20includes",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://site.uit.no/nclos/2023/04/18/cites-and-the-bbnj-treaty-some-reflections/#:~:text=clearing,important%20as%20it%20would%20allow",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.iddri.org/en/publications-and-events/policy-brief/first-substantive-bbnj-agreement-preparatory-committee#:~:text=%2A%20The%20Clearing,of%20a%20future%20BBNJ%20CHM",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.insideeulifesciences.com/2023/06/21/historic-marine-biodiversity-treaty-creates-new-access-and-benefit-sharing-obligations-for-life-sciences-companies/#:~:text=2.%20Notification%20to%20the%20Clearing,Mechanism",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.insideeulifesciences.com/2023/06/21/historic-marine-biodiversity-treaty-creates-new-access-and-benefit-sharing-obligations-for-life-sciences-companies/#:~:text=and%20products%20developed%2C%20can%20be,products%20and%20any%20further%20development",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.insideeulifesciences.com/2023/06/21/historic-marine-biodiversity-treaty-creates-new-access-and-benefit-sharing-obligations-for-life-sciences-companies/#:~:text=Before%20carrying%20out%20%E2%80%9Cactivities%E2%80%9D%20%28e,sharing%20obligations%20afterwards",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.insideeulifesciences.com/2023/06/21/historic-marine-biodiversity-treaty-creates-new-access-and-benefit-sharing-obligations-for-life-sciences-companies/#:~:text=Within%20one%20year%20after%20the,findings%20from%20the%20activities%20undertaken",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=and%20sectoral%20clearing,For%20example",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=benefit%20of%20,ISA%20are%20under%20an%20obligation",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=Clearing,minor%20adjustments%20to%20ISA%20procedures",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=content%2Fuploads%2F2022%2F06%2Fpolicy_brief_benefit_sharing_01_2022,the%20procedures%20already%20in%20place",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=contributions%20to%20debates%20on%20the,17%20ISA",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=explicitly%20identified%2C%20alongside%20other%20global,sponsoring%20persons%20and%20entities%20with",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=for%20the%20Clearing,ITLOS%2C%20Seabed%20Disputes",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=In%20any%20case%2C%20it%20will,collection%20and%20sampling%20of%20marine",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=may%20need%20to%20be%20some,php%3Fid%3D109",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=one%20consequence%20for%20ISA%E2%80%99s%20processes%2C,4",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.isa.org.jm/wp-content/uploads/2024/06/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf#:~:text=XIII,employment%20in%20research%20in%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "article",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.marpol.2023.105757",
+      "text": "DOI",
+      "source": "BBNJ-references.md",
+      "type": "doi",
+      "reason": "DOI resolution needed"
+    },
+    {
+      "url": "https://doi.org/10.3389/fmars.2024.9876543",
+      "text": "DOI",
+      "source": "BBNJ-references.md",
+      "type": "doi",
+      "reason": "DOI resolution needed"
+    },
+    {
+      "url": "https://doi.org/10.3389/fmars.2025.1234567",
+      "text": "DOI",
+      "source": "BBNJ-references.md",
+      "type": "doi",
+      "reason": "DOI resolution needed"
+    },
+    {
+      "url": "https://doi.org/10.3389/fmars.2025.7654321",
+      "text": "DOI",
+      "source": "BBNJ-references.md",
+      "type": "doi",
+      "reason": "DOI resolution needed"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-cop-prepcom1-summary",
+      "text": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-cop-prepcom1-summary",
+      "source": "CHM-references.md",
+      "type": "official",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/httpsenb.iisd.orgmarine-biodiversity-beyond-national-jurisdiction-bbnj-cop-prepcom1-summary"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-cop-prepcom1-summary#:~:text=As%20is%20often%20the%20case,sprint%2C%E2%80%9D%20suggested%20a%20seasoned%20observer",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-cop-prepcom1-summary#:~:text=The%20PrepCom%20has%20a%20long,consultations%20for%20environmental%20impact%20assessments",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary",
+      "text": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/httpsenb.iisd.orgmarine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=,contributions%20to%20proposed%20major%20programmes",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=,Indigenous%20Peoples%20and%20local%20communities",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=,relation%20to%20the%20financial%20mechanism",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=,the%20budget%20adopted%20by%20COP",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=,this%20end%2C%20parties%20shall%20endeavor",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=,through%20specific%20modalities%20for%20the",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=,use%20of%20marine%20biological%20diversity",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=ABNJ%3B%20,or%20sovereign%20rights%20over%20MGRs",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=adopted%20to%20support%20ABMTs%2C%20including,without%20the%20inclusion%20of%20LLDCs",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=any%20claim%20to%20any%20part,use%20of%20marine%20biological%20diversity",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=benefits%20shall%20be%20shared%20in,and%20transfer%20of%20marine%20technology",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=competencies%2C%20that%20the%20BBNJ%20COP,appropriate%20%E2%80%9Cin%20close%20cooperation%20and",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=Delegates%20also%20reached%20an%20agreement,appropriate%20%E2%80%9Cin%20close%20cooperation%20and",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=Establishing%20ABMTs%2C%20including%20MPAs%2C%20is,need%20not%20to%20undermine%20IFBs",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=Final%20Agreement%3A%20In%20the%20final,ABNJ%2C%20including%20on%2C%20inter%20alia",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=Final%20Agreement%3A%20In%20the%20final,and%20transfer%20of%20marine%20technology",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=Final%20Agreement%3A%20In%20the%20final,COP%20on%20matters%20including%20on",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=financial%20mechanism%20established%20under%20article,the%20budget%20adopted%20by%20COP",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=implementation%20of%20ABMTs%2C%20including%20MPAs%3B,measures%2C%20shall%20be%20monitored%20and",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=in%20ABNJ%2C%20in%20accordance%20with,the%20interests%20of%20all%20states",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=Intellectual%20property%20rights%20,disclose%20the%20origin%20of%20MGRs",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=match%20at%20L863%20,Indigenous%20Peoples%20and%20local%20communities",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=match%20at%20L979%20implementation%20of,measures%2C%20shall%20be%20monitored%20and",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=methods%20employed%3B%20and%20,contributions%20to%20proposed%20major%20programmes",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=Notification%20on%20activities%20with%20respect,to%20notification%20to%20the%20CHM",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=ovation,that%20another%20party%20could%20register",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=shall%20be%2050,the%20budget%20adopted%20by%20COP",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=sharing%3B%20establishing%20area,have%20negative%20impacts%20in%20ABNJ",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=suitability%20of%20solving%20an%20emergency,through%20the%20creation%20of%20ABMTs",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=The%20COP%20shall%20decide%20the,paid%20on%20a%20periodic%20basis",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=the%20establishment%20of%20a%20comprehensive,among%20states%20and%20relevant%20IFBs",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=The%20final%20Agreement%20includes%20a,undermine%20the%20effectiveness%20of%20measures",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://enb.iisd.org/marine-biodiversity-beyond-national-jurisdiction-bbnj-igc5-resumed-summary#:~:text=Traditional%20knowledge%20of%20Indigenous%20Peoples,%E2%80%9D",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://www.aph.gov.au/DocumentStore.ashx?id=30c9f873-8849-4fdb-a84b-bd5b395d1ef1",
+      "text": "PDF",
+      "source": "BBNJ-references.md",
+      "type": "official",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/DocumentStore.ashxid30c9f873-8849-4fdb-a84b-bd5b395d1ef1"
+    },
+    {
+      "url": "https://www.un.org/Depts/los/biodiversityworkinggroup/IOCreportforBBNJPrepCom-FINAL.PDF",
+      "text": "https://www.un.org/Depts/los/biodiversityworkinggroup/IOCreportforBBNJPrepCom-FINAL.PDF",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Already downloaded",
+      "filepath": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/httpswww.un.orgDeptslosbiodiversityworkinggroupIOCreportforBBNJPrepCom-FINAL.PDF"
+    },
+    {
+      "url": "https://www.un.org/Depts/los/biodiversityworkinggroup/IOCreportforBBNJPrepCom-FINAL.PDF#:~:text=UNCLOS%20,of%20marine%20scientific%20research",
+      "text": "Direct URL",
+      "source": "BBNJ-CHM-narrative.md",
+      "type": "official",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4892521",
+      "text": "https://papers.ssrn.com/sol3/papers.cfm?abstract\\_id=4892521",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Needs alternative method"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4892521#:~:text=about%20these%20activities%2C%20the%20treaty,if%20the%20notification%20system%20is",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4892521#:~:text=Using%20a%20textual%20legal%20analysis%2C,to%20come%20as%20technologies%20change",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4897394",
+      "text": "https://papers.ssrn.com/sol3/papers.cfm?abstract\\_id=4897394",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Needs alternative method"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4897394#:~:text=This%20chapter%20examines%20monitoring%20and,effectiveness%20of%20the%20monitoring%20and",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4897429",
+      "text": "https://papers.ssrn.com/sol3/papers.cfm?abstract\\_id=4897429",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Needs alternative method"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4897429#:~:text=%28DMP%29,obligations%20and%20the%20areas%20that",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4897429#:~:text=This%20chapter%20addresses%20two%20innovations,to%20fulfilling%20the%20BBNJ%20Agreement",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5268824",
+      "text": "https://papers.ssrn.com/sol3/papers.cfm?abstract\\_id=5268824",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Needs alternative method"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5268824#:~:text=information,the%20BBNJ%20Clearing%20House%20Mechanism",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5268824#:~:text=relatively%20light%20substantive%20obligations%20complemented,the%20operating%20procedures%20for%20the",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Text fragment URL"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract\\_id=4892521",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Needs alternative method"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract\\_id=4897394",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Needs alternative method"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract\\_id=4897429",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Needs alternative method"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract\\_id=5268824",
+      "text": "Direct URL",
+      "source": "CHM-references.md",
+      "type": "ssrn",
+      "reason": "Needs alternative method"
+    }
+  ],
+  "timestamp": "2025-08-08T10:52:18.329Z"
+}

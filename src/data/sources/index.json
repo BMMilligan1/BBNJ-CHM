@@ -1,0 +1,125 @@
+{
+  "generated": "2025-08-08T10:57:15.648Z",
+  "statistics": {
+    "totalUrls": 222,
+    "filesDownloaded": 15,
+    "pdfs": 6,
+    "webContent": 9,
+    "totalSizeMB": 8
+  },
+  "files": [
+    {
+      "path": "./sources/academic/380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Architecture_of_Ocean_Governance.html",
+      "name": "380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Architecture_of_Ocean_Governance.html",
+      "type": "html",
+      "size": 0,
+      "modified": "2025-08-08T10:50:51.663Z"
+    },
+    {
+      "path": "./sources/academic/978-3-031-13235-6_9.html",
+      "name": "978-3-031-13235-6_9.html",
+      "type": "html",
+      "size": 0,
+      "modified": "2025-08-08T10:50:32.824Z"
+    },
+    {
+      "path": "./sources/academic/978-3-031-72100-7_2.html",
+      "name": "978-3-031-72100-7_2.html",
+      "type": "html",
+      "size": 0,
+      "modified": "2025-08-08T10:50:36.519Z"
+    },
+    {
+      "path": "./sources/article/ECO_Law_Blog.md",
+      "name": "ECO_Law_Blog.md",
+      "type": "md",
+      "size": 18900,
+      "modified": "2025-08-08T10:55:58.409Z"
+    },
+    {
+      "path": "./sources/article/IDDRI_Policy_Brief_April_2025.md",
+      "name": "IDDRI_Policy_Brief_April_2025.md",
+      "type": "md",
+      "size": 5161,
+      "modified": "2025-08-08T10:56:02.635Z"
+    },
+    {
+      "path": "./sources/article/Inside_EU_Life_Sciences.md",
+      "name": "Inside_EU_Life_Sciences.md",
+      "type": "md",
+      "size": 15811,
+      "modified": "2025-08-08T10:56:05.855Z"
+    },
+    {
+      "path": "./sources/article/NCLOS_Blog.md",
+      "name": "NCLOS_Blog.md",
+      "type": "md",
+      "size": 17516,
+      "modified": "2025-08-08T10:56:12.622Z"
+    },
+    {
+      "path": "./sources/article/Opinio_Juris.md",
+      "name": "Opinio_Juris.md",
+      "type": "md",
+      "size": 17950,
+      "modified": "2025-08-08T10:56:16.627Z"
+    },
+    {
+      "path": "./sources/pdf/IF12398.pdf",
+      "name": "IF12398.pdf",
+      "type": "pdf",
+      "size": 0,
+      "modified": "2025-08-08T10:52:38.423Z"
+    },
+    {
+      "path": "./sources/pdf/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "name": "The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "type": "pdf",
+      "size": 0,
+      "modified": "2025-08-08T10:52:48.675Z"
+    },
+    {
+      "path": "./sources/pdf/httpshighseasalliance.orgwp-contentuploads202504PrepCom-Deep-Dive-CIHM-April-2025-1.pdf",
+      "name": "httpshighseasalliance.orgwp-contentuploads202504PrepCom-Deep-Dive-CIHM-April-2025-1.pdf",
+      "type": "pdf",
+      "size": 906406,
+      "modified": "2025-08-08T10:52:42.138Z"
+    },
+    {
+      "path": "./sources/pdf/httpsiucn.orgsitesdefaultfiles2024-01iucn-bbnj-treaty-policy-brief.pdf",
+      "name": "httpsiucn.orgsitesdefaultfiles2024-01iucn-bbnj-treaty-policy-brief.pdf",
+      "type": "pdf",
+      "size": 383980,
+      "modified": "2025-08-08T10:52:43.232Z"
+    },
+    {
+      "path": "./sources/pdf/httpswww.isa.org.jmwp-contentuploads202406The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "name": "httpswww.isa.org.jmwp-contentuploads202406The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "type": "pdf",
+      "size": 6858303,
+      "modified": "2025-08-08T10:52:47.671Z"
+    },
+    {
+      "path": "./sources/pdf/inside-the-new-high-seas-treaty.pdf",
+      "name": "inside-the-new-high-seas-treaty.pdf",
+      "type": "pdf",
+      "size": 0,
+      "modified": "2025-08-08T10:52:52.767Z"
+    },
+    {
+      "path": "./sources/urls-report.md",
+      "name": "urls-report.md",
+      "type": "md",
+      "size": 48370,
+      "modified": "2025-08-08T10:49:19.447Z"
+    }
+  ],
+  "categories": {
+    "academic": 75,
+    "article": 79,
+    "doi": 4,
+    "official": 43,
+    "pdf": 6,
+    "ssrn": 15
+  }
+}

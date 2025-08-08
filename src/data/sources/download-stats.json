@@ -1,0 +1,18 @@
+{
+  "generated": "2025-08-08T11:04:58.141Z",
+  "totalUrlsExtracted": 222,
+  "filesDownloaded": 27,
+  "pdfs": 9,
+  "markdown": 15,
+  "html": 3,
+  "totalSizeMB": 10,
+  "coveragePercent": 12,
+  "directories": [
+    "academic",
+    "article",
+    "doi",
+    "official",
+    "pdf",
+    "ssrn"
+  ]
+}
