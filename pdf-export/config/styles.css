@@ -469,7 +469,7 @@ img {
 
 figure {
   margin: 1rem 0 !important;
-  page-break-inside: avoid;
+  /* Allow figures to break if needed */
 }
 
 figcaption {
@@ -486,7 +486,7 @@ svg {
   background: white !important;
   max-width: 100% !important;
   height: auto !important;
-  page-break-inside: avoid;
+  /* Allow SVGs to break if needed */
   margin: 1rem 0 !important;
   border: none !important;
 }
@@ -528,7 +528,7 @@ svg .grid line {
 
 /* Observable Plot specific */
 .observablehq figure[data-type="plot"] {
-  page-break-inside: avoid;
+  /* Allow plots to break if needed */
   margin: 1rem 0 !important;
 }
 
