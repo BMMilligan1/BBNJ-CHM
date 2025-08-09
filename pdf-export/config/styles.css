@@ -398,26 +398,26 @@ pre code {
 
 /* Tables - Academic style */
 table {
-  font-size: 8.5pt !important;
+  font-size: 8pt !important;
   border-collapse: collapse !important;
-  width: 100% !important;
+  width: calc(100% - 1px) !important;
   margin: 1rem 0 !important;
   /* Allow tables to break across pages */
 }
 
 th, td {
-  border: 0.5px solid #000 !important;
+  border: 0.4px solid #000 !important;
   padding: 0.3rem 0.5rem !important;
   text-align: left !important;
   line-height: 1.1 !important;
-  font-size: 8.5pt !important;
+  font-size: 8pt !important;
   page-break-inside: avoid !important;
 }
 
 th {
   background: #f0f0f0 !important;
   font-weight: 600 !important;
-  font-size: 8.5pt !important;
+  font-size: 8pt !important;
 }
 
 /* Remove alternating row colors for academic style */
@@ -438,10 +438,36 @@ thead {
 
 tbody {
   display: table-row-group !important;
+  font-size: 8pt !important;
 }
 
 tfoot {
   display: table-footer-group !important;
+  font-size: 8pt !important;
+}
+
+/* Ensure all table elements have consistent font size */
+table * {
+  font-size: 8pt !important;
+}
+
+/* Extra specificity for Observable tables */
+.observablehq table,
+.observablehq table th,
+.observablehq table td,
+.observablehq table tbody,
+.observablehq table thead,
+.observablehq table tfoot,
+.observablehq table tr {
+  font-size: 8pt !important;
+}
+
+/* Target main content area tables specifically */
+main table,
+main table *,
+#observablehq-main table,
+#observablehq-main table * {
+  font-size: 8pt !important;
 }
 
 /* Optional: Keep small tables together */
@@ -485,7 +511,7 @@ figure {
 }
 
 figcaption {
-  font-size: 8.5pt !important;
+  font-size: 8pt !important;
   font-style: italic !important;
   text-align: center !important;
   margin-top: 0.3rem !important;
@@ -727,8 +753,8 @@ li > p {
 table {
   margin-left: 0 !important;
   margin-right: 0 !important;
-  width: 100% !important;
-  max-width: 100% !important;
+  width: calc(100% - 1px) !important;
+  max-width: calc(100% - 1px) !important;
 }
 
 /* Images and figures stay at full width */
