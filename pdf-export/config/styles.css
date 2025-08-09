@@ -323,6 +323,7 @@ sup {
 
 .footnotes {
   margin-top: 2rem !important;
+  margin-left: 15% !important;
   padding-top: 1rem !important;
   border-top: 1px solid #333 !important;
   font-size: 9pt !important;
@@ -336,6 +337,7 @@ sup {
 }
 
 .footnotes ol {
+  margin-left: 0 !important;
   padding-left: 2em !important;
   list-style-position: outside !important;
 }
@@ -344,13 +346,15 @@ sup {
   margin-bottom: 0.1rem !important;
   text-align: left !important;
   line-height: 1.3 !important;
-  padding-left: 0.3em !important;
+  padding-left: 0 !important;
 }
 
 /* Reduce spacing between paragraphs in footnotes */
 .footnotes p {
   margin-bottom: 0.5rem !important;
+  margin-left: 0 !important;
   text-align: left !important;
+  padding-left: 0 !important;
 }
 
 /* Code blocks - Technical report style */
@@ -579,13 +583,11 @@ pre {
   padding: 0.5rem 0.75rem !important;
 }
 
-.footnotes {
-  margin-left: 15% !important;
-  padding-left: 0 !important;
-}
-
 /* Lists need special handling for proper bullet alignment */
-ul, ol {
+body > ul, body > ol,
+main ul, main ol,
+#observablehq-main ul, #observablehq-main ol,
+.observablehq ul:not(.footnotes ol), .observablehq ol:not(.footnotes ol) {
   margin-bottom: 0.8rem !important;
   margin-left: 15% !important;
   padding-left: 2em !important;
@@ -593,7 +595,8 @@ ul, ol {
 }
 
 /* Nested lists */
-ul ul, ul ol, ol ul, ol ol {
+ul ul, ul ol, ol ul, ol ol,
+li > ul, li > ol {
   margin-left: 0 !important;
   padding-left: 2em !important;
 }
@@ -603,6 +606,12 @@ li {
   margin-bottom: 0.3rem !important;
   line-height: 1.35 !important;
   text-align: justify !important;
+  padding-left: 0 !important;
+}
+
+/* Ensure list item content is properly aligned */
+li > p {
+  margin-left: 0 !important;
   padding-left: 0 !important;
 }
 
