@@ -366,7 +366,7 @@ pre code {
 
 /* Tables - Academic style */
 table {
-  font-size: 9pt !important;
+  font-size: 8.5pt !important;
   border-collapse: collapse !important;
   width: 100% !important;
   margin: 1rem 0 !important;
@@ -378,6 +378,7 @@ th, td {
   padding: 0.3rem 0.5rem !important;
   text-align: left !important;
   line-height: 1.1 !important;
+  font-size: 8.5pt !important;
 }
 
 th {
