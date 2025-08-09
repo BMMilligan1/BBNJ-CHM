@@ -113,7 +113,7 @@ body > * {
 /* Typography for print - Academic journal style */
 body {
   font-family: var(--font-family);
-  font-size: 10pt;
+  font-size: 9pt;
   line-height: 1.35;
   color: #000 !important;
   background: white !important;
