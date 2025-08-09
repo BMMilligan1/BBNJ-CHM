@@ -1,10 +1,10 @@
 # Ocean Accounts for BBNJ Implementation
 
-An Observable Framework research system analyzing how Ocean Accounts can provide essential infrastructure for the BBNJ Agreement's Clearing-House Mechanism.
+A technical research paper examining how Ocean Accounts can support the BBNJ Agreement's Clearing-House Mechanism, with interactive visualizations and PDF export capabilities.
 
-## Research Summary
+## Research Focus
 
-This project presents a comprehensive technical analysis demonstrating that Ocean Accounts—a structured framework for integrating environmental, economic, and social ocean data—offers proven architecture to operationalize the BBNJ Clearing-House Mechanism (CHM). The research identifies five key synergies between Ocean Accounts and CHM requirements:
+This paper analyzes the potential integration of Ocean Accounts methodology with the BBNJ Agreement's Clearing-House Mechanism (CHM). The research examines technical synergies between existing Ocean Accounts frameworks and CHM implementation requirements:
 
 - **Spatial Architecture**: Three-dimensional geographic reference systems for consistent BBNJ reporting
 - **Resource Tracking**: Flow accounting for marine genetic resource utilization chains
@@ -12,11 +12,11 @@ This project presents a comprehensive technical analysis demonstrating that Ocea
 - **Conservation Monitoring**: Asset frameworks measuring management effectiveness
 - **Capacity Building**: Standardized indicators enabling universal participation
 
-The full research paper provides detailed technical specifications, implementation pathways, and policy recommendations for integrating these systems before the first Conference of Parties.
+The paper includes technical specifications, implementation pathways, and recommendations based on analysis of treaty text, preparatory documents, and Ocean Accounts technical guidance.
 
-## Live Demo
+## Deployment
 
-View the interactive research paper at: [https://yourusername.github.io/BBNJ-CHM/](https://yourusername.github.io/BBNJ-CHM/)
+The research paper deploys as both an interactive website and PDF document. View online at: [https://yourusername.github.io/BBNJ-CHM/](https://yourusername.github.io/BBNJ-CHM/)
 
 ## Quick Start
 
@@ -99,11 +99,15 @@ BBNJ-CHM/
 | **Deployment** | |
 | `npm run deploy` | Deploy to Observable platform |
 
-## Key Features
+## Technical Implementation
+
+### Document Structure
+
+The research is written in Markdown with Observable Framework extensions, enabling both static HTML and PDF outputs. The main document (`src/BBNJ-CHM.md`) contains the full 5000-word analysis with 73 references.
 
 ### Interactive Visualizations
 
-The research includes a dynamic Sankey diagram showing relationships between Ocean Accounts components and CHM functions:
+A D3.js Sankey diagram visualizes relationships between Ocean Accounts components and CHM functions:
 
 ```javascript
 // Import and use the Sankey diagram component
@@ -146,11 +150,11 @@ The paper includes 73 verified references to:
 - Academic analyses of treaty implementation
 - Policy briefs from High Seas Alliance and IDDRI
 
-## Development Guide
+## Editing and Extending the Research
 
-### Adding Content
+### Modifying Content
 
-Edit `src/BBNJ-CHM.md` to modify the main research paper. The document uses standard markdown with Observable Framework extensions:
+The research content resides in `src/BBNJ-CHM.md`. To update or extend the analysis, edit this file using standard Markdown with Observable Framework extensions:
 
 ```markdown
 ## New Section
@@ -186,24 +190,24 @@ Edit `pdf-export/config/styles.css` for print-specific formatting:
 }
 ```
 
-## Deployment
+## Publishing
 
 ### GitHub Pages
 
-The repository includes a GitHub Actions workflow for automatic deployment:
+The repository includes automated deployment via GitHub Actions:
 
 1. Enable GitHub Pages in repository settings
-2. Set source to "GitHub Actions"
+2. Select "GitHub Actions" as the source
 3. Push to main branch to trigger deployment
-4. Access at `https://yourusername.github.io/BBNJ-CHM/`
+4. The site will be available at `https://yourusername.github.io/BBNJ-CHM/`
 
 ### Manual Deployment
 
-Build and deploy the `dist/` folder to any static hosting:
+To deploy elsewhere, build and host the `dist/` directory:
 
 ```bash
 npm run build
-# Upload dist/ contents to hosting service
+# Deploy dist/ contents to any static hosting service
 ```
 
 ## Contributing
@@ -216,19 +220,21 @@ Contributions are welcome! Please:
 4. Ensure references are properly formatted
 5. Submit a pull request with description
 
-### Research Contributions
+### Research Extensions
 
-- Verify citations and references
-- Suggest additional Ocean Accounts components
-- Provide implementation case studies
-- Review technical specifications
+- Verification of citations and reference accuracy
+- Additional analysis of Ocean Accounts components
+- Case studies from national implementations
+- Technical specification refinements
+- Updates based on PrepCom developments
 
-### Technical Contributions
+### Technical Improvements
 
-- Improve visualization components
-- Enhance PDF export quality
-- Add data validation tools
-- Optimize build performance
+- Enhanced visualization components (D3.js)
+- PDF export optimization (Puppeteer configuration)
+- Data validation and quality checks
+- Build system performance
+- Additional Observable Framework features
 
 ## Citation
 
