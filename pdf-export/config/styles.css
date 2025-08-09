@@ -549,53 +549,28 @@ textarea,
   background: #f9f9f9 !important;
 }
 
-/* Add 15% left margin to text content only */
-p, 
-h1, h2, h3, h4, h5, h6,
-pre {
-  margin-left: 15% !important;
-  margin-right: 15% !important;
+/* Add 15% left padding to shift all content right */
+body {
+  padding-left: 15% !important;
+  padding-right: 0 !important;
 }
 
-/* Keep lists properly indented relative to new margin */
-ul, ol {
-  margin-left: 15% !important;
-  margin-right: 15% !important;
-  padding-left: 2em !important;
-}
-
-/* Adjust blockquote to work with new margin */
-blockquote {
-  margin-left: calc(15% + 2em) !important;
-  margin-right: 15% !important;
-}
-
-/* Adjust footnotes */
-.footnotes {
-  margin-left: 15% !important;
-  margin-right: 15% !important;
-}
-
-.footnotes ol {
-  padding-left: 2.5em !important;
-}
-
-/* Ensure tables stay full width */
+/* Pull tables back to original left edge and extend to full width */
 table {
-  margin-left: 0 !important;
+  margin-left: -15% !important;
   margin-right: 0 !important;
-  width: 100% !important;
+  width: calc(100% + 15%) !important;
 }
 
-/* Images and figures stay centered at full width */
+/* Images and figures extend to full width */
 img, figure, svg {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  max-width: 100% !important;
+  margin-left: -15% !important;
+  width: calc(100% + 15%) !important;
+  max-width: calc(100% + 15%) !important;
 }
 
 /* D3 visualizations stay full width */
 .observablehq figure[data-type="plot"] {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: -15% !important;
+  width: calc(100% + 15%) !important;
 }
