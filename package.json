@@ -9,6 +9,7 @@
     "observable": "observable",
     "pdf:export": "cd pdf-export && npm run export",
     "pdf:build": "npm run build && npm run pdf:export",
+    "pdf:full": "npm run build && npm run pdf:export && npm run build",
     "pdf:watch": "cd pdf-export && npm run export:watch",
     "pdf:install": "cd pdf-export && npm install"
   },

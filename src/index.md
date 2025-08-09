@@ -14,9 +14,9 @@ Ben Milligan | Centre for Sustainable Development Reform | University of New Sou
 
 The 2023 Agreement on Biodiversity Beyond National Jurisdiction (BBNJ) establishes a Clearing-House Mechanism (CHM) as its digital backbone for transparency, compliance, and benefit-sharing across all treaty functions. Yet the Agreement provides limited technical specifications for CHM implementation, creating risks of fragmented development and missed opportunities for systematic ocean governance.
 
-Ocean Accounts—a structured framework for integrating environmental, economic, and social ocean data aligned with international statistical standards—offers a proven architecture that can operationalize CHM requirements while enabling evidence-based decision-making for sustainable ocean development.
+The imperative for robust ocean information architecture has gained unprecedented global recognition. The 2025 UN Ocean Conference in Nice emphasized the critical need for "national ocean accounting and mapping of coastal and marine ecosystems" to inform policy decisions. The Convention on Biological Diversity, through Decision 15/24, urges parties to strengthen ocean accounting for decision-making support. Ocean Accounts—a structured framework aligned with international statistical standards and now implemented across 30+ countries through the Global Ocean Accounts Partnership—offers proven architecture that can operationalize CHM requirements while enabling evidence-based decision-making.
 
-This research demonstrates that Ocean Accounts provides essential infrastructure for CHM success through five key synergies: standardized spatial data architecture enabling consistent geographic reporting; flow accounting systems that can track marine genetic resource utilization chains; baseline condition accounts supporting robust environmental impact assessments; asset monitoring frameworks measuring conservation effectiveness; and standardized indicators facilitating capacity-building and technology transfer.
+This research demonstrates that Ocean Accounts provides essential infrastructure for CHM success through five key synergies: standardized three-dimensional spatial architecture enabling consistent geographic reporting across water column and seabed distinctions; flow accounting systems tracking marine genetic resource utilization from extraction through commercialization with batch ID integration; baseline condition accounts supporting comprehensive environmental impact assessments including cumulative impacts; asset monitoring frameworks measuring conservation effectiveness through standardized indicators; and capacity-building pathways that integrate traditional knowledge while ensuring equitable participation.
 
 ```js
 const pdfUrl = await FileAttachment("BBNJ-CHM.pdf").url();
@@ -28,32 +28,32 @@ display(html`<a href="${pdfUrl}" style="display: inline-block; background: var(-
 <div class="grid grid-cols-2">
   <div class="card">
     <h3>Spatial Architecture</h3>
-    <p>Ocean Accounts' Basic Spatial Unit framework provides three-dimensional geographic reference system essential for consistent BBNJ reporting across all treaty pillars.</p>
+    <p>Ocean Accounts' Basic Spatial Unit framework provides three-dimensional geographic reference system distinguishing water column from seabed areas, essential for consistent BBNJ reporting across all treaty pillars and jurisdictional boundaries.</p>
   </div>
   <div class="card">
     <h3>Resource Tracking</h3>
-    <p>Flow accounting systems enable comprehensive tracking of marine genetic resource utilization chains from extraction through commercialization for equitable benefit-sharing.</p>
+    <p>Flow accounting systems enable comprehensive tracking of marine genetic resources from extraction through commercialization using standardized batch identifiers, supporting transparent and equitable benefit-sharing calculations.</p>
   </div>
   <div class="card">
     <h3>Impact Assessment</h3>
-    <p>Environmental asset accounts establish robust baselines supporting comprehensive environmental impact assessments and area-based management effectiveness monitoring.</p>
+    <p>Environmental asset accounts establish robust baselines for cumulative impact analysis, supporting comprehensive environmental assessments with real-time monitoring capabilities and adaptive management responses.</p>
   </div>
   <div class="card">
     <h3>Capacity Building</h3>
-    <p>Standardized indicators and modular implementation enable all countries to participate regardless of technical capacity while building toward comprehensive systems.</p>
+    <p>Modular implementation pathways integrate traditional knowledge through FPIC protocols while standardized indicators enable all countries to participate, with 30+ nations already demonstrating diverse implementation models.</p>
   </div>
 </div>
 
 ## Implementation Pathway
 
-The integration follows a phased approach leveraging proven experience from the Global Ocean Accounts Partnership's work with 30+ countries:
+The integration follows a phased approach leveraging proven experience from the Global Ocean Accounts Partnership's work with 30+ countries, aligned with the April 2025 PrepCom meeting and UN Ocean Conference commitments:
 
-1. **Foundation Phase** (Pre-COP1): Establish technical working groups and pilot projects
-2. **Early Implementation** (COP1-COP3): Deploy core CHM architecture with pilot country integration  
-3. **Expansion Phase** (COP3-COP5): Scale to global coverage with automated data flows
-4. **Full Operation** (Post-COP5): Achieve universal participation with predictive analytics
+1. **Foundation Phase** (Pre-COP1): Establish Ocean Accounts-CHM Technical Working Group, develop proof-of-concept pilots aligned with UNOC Nice commitments
+2. **Early Implementation** (COP1-COP3): Deploy core CHM architecture integrating pilot country data through regional cooperation models like the Pacific Community framework  
+3. **Expansion Phase** (COP3-COP5): Scale to global coverage with automated data flows, align with CBD reporting mechanisms, integrate traditional knowledge systems
+4. **Full Operation** (Post-COP5): Achieve universal participation with predictive analytics supporting adaptive management and transformative ocean governance
 
-This approach builds on existing environmental-economic accounting systems rather than creating parallel structures, reducing costs while accelerating implementation through regional cooperation and traditional knowledge integration.
+This bottom-up harmonization approach builds on existing systems rather than imposing top-down standardization, demonstrated by successful implementations from Small Island Developing States to developed nations. Critical success factors include political commitment, realistic technical capacity development, and clear institutional arrangements that bridge traditional agency boundaries.
 
 ---
 

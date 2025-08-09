@@ -16,7 +16,7 @@
   margin: 0.75in 0.75in 1in 0.75in;
   
   @bottom-right {
-    content: "Page " counter(page) " of " counter(pages) ", updated " var(--render-date, "Date not available");
+    content: "Page " counter(page) " of " counter(pages) ", updated " var(--render-date, "Date not available") ".";
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 8pt;
     color: #666;

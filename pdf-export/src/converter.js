@@ -297,6 +297,11 @@ class PDFConverter {
       }
       this.logger.info(`Total time: ${formatDuration(totalDuration)}`);
       
+      // Auto-copy PDFs to src directory for Observable Framework
+      if (this.stats.successful > 0) {
+        await this.copyToSource();
+      }
+      
     } catch (error) {
       this.logger.error(`Fatal error: ${error.message}`);
       process.exit(1);
@@ -304,6 +309,49 @@ class PDFConverter {
       if (this.browser) {
         await this.browser.close();
       }
+    }
+  }
+  
+  async copyToSource() {
+    try {
+      const fs = await import('fs/promises');
+      const pathModule = await import('path');
+      
+      // Get the src directory (parent of dist)
+      const srcDir = pathModule.join(this.distDir, '..', 'src');
+      
+      // Check if src directory exists
+      try {
+        await fs.access(srcDir);
+      } catch {
+        this.logger.warn('Source directory not found, skipping PDF copy');
+        return;
+      }
+      
+      // Get all PDF files from output directory
+      const outputFiles = await fs.readdir(this.outputDir);
+      const pdfFiles = outputFiles.filter(f => f.endsWith('.pdf'));
+      
+      if (pdfFiles.length === 0) {
+        return;
+      }
+      
+      this.logger.info('');
+      this.logger.info('Copying PDFs to source directory:');
+      
+      for (const file of pdfFiles) {
+        const source = pathModule.join(this.outputDir, file);
+        const dest = pathModule.join(srcDir, file);
+        
+        try {
+          await fs.copyFile(source, dest);
+          this.logger.success(`✓ Copied ${file} to src/`);
+        } catch (error) {
+          this.logger.error(`✗ Failed to copy ${file}: ${error.message}`);
+        }
+      }
+    } catch (error) {
+      this.logger.error(`Error copying PDFs to source: ${error.message}`);
     }
   }
 

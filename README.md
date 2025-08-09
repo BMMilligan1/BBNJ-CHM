@@ -36,7 +36,7 @@ cd BBNJ-CHM
 # Install dependencies
 npm install
 
-# Install PDF export dependencies (optional)
+# Install PDF export dependencies (required for PDF generation)
 npm run pdf:install
 ```
 
@@ -52,11 +52,16 @@ Visit http://localhost:3000 to view the research paper with live reload.
 ### Building
 
 ```bash
-# Build static site
+# Build static site only
 npm run build
 
-# Build and export to PDF
-npm run pdf:build
+# Complete workflow: Build → Generate PDFs → Rebuild with PDFs
+npm run pdf:full
+
+# Or step by step:
+npm run build        # Build HTML
+npm run pdf:export   # Generate PDFs (auto-copies to src/)
+npm run build        # Rebuild to include PDFs
 ```
 
 ## Project Structure
@@ -92,10 +97,11 @@ BBNJ-CHM/
 | `npm run build` | Build static site to `./dist` |
 | `npm run clean` | Clear data loader cache |
 | **PDF Export** | |
-| `npm run pdf:install` | Install Puppeteer for PDF generation |
-| `npm run pdf:export` | Convert built HTML to PDF |
-| `npm run pdf:build` | Build site and generate PDF |
-| `npm run pdf:watch` | Auto-export on changes |
+| `npm run pdf:install` | Install Puppeteer for PDF generation (run once) |
+| `npm run pdf:export` | Convert HTML to PDF with auto-copy to src/ |
+| `npm run pdf:build` | Build HTML then generate PDFs |
+| `npm run pdf:full` | Complete cycle: build → PDF → rebuild with PDFs |
+| `npm run pdf:watch` | Auto-export PDFs on HTML changes |
 | **Deployment** | |
 | `npm run deploy` | Deploy to Observable platform |
 
@@ -115,13 +121,37 @@ import {createSankeyDiagram} from "./components/sankey-diagram.js";
 const diagram = createSankeyDiagram(data);
 ```
 
-### PDF Export
+### PDF Export & Professional Typesetting
 
-Generate publication-ready PDFs with:
-- Preserved D3.js visualizations
-- Academic formatting with proper citations
-- Configurable page layout (A4 portrait)
-- Clean print styling without UI elements
+Generate publication-ready PDFs with sophisticated typesetting and pagination:
+
+#### Intelligent Pagination
+- **Smart table breaks**: Automatically detects table size during rendering
+  - Small tables (≤6 rows) are kept together on a single page
+  - Large tables flow naturally across pages with rows never splitting mid-content
+  - Table headers repeat on continuation pages for readability
+- **Heading placement**: Prevents orphaned headings using CSS page-break controls
+  - Headings stay with their following content (minimum 3 lines)
+  - Section headings (h3) specifically protected from appearing alone at page bottom
+- **Content flow optimization**: 
+  - Paragraphs use orphan/widow controls (minimum 2 lines)
+  - Block quotes and code blocks kept intact where possible
+  - Figures and captions stay together
+
+#### Academic Formatting
+- **Professional layout**: Academic journal style with consistent 15% left margin
+- **Hierarchical indentation**: 
+  - Body text, headings, and lists aligned at 15% left margin
+  - Footnotes properly indented with hanging indent for numbers
+  - Nested lists maintain proper visual hierarchy
+- **Dynamic footer**: Right-aligned page numbers with render date ("Page 2 of 20. Updated: January 8, 2025")
+- **Typography**: Plus Jakarta Sans font throughout for modern readability
+
+#### Technical Implementation
+- **Automatic detection**: JavaScript pre-processes tables to add size-based classes
+- **CSS page rules**: Uses `@page`, `page-break-inside`, and `page-break-after` for precise control
+- **Preserved visualizations**: D3.js Sankey diagrams rendered as vector graphics in PDF
+- **Clean output**: All Observable UI elements removed, pure content focus
 
 ### Data Architecture
 
