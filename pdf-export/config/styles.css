@@ -406,7 +406,7 @@ table {
 }
 
 th, td {
-  border: 1px solid #666 !important;
+  border: 0.5px solid #000 !important;
   padding: 0.3rem 0.5rem !important;
   text-align: left !important;
   line-height: 1.1 !important;
@@ -529,8 +529,8 @@ svg .chart-title {
 /* D3 chart lines and paths for print */
 svg .axis line,
 svg .axis path {
-  stroke: #333 !important;
-  stroke-width: 1px !important;
+  stroke: #000 !important;
+  stroke-width: 0.5px !important;
 }
 
 svg .grid line {

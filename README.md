@@ -145,12 +145,22 @@ Generate publication-ready PDFs with sophisticated typesetting and pagination:
   - Footnotes properly indented with hanging indent for numbers
   - Nested lists maintain proper visual hierarchy
 - **Dynamic footer**: Right-aligned page numbers with render date ("Page 2 of 20. Updated: January 8, 2025")
-- **Typography**: Plus Jakarta Sans font throughout for modern readability
+- **Typography**: Lexend font throughout with Semibold 600 for emphasis
+- **Table styling**: Crisp 0.5px black borders for professional appearance
+
+#### QR Code Integration
+- **Automatic generation**: QR codes added to first page of each PDF document
+- **GitHub repository link**: All QR codes link to the main project landing page
+- **Ocean-themed design**: High-contrast dark ocean blue (#003355) on white background
+- **Clickable functionality**: QR codes are embedded as hyperlinks for digital PDF viewing
+- **Positioning**: Placed in left margin (2mm from edge) for non-intrusive placement
+- **SVG format**: Vector-based QR codes for crisp rendering at any zoom level
 
 #### Technical Implementation
 - **Automatic detection**: JavaScript pre-processes tables to add size-based classes
 - **CSS page rules**: Uses `@page`, `page-break-inside`, and `page-break-after` for precise control
 - **Preserved visualizations**: D3.js Sankey diagrams rendered as vector graphics in PDF
+- **QR code generation**: Uses qrcode npm package for reliable in-repository generation
 - **Clean output**: All Observable UI elements removed, pure content focus
 
 ### Data Architecture
