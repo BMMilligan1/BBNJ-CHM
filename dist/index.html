@@ -10,18 +10,28 @@
 <link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.dcdbf18e.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
 <link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.dcdbf18e.css">
-<link rel="modulepreload" href="./_observablehq/client.d5e61d4a.js">
+<link rel="modulepreload" href="./_observablehq/client.067c57e8.js">
 <link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.24b62b2e.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
 <link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
 <script type="module">
 
-import {define} from "./_observablehq/client.d5e61d4a.js";
+import {define} from "./_observablehq/client.067c57e8.js";
+import {registerFile} from "./_observablehq/stdlib.24b62b2e.js";
+
+registerFile("./BBNJ-CHM.pdf", {"name":"./BBNJ-CHM.pdf","mimeType":"application/pdf","path":"./_file/BBNJ-CHM.4c7f1faa.pdf","lastModified":1754718774900,"size":773345});
 
 define({id: "96d32142", mode: "inline", inputs: ["display"], body: async (display) => {
 display(await(
 new Date().getFullYear()
 ))
+}});
+
+define({id: "0d6cb534", inputs: ["FileAttachment","display","html"], outputs: ["pdfUrl"], body: async (FileAttachment,display,html) => {
+const pdfUrl = await FileAttachment("./BBNJ-CHM.pdf").url();
+display(html`<a href="${pdfUrl}" style="display: inline-block; background: var(--theme-foreground-focus); color: var(--theme-background) !important; padding: 0.5rem 1rem; text-decoration: none !important; font-weight: 500; border-radius: 4px; margin: 1rem 0;">Download Full Research Paper (PDF)</a>`);
+return {pdfUrl};
 }});
 
 </script>
@@ -50,7 +60,7 @@ new Date().getFullYear()
 <p>The 2023 Agreement on Biodiversity Beyond National Jurisdiction (BBNJ) establishes a Clearing-House Mechanism (CHM) as its digital backbone for transparency, compliance, and benefit-sharing across all treaty functions. Yet the Agreement provides limited technical specifications for CHM implementation, creating risks of fragmented development and missed opportunities for systematic ocean governance.</p>
 <p>Ocean Accounts—a structured framework for integrating environmental, economic, and social ocean data aligned with international statistical standards—offers a proven architecture that can operationalize CHM requirements while enabling evidence-based decision-making for sustainable ocean development.</p>
 <p>This research demonstrates that Ocean Accounts provides essential infrastructure for CHM success through five key synergies: standardized spatial data architecture enabling consistent geographic reporting; flow accounting systems that can track marine genetic resource utilization chains; baseline condition accounts supporting robust environmental impact assessments; asset monitoring frameworks measuring conservation effectiveness; and standardized indicators facilitating capacity-building and technology transfer.</p>
-<p><a href="./BBNJ-CHM.pdf">Download Full Research Paper (PDF)</a></p>
+<div class="observablehq observablehq--block"><!--:0d6cb534:--></div>
 <h2 id="key-findings" tabindex="-1"><a class="observablehq-header-anchor" href="#key-findings">Key Findings</a></h2>
 <div class="grid grid-cols-2">
   <div class="card">

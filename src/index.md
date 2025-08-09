@@ -18,7 +18,10 @@ Ocean Accounts—a structured framework for integrating environmental, economic,
 
 This research demonstrates that Ocean Accounts provides essential infrastructure for CHM success through five key synergies: standardized spatial data architecture enabling consistent geographic reporting; flow accounting systems that can track marine genetic resource utilization chains; baseline condition accounts supporting robust environmental impact assessments; asset monitoring frameworks measuring conservation effectiveness; and standardized indicators facilitating capacity-building and technology transfer.
 
-[Download Full Research Paper (PDF)](BBNJ-CHM.pdf)
+```js
+const pdfUrl = await FileAttachment("BBNJ-CHM.pdf").url();
+display(html`<a href="${pdfUrl}" style="display: inline-block; background: var(--theme-foreground-focus); color: var(--theme-background) !important; padding: 0.5rem 1rem; text-decoration: none !important; font-weight: 500; border-radius: 4px; margin: 1rem 0;">Download Full Research Paper (PDF)</a>`);
+```
 
 ## Key Findings
 
