@@ -46,5 +46,32 @@
     "waitForSVGs": true,
     "waitForImages": true,
     "additionalWaitTime": 2000
+  },
+  "qrCode": {
+    "enabled": true,
+    "baseUrl": "https://bmmilligan1.github.io/BBNJ-CHM",
+    "width": 65,
+    "margin": 1,
+    "errorCorrectionLevel": "M",
+    "colors": {
+      "dark": "#003355",
+      "light": "#ffffff"
+    },
+    "position": {
+      "class": "qr-code-margin-left",
+      "title": "View on GitHub"
+    },
+    "documents": {
+      "dashboard": {
+        "position": {
+          "class": "qr-code-top-right-dashboard"
+        }
+      },
+      "report": {
+        "position": {
+          "class": "qr-code-margin-left"
+        }
+      }
+    }
   }
 }

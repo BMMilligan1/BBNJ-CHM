@@ -59,6 +59,8 @@ This bottom-up harmonization approach builds on existing systems rather than imp
 
 **Access the Full Research Paper:** Navigate to the [Research Paper](/BBNJ-CHM) section for the complete analysis, technical specifications, and detailed recommendations.
 
+**Explore the Source Code:** This research project is open source and available on GitHub. View the underlying code, data processing scripts, and visualization components at [github.com/BMMilligan1/BBNJ-CHM](https://github.com/BMMilligan1/BBNJ-CHM). Contributions and feedback are welcome through issues and pull requests.
+
 <style>
 .card {
   background: var(--theme-background-alt);

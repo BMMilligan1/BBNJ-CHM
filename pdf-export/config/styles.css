@@ -294,13 +294,14 @@ a[href^="https"]:after {
   font-weight: normal;
 }
 
-/* Exclude anchor links and footnotes from URL display */
+/* Exclude anchor links, footnotes, and QR codes from URL display */
 a.anchor-link:after,
 .footnote-ref a:after,
 .footnote-backref:after,
 .footnotes a:after,
 a[href^="#"]:after,
-a[href^="/"]:after {
+a[href^="/"]:after,
+.qr-code-container a:after {
   content: none !important;
 }
 
@@ -609,6 +610,54 @@ textarea,
 * {
   animation: none !important;
   transition: none !important;
+}
+
+/* QR Code Styling for PDF */
+.qr-code-container {
+  position: absolute !important;
+  z-index: 1000 !important;
+  /* Minimal styling - just the QR code */
+  display: block !important;
+  page-break-inside: avoid !important;
+  page-break-after: avoid !important;
+}
+
+.qr-code-image {
+  width: 65px !important;
+  height: 65px !important;
+  display: block !important;
+  margin: 0 !important;
+}
+
+/* Position: Top right corner (default) */
+.qr-code-top-right {
+  top: 10mm !important;
+  right: 10mm !important;
+}
+
+/* Position: Outside right margin for reports */
+.qr-code-margin-right {
+  top: 30mm !important;
+  right: 5mm !important;
+}
+
+/* Position: Top right for dashboards (A3) */
+.qr-code-top-right-dashboard {
+  top: 10mm !important;
+  right: 10mm !important;
+}
+
+/* Position: Outside left margin, top-aligned with page margin */
+.qr-code-margin-left {
+  left: 2mm !important; /* In left margin, visible on page */
+  top: 10mm !important; /* Higher up on the page */
+}
+
+/* QR Code first page only display - using absolute positioning */
+/* Absolute positioning ensures it only appears where injected (first page) */
+.qr-code-first-page {
+  position: absolute !important;
+  page-break-inside: avoid !important;
 }
 
 /* Grid and card layouts for print */

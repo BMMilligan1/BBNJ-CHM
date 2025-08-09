@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 import { program } from 'commander';
 import { HTMLPreprocessor } from './preprocessor.js';
 import { StyleManager } from './styler.js';
+import { QRGenerator } from './qr-generator.js';
 import { 
   Logger, 
   ensureDirectory, 
@@ -28,6 +29,7 @@ class PDFConverter {
     
     this.preprocessor = new HTMLPreprocessor();
     this.styleManager = new StyleManager();
+    this.qrGenerator = new QRGenerator();
     this.logger = new Logger(options.verbose !== false);
     
     this.config = null;
@@ -156,6 +158,36 @@ class PDFConverter {
       if (tableInfo.length > 0) {
         this.logger.info(`Found ${tableInfo.length} table(s):`);
         tableInfo.forEach(info => this.logger.info(`  ${info}`));
+      }
+      
+      // Generate and inject QR code if enabled
+      if (this.config.qrCode && this.config.qrCode.enabled) {
+        try {
+          // Get QR code configuration for this document type
+          const qrConfig = {
+            ...this.config.qrCode,
+            ...(this.config.qrCode.documents && this.config.qrCode.documents[documentType] || {})
+          };
+          
+          // Generate QR code data URL
+          const qrDataUrl = await this.qrGenerator.generateForFile(filePath, qrConfig);
+          
+          if (qrDataUrl) {
+            // Generate the URL for the hyperlink
+            const url = this.qrGenerator.generateURL(filePath, qrConfig);
+            
+            // Inject QR code into the page
+            const injectionScript = this.qrGenerator.generateInjectionScript(
+              qrDataUrl,
+              url,
+              qrConfig.position || {}
+            );
+            await page.evaluate(injectionScript);
+            this.logger.info('QR code injected successfully');
+          }
+        } catch (error) {
+          this.logger.warn(`Failed to inject QR code: ${error.message}`);
+        }
       }
       
       // Wait for Observable Framework to finish rendering
