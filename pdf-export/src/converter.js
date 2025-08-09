@@ -110,6 +110,11 @@ class PDFConverter {
         timeout: pageConfig.timeout || 30000
       });
       
+      // Set lang attribute for better hyphenation support
+      await page.evaluate(() => {
+        document.documentElement.setAttribute('lang', 'en');
+      });
+      
       // Inject custom styles after page load
       const styles = await this.styleManager.loadStyles();
       await page.addStyleTag({ content: styles });

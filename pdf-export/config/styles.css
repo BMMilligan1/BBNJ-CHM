@@ -255,9 +255,11 @@ main h4,
 p {
   margin-bottom: 1rem !important;
   text-align: justify !important;
-  hyphens: auto !important;
-  -webkit-hyphens: auto !important;
-  -moz-hyphens: auto !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  hyphens: manual !important;
+  -webkit-hyphens: manual !important;
+  -moz-hyphens: manual !important;
   orphans: 3;
   widows: 3;
   line-height: 1.35 !important;
@@ -293,10 +295,22 @@ a[href^="/"]:after {
   display: none !important;
 }
 
-/* Footnote styling */
+/* Footnote styling - Fix line-height issues */
 .footnote-ref {
   vertical-align: super;
-  font-size: 0.8em;
+  font-size: 0.75em;
+  line-height: 0 !important;
+  position: relative;
+  top: -0.2em;
+}
+
+/* General superscript fix */
+sup {
+  line-height: 0 !important;
+  font-size: 0.75em;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.5em;
 }
 
 .footnotes {
@@ -549,28 +563,43 @@ textarea,
   background: #f9f9f9 !important;
 }
 
-/* Add 15% left padding to shift all content right */
+/* Reset body padding */
 body {
-  padding-left: 15% !important;
+  padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* Pull tables back to original left edge and extend to full width */
-table {
-  margin-left: -15% !important;
-  margin-right: 0 !important;
-  width: calc(100% + 15%) !important;
+/* Add left padding to text content only */
+p, h1, h2, h3, h4, h5, h6, 
+ul, ol, blockquote, pre, .footnotes {
+  padding-left: 15% !important;
 }
 
-/* Images and figures extend to full width */
+/* Nested lists should not have additional padding */
+li ul, li ol {
+  padding-left: 2em !important;
+}
+
+/* Tables stay at full width */
+table {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Images and figures stay at full width */
 img, figure, svg {
-  margin-left: -15% !important;
-  width: calc(100% + 15%) !important;
-  max-width: calc(100% + 15%) !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 /* D3 visualizations stay full width */
 .observablehq figure[data-type="plot"] {
-  margin-left: -15% !important;
-  width: calc(100% + 15%) !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }
