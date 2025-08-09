@@ -15,17 +15,18 @@
   size: A4;
   margin: 0.75in 0.75in 1in 0.75in;
   
-  @bottom-center {
-    content: "Page " counter(page) " of " counter(pages);
+  @bottom-right {
+    content: "Page " counter(page) " of " counter(pages) ", updated " var(--render-date, "Date not available");
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 8pt;
     color: #666;
+    text-align: right;
   }
 }
 
 /* First page - no footer */
 @page :first {
-  @bottom-center {
+  @bottom-right {
     content: "";
   }
 }
@@ -442,6 +443,11 @@ table.keep-together {
   page-break-inside: avoid !important;
 }
 
+/* Only keep tables together if explicitly marked as small */
+table.small-table {
+  page-break-inside: avoid !important;
+}
+
 /* Blockquotes - Academic style (updated above) */
 blockquote {
   margin-top: 0.8rem !important;
@@ -535,12 +541,36 @@ svg .grid line {
 /* Ensure good page breaks */
 h1, h2, h3, h4, h5, h6 {
   page-break-after: avoid;
+  page-break-inside: avoid;
+  /* Ensure at least 3 lines of content follow heading on same page */
+  orphans: 3;
+}
+
+/* Prevent h3 specifically from appearing at bottom of page */
+h3 {
+  /* Ensure sufficient space after h3 or move to next page */
+  break-after: avoid-page;
+}
+
+/* Keep headings with their immediate following content (but not tables) */
+h1 + p, h1 + ul, h1 + ol, h1 + blockquote,
+h2 + p, h2 + ul, h2 + ol, h2 + blockquote,
+h3 + p, h3 + ul, h3 + ol, h3 + blockquote,
+h4 + p, h4 + ul, h4 + ol, h4 + blockquote {
+  page-break-before: avoid;
+}
+
+/* Only keep explicitly marked small tables with their headings */
+h1 + table.small-table,
+h2 + table.small-table,
+h3 + table.small-table,
+h4 + table.small-table {
+  page-break-before: avoid;
 }
 
 figure,
 pre,
-blockquote,
-table {
+blockquote {
   page-break-inside: avoid;
 }
 

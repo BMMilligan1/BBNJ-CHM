@@ -119,12 +119,43 @@ class PDFConverter {
       const styles = await this.styleManager.loadStyles();
       await page.addStyleTag({ content: styles });
       
+      // Inject current date for footer
+      const today = new Date().toLocaleDateString('en-US', { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
+      });
+      await page.addStyleTag({ 
+        content: `:root { --render-date: "${today}"; }` 
+      });
+      
       // Apply page-specific styles if needed
       if (pageConfig) {
         const pageStyles = this.styleManager.generatePageStyles(pageConfig);
         if (pageStyles) {
           await page.addStyleTag({ content: pageStyles });
         }
+      }
+      
+      // Automatically detect and mark small tables (6 rows or less)
+      const tableInfo = await page.evaluate(() => {
+        const results = [];
+        document.querySelectorAll('table').forEach((table, index) => {
+          const rowCount = table.querySelectorAll('tr').length;
+          if (rowCount <= 6) {
+            table.classList.add('small-table');
+            results.push(`Table ${index + 1}: ${rowCount} rows (marked as small)`);
+          } else {
+            results.push(`Table ${index + 1}: ${rowCount} rows (large table)`);
+          }
+        });
+        return results;
+      });
+      
+      // Log table detection results
+      if (tableInfo.length > 0) {
+        this.logger.info(`Found ${tableInfo.length} table(s):`);
+        tableInfo.forEach(info => this.logger.info(`  ${info}`));
       }
       
       // Wait for Observable Framework to finish rendering
