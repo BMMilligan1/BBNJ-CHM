@@ -2,24 +2,19 @@
 import MarkdownItFootnote from "markdown-it-footnote";
 
 export default {
-  // The app’s title; used in the sidebar and webpage titles.
-  title: "Technical Report",
+  // The app's title; used in the sidebar and webpage titles.
+  title: "Ocean Accounts for BBNJ Implementation",
   
   // Configure markdown-it plugins
   markdownIt: (md) => md.use(MarkdownItFootnote),
 
-  // The pages and sections in the sidebar. If you don’t specify this option,
+  // The pages and sections in the sidebar. If you don't specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
-  // pages: [
-  //   {
-  //     name: "Examples",
-  //     pages: [
-  //       {name: "Dashboard", path: "/example-dashboard"},
-  //       {name: "Report", path: "/example-report"}
-  //     ]
-  //   }
-  // ],
+  pages: [
+    {name: "Overview", path: "/"},
+    {name: "Research Paper", path: "/BBNJ-CHM"}
+  ],
 
   // Content to add to the head of the page, e.g. for a favicon:
   head: '<link rel="icon" href="observable.png" type="image/png" sizes="32x32">',

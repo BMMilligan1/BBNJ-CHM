@@ -1,6 +1,6 @@
-# Ocean Accounts as Infrastructure for the BBNJ Clearing-House Mechanism: A Technical Brief on Data Architecture for Sustainable Ocean Governance
-
-## Executive Summary
+# Ocean Accounts as Infrastructure for the BBNJ Clearing-House Mechanism
+ 
+## Summary
 
 The 2023 Agreement on Biodiversity Beyond National Jurisdiction (BBNJ) establishes a Clearing-House Mechanism (CHM) as its digital backbone for transparency, compliance, and benefit-sharing across all treaty functions.[^1] Yet the Agreement provides limited technical specifications for CHM implementation, creating risks of fragmented development and missed opportunities for systematic ocean governance.[^2] Ocean Accounts—a structured framework for integrating environmental, economic, and social ocean data aligned with international statistical standards—offers a proven architecture that can operationalize CHM requirements while enabling evidence-based decision-making for sustainable ocean development.[^3]
 
@@ -10,7 +10,7 @@ Implementation should proceed through phased development beginning with pilot Oc
 
 The integration of Ocean Accounts and CHM represents more than technical alignment—it establishes a foundation for transformative ocean governance that bridges the persistent divide between environmental protection and sustainable development through systematic, comparable, and actionable information.
 
-## 1. Introduction: The Data Challenge of BBNJ Implementation
+## 1. The Data Challenge of BBNJ Implementation
 
 The Agreement under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction, adopted in June 2023, represents the most significant advance in ocean governance since UNCLOS itself.[^11] The BBNJ Agreement addresses governance gaps in areas beyond national jurisdiction (ABNJ) through four interconnected pillars: marine genetic resources (MGRs) including benefit-sharing; area-based management tools (ABMTs) including marine protected areas; environmental impact assessments (EIAs); and capacity-building and technology transfer (CB&TT).[^12]
 
@@ -18,19 +18,21 @@ Central to implementing these pillars is the Clearing-House Mechanism, described
 
 This implementation gap poses significant risks. Without standardized data architecture, the CHM may evolve as a fragmented collection of databases rather than an integrated system. Different parties may develop incompatible reporting formats, undermining comparability. The absence of common standards could perpetuate existing asymmetries where technologically advanced states dominate ocean science while developing states lack capacity to participate meaningfully in governance processes.
 
+The imperative for robust ocean information architecture has gained unprecedented global recognition. The 2025 UN Ocean Conference in Nice emphasized the critical need for "national ocean accounting and mapping of coastal and marine ecosystems" to inform policy decisions and sustainable ocean management. The Convention on Biological Diversity, through Decision 15/24, urges parties to strengthen efforts toward ocean accounting for decision-making support. This growing consensus reflects recognition that systematic data integration is essential for evidence-based ocean governance. The Global Ocean Accounts Partnership (GOAP), now supporting implementation in over 30 countries, demonstrates both the feasibility and necessity of this approach, providing technical guidance and capacity building across diverse development contexts.
+
 Ocean Accounts offers a solution. Developed through the Global Ocean Accounts Partnership and aligned with the System of National Accounts (SNA) and System of Environmental-Economic Accounting (SEEA), Ocean Accounts provides a structured framework for compiling and integrating ocean data across environmental, economic, and social domains.[^16] Unlike ad-hoc data compilations, Ocean Accounts employs accounting principles ensuring completeness, consistency, and comparability while maintaining flexibility for national circumstances.[^17]
 
-The framework's relevance to BBNJ implementation extends beyond technical compatibility. Ocean Accounts addresses the fundamental information requirements for sustainable ocean development: measuring economic output from ocean activities, assessing benefit distribution across communities, and tracking sustainability through changes in natural capital assets over time.[^18] These capabilities directly support CHM functions including MGR benefit-sharing calculations, EIA baseline establishment, and ABMT effectiveness monitoring.[^19]
+The framework's relevance to BBNJ implementation extends beyond technical compatibility. Ocean Accounts addresses the fundamental information requirements for sustainable ocean development: measuring economic output from ocean activities, assessing benefit distribution across communities, and tracking sustainability through changes in natural capital assets over time.[^18] These capabilities directly support CHM functions including MGR benefit-sharing calculations, EIA baseline establishment, and ABMT effectiveness monitoring.
 
 This brief argues that Ocean Accounts provides essential infrastructure for CHM success, offering a proven architecture that can accelerate implementation while ensuring the integrated, transparent, and equitable ocean governance envisioned by the BBNJ Agreement. The following analysis examines CHM requirements, Ocean Accounts capabilities, and their synergistic potential, providing practical recommendations for integration that can transform how humanity governs two-thirds of the planet's surface.
 
-## 2. The BBNJ Clearing-House Mechanism: Requirements and Functions
+## 2. The BBNJ Clearing-House Mechanism
 
 ### 2.1 Core CHM Functions
 
 The BBNJ Agreement assigns the Clearing-House Mechanism comprehensive responsibilities spanning all four treaty pillars, establishing it as the central nervous system for treaty implementation. The following table consolidates CHM functional requirements across the BBNJ framework:
 
-<div class="table-container" style="overflow-x: auto;">
+<div class="table-container">
 
 | **BBNJ Pillar** | **CHM Function** | **Data Requirements** | **Timing/Frequency** | **Key Challenges** |
 |-----------------|------------------|----------------------|---------------------|-------------------|
@@ -50,13 +52,13 @@ The BBNJ Agreement assigns the Clearing-House Mechanism comprehensive responsibi
 
 </div>
 
-Each function requires sophisticated technical architecture supporting multi-stakeholder access, traditional knowledge integration, and interoperability with existing ocean governance systems.[^71]
+Each function requires sophisticated technical architecture supporting multi-stakeholder access, traditional knowledge integration, and interoperability with existing ocean governance systems.[^70]
 
 ### 2.2 Technical Requirements
 
-Implementing these functions demands sophisticated technical architecture that the Agreement leaves largely unspecified. The CHM must achieve interoperability with existing databases across multiple organizations while maintaining its own data integrity and accessibility standards. The standardized batch identifier system requires integration with patent databases, scientific publication indexes, and commercial product registries to track MGR utilization comprehensively.[^72] Multi-stakeholder access protocols must accommodate diverse users from government agencies to indigenous communities, each with different technical capacities and information needs.
+Implementing these functions demands sophisticated technical architecture that the Agreement leaves largely unspecified. The CHM must achieve interoperability with existing databases across multiple organizations while maintaining its own data integrity and accessibility standards. The standardized batch identifier system requires integration with patent databases, scientific publication indexes, and commercial product registries to track MGR utilization comprehensively.[^71] Multi-stakeholder access protocols must accommodate diverse users from government agencies to indigenous communities, each with different technical capacities and information needs.
 
-Data quality and validation mechanisms represent particular challenges given the CHM's reliance on self-reporting. Without verification capabilities, the notification system risks becoming a repository of incomplete or inaccurate information undermining treaty objectives. The CHM must also support multiple knowledge systems, integrating quantitative scientific data with qualitative traditional knowledge while respecting intellectual property rights and indigenous data sovereignty.[^73] These technical requirements extend beyond simple database management, demanding adaptive architecture capable of evolving with technological advances and expanding treaty participation.
+Data quality and validation mechanisms represent particular challenges given the CHM's reliance on self-reporting. Without verification capabilities, the notification system risks becoming a repository of incomplete or inaccurate information undermining treaty objectives. The CHM must also support multiple knowledge systems, integrating quantitative scientific data with qualitative traditional knowledge while respecting intellectual property rights and indigenous data sovereignty.[^72] These technical requirements extend beyond simple database management, demanding adaptive architecture capable of evolving with technological advances and expanding treaty participation.
 
 ### 2.3 Implementation Challenges
 
@@ -72,62 +74,29 @@ These implementation challenges are not merely technical but deeply political, r
 
 ## 3. Ocean Accounts Framework: A Systems Approach to Ocean Information
 
-### 3.1 Conceptual Architecture
+### 3.1 Conceptual Architecture: Linking Social, Economic, Environmental Dimensions
 
-Ocean Accounts represents a paradigm shift from fragmented ocean statistics to integrated information systems, providing structured methodology for measuring relationships between ocean environments, economies, and societies. The framework's foundation rests on fundamental accounting distinctions between stocks—assets measured at points in time—and flows—transfers of goods, services, or activities measured over periods (OA-Guidance). This distinction enables systematic tracking of how ocean natural capital changes through human use and environmental processes, directly supporting sustainability assessments required for BBNJ implementation.
+Ocean Accounts represents a paradigm shift from fragmented ocean statistics to integrated information systems, providing structured methodology for measuring relationships between ocean environments, economies, and societies.[^19] The framework's foundation rests on fundamental accounting distinctions between stocks—assets measured at points in time—and flows—transfers of goods, services, or activities measured over periods (OA-Guidance). This distinction enables systematic tracking of how ocean natural capital changes through human use and environmental processes, directly supporting sustainability assessments required for BBNJ implementation.
 
-The spatial data framework employs Basic Spatial Units (BSUs) as foundational building blocks, enabling three-dimensional ocean representation through depth layers that accommodate complex marine ecosystem structures. BSUs can be aggregated or disaggregated according to management needs, from local bay systems to entire exclusive economic zones, providing the geographic flexibility essential for CHM reporting across scales. This spatial architecture maintains consistency with the Global Ecosystem Typology's functional classifications while allowing integration of indigenous and local spatial knowledge systems that may not conform to conventional cartographic boundaries (OA-Guidance: Section 3.5).
+The spatial data framework employs Basic Spatial Units (BSUs) as foundational building blocks, enabling three-dimensional ocean representation through depth layers that accommodate complex marine ecosystem structures. BSUs can be aggregated or disaggregated according to management needs, from local bay systems to entire exclusive economic zones, providing the geographic flexibility essential for CHM reporting across scales. This spatial architecture maintains consistency with the Global Ecosystem Typology's functional classifications[^20] while allowing integration of indigenous and local spatial knowledge systems that may not conform to conventional cartographic boundaries.[^22] The framework's spatial flexibility proves essential for incorporating diverse knowledge systems and governance contexts (OA-Guidance: Section 3.5).
 
 Central to Ocean Accounts' integrative capacity is its alignment with established international standards, particularly the System of National Accounts 2025 and System of Environmental-Economic Accounting frameworks. This compatibility ensures that ocean-specific information connects seamlessly with broader economic and environmental statistics, avoiding the isolation that often marginalizes ocean data from mainstream policy processes. The framework explicitly bridges the production boundary defined by SNA with environmental processes occurring beyond human economies, capturing previously invisible relationships between ecosystem functioning and economic activity.[^18]
 
-### 3.1.1 Functional Architecture: From Data to Decisions
+### 3.2 Functional Architecture: From Data to Decisions
 
 Ocean Accounts operates as a functional information system that transforms diverse, heterogeneous data inputs into standardized, decision-relevant outputs through a systematic process of collection, validation, standardization, and analysis (OA-Guidance: Section 3.4). This functional perspective reveals how Ocean Accounts addresses the practical challenges of integrating ocean information for policy use.
 
-The data flow begins with collection from multiple sources—government monitoring programs, research institutions, industry reporting, citizen science initiatives, and indigenous knowledge systems. These diverse inputs undergo validation processes applying international statistical principles of completeness, consistency, and comparability. Data sharing protocols ensure that information from different sources can be integrated while maintaining quality standards and respecting data sovereignty, particularly for traditional knowledge.
+The data flow begins with collection from multiple sources—government monitoring programs, research institutions, industry reporting, citizen science initiatives, and indigenous knowledge systems. These diverse inputs undergo validation processes applying international statistical principles of completeness, consistency, and comparability.[^25] Data sharing protocols ensure that information from different sources can be integrated while maintaining quality standards and respecting data sovereignty, particularly for traditional knowledge.[^61] The challenge of disrupting traditional data silos while maintaining sovereignty represents a fundamental tension in ocean information systems.
 
-Through standardization processes, heterogeneous data are aligned to common spatial boundaries (Basic Spatial Units), temporal periods (accounting years), and classifications (aligned with SNA and SEEA standards). This standardization enables the compilation of accounting tables that organize information according to the fundamental distinction between stocks (assets measured at points in time) and flows (transfers measured over periods). These structured tables serve as the foundation for deriving indicators specifically relevant to CHM functions.
+Through standardization processes, heterogeneous data are aligned to common spatial boundaries (Basic Spatial Units), temporal periods (accounting years), and classifications (aligned with SNA and SEEA standards).[^64] This standardization enables the compilation of accounting tables that organize information according to the fundamental distinction between stocks (assets measured at points in time) and flows (transfers measured over periods). These structured tables serve as the foundation for deriving indicators specifically relevant to CHM functions, with metadata standards ensuring reproducibility and transparency.[^50]
 
 For CHM implementation, Ocean Accounts can generate targeted indicators including: MGR extraction rates per ecosystem type to support benefit-sharing calculations; MPA effectiveness scores combining ecological condition and compliance metrics; cumulative impact indices integrating multiple pressures for EIA baselines; capacity development progress indicators tracking infrastructure, expertise, and technology transfer; and equity metrics disaggregating benefits by stakeholder groups. These indicators condense complex accounting information into decision-relevant metrics that directly support treaty implementation.
 
 The final stage transforms accounting tables and indicators into reports, dashboards, and decision support tools tailored to different user needs. Modern implementations increasingly employ interactive visualization platforms allowing users to explore relationships between variables, compare scenarios, and monitor trends in real-time. This functional architecture ensures that Ocean Accounts serves not merely as a data repository but as an active intelligence system supporting evidence-based ocean governance.
 
-### 3.2 Key Components Relevant to CHM
+### 3.3 Components and Integration Pathways
 
-Ocean Accounts' component structure directly addresses CHM information requirements through systematic organization of diverse data types. The following table maps Ocean Accounts components to their CHM applications:
-
-<div class="table-container" style="overflow-x: auto;">
-
-| **Component Type** | **Description** | **CHM Application** | **Data Sources** | **Example Metrics** |
-|-------------------|-----------------|---------------------|------------------|-------------------|
-| **Environmental Assets (Extent & Condition)** | Stocks of marine ecosystems and resources measured at points in time, including both spatial extent and ecological condition | • Establishing baselines for environmental impact assessments<br>• Supporting scientific justification for ABMT designations<br>• Monitoring conservation effectiveness over time | • Remote sensing<br>• In-situ monitoring<br>• Research surveys | • Coral reef extent (km²)<br>• Fish stock biomass (tonnes)<br>• Habitat condition indices |
-| **Final Ecosystem Services** | Direct benefits flowing from ecosystems to people and economy that support human wellbeing | • Calculating values of marine genetic resources<br>• Determining monetary and non-monetary benefit-sharing<br>• Analyzing trade-offs between uses | • Resource extraction data<br>• Economic surveys<br>• Cultural assessments | • Genetic materials extracted (samples/year)<br>• Carbon sequestered (tCO₂/year)<br>• Tourism visits (#/year) |
-| **Flows within the Economy** | Ocean-related production, consumption, trade, and investment transactions within the SNA production boundary | • Tracking monetary benefits from MGR commercialization<br>• Assessing national capacity for ocean management<br>• Monitoring blue economy investments | • National accounts<br>• Industry statistics<br>• Trade databases | • MGR product revenues ($)<br>• Ocean GDP contribution (%)<br>• Blue economy employment (#) |
-| **Social Assets and Conditions** | Stocks representing wellbeing, vulnerability, and social capital in ocean-dependent communities | • Assessing equity in benefit distribution<br>• Documenting traditional knowledge and practices<br>• Mapping stakeholder dependencies and rights | • Census data<br>• Social surveys<br>• Governance records | • Coastal population dependency (%)<br>• Traditional use rights (#)<br>• Gender participation rates |
-| **Spatial Data Framework** | Basic Spatial Units (BSUs) providing three-dimensional ocean representation and geographic reference system | • Standardizing geographic reporting across scales<br>• Enabling aggregation from local to global levels<br>• Delineating boundaries for jurisdiction and management | • Bathymetry<br>• Maritime boundaries<br>• Ecosystem mapping | • BSU identifiers<br>• Depth zones<br>• Jurisdictional overlaps |
-| **Pollution & Residual Flows** | Waste flows from economy to ocean environment including pollutants, debris, and other pressures | • Assessing cumulative environmental impacts<br>• Tracking pollution sources and pathways<br>• Attributing pressures to economic sectors | • Discharge monitoring<br>• Waste audits<br>• Water quality data | • Plastic inputs (tonnes/year)<br>• Nutrient loads (kg N,P)<br>• Noise levels (dB) |
-| **Produced and Financial Assets** | Stocks of built infrastructure and financial capital supporting ocean activities | • Identifying infrastructure gaps for capacity building<br>• Assessing technology transfer needs<br>• Tracking ocean-related investments | • Asset inventories<br>• Financial records<br>• Infrastructure surveys | • Port facilities (#)<br>• Research vessels (#)<br>• Blue bonds issued ($) |
-| **Environmental Flows & Interactions** | Ecological processes maintaining ecosystem functioning including energy flows and species movements | • Understanding ecosystem connectivity for ABMT design<br>• Assessing ecological support for impact assessments<br>• Identifying critical ecological processes | • Oceanographic data<br>• Species tracking<br>• Process studies | • Larval dispersal distances<br>• Nutrient cycling rates<br>• Migration corridors |
-| **Social Activities beyond SNA** | Important social activities falling outside the SNA production boundary including unpaid work and community stewardship | • Documenting traditional management practices<br>• Capturing volunteer conservation efforts<br>• Recognizing subsistence use patterns | • Time use surveys<br>• Community records<br>• Ethnographic studies | • Volunteer hours (#)<br>• Subsistence catch (kg)<br>• Traditional practices (#) |
-| **Monetary Flows between Assets** | Financial transactions associated with ocean-related produced and financial assets | • Tracking investments in MGR research infrastructure<br>• Monitoring financial flows for capacity building<br>• Assessing blue economy financing | • Financial transactions<br>• Investment records<br>• Capital accounts | • R&D investments ($)<br>• Infrastructure financing ($)<br>• Technology transfer values ($) |
-| **Social-Economic Contributions** | Bidirectional relationships between social conditions and economic/social activities | • Understanding how social capital enables ocean activities<br>• Assessing socio-economic impacts of management<br>• Identifying equity implications of policies | • Social network analysis<br>• Impact assessments<br>• Longitudinal studies | • Social capital indices<br>• Livelihood dependencies (%)<br>• Distributional effects |
-| **Intermediate Ecosystem Services** | Ecological processes supporting other ecosystems without directly benefiting humans | • Maintaining ecological integrity for conservation<br>• Understanding support systems for final services<br>• Identifying critical ecological functions | • Ecosystem modeling<br>• Food web analysis<br>• Biogeochemical monitoring | • Primary productivity rates<br>• Trophic transfer efficiency<br>• Habitat connectivity indices |
-
-</div>
-
-This systematic organization enables Ocean Accounts to transform diverse ocean data into standardized, comparable information directly supporting CHM functions across all BBNJ pillars.[^74]
-
-### 3.3 Implementation Approaches
-
-Ocean Accounts' modular architecture enables adaptive implementation matching institutional capacities and policy priorities, a flexibility essential for diverse BBNJ parties. Countries typically begin with pilot accounts addressing specific challenges—sustainable fisheries, coastal tourism, marine pollution—before expanding coverage systematically (OA-Guidance: Section 3.7). This incremental approach allows learning-by-doing while building technical capacity and stakeholder engagement, avoiding the paralysis that comprehensive implementation demands might create.
-
-Implementation models vary according to institutional arrangements, with some countries positioning national statistics offices as leads emphasizing economic dimensions, while others operate through environment agencies prioritizing ecological accounts. Multi-agency collaborative approaches under high-level coordination increasingly emerge as best practice, recognizing that ocean accounts span traditional bureaucratic boundaries. For CHM integration, this institutional flexibility suggests that parties can build on existing ocean information systems rather than creating parallel structures, reducing implementation costs while leveraging established expertise.
-
-The framework's "rapid assessment" option using global datasets enables countries with limited resources to establish baseline accounts quickly before developing detailed national compilations. This tiered approach ensures that all parties can participate in Ocean Accounts-based CHM reporting regardless of technical capacity, addressing equity concerns central to BBNJ negotiations. Progressive refinement from rapid assessments to comprehensive accounts creates natural capacity-building pathways, with early adopters supporting later implementers through technical cooperation facilitated by the CHM itself.
-
-## 4. Synergies: Mapping Ocean Accounts Components to CHM Functions
-
-The Ocean Accounts Framework comprises twelve interconnected components that collectively provide comprehensive infrastructure for CHM operationalization.[^20] The following interactive visualization and table demonstrate how these components flow through BBNJ pillars to support specific CHM functions:
+The Ocean Accounts Framework comprises twelve interconnected components that collectively enable comprehensive CHM implementation. These components, visualized below, transform diverse data streams into actionable intelligence for ocean governance:
 
 ```js
 import {createSankeyDiagram} from "./components/sankey-diagram.js";
@@ -136,147 +105,160 @@ const diagram = createSankeyDiagram(flowData);
 display(diagram);
 ```
 
-### Component-to-Function Mapping Details
+Three critical patterns emerge from this architecture: First, multiple OA components converge at each BBNJ pillar, demonstrating that no single data type suffices for comprehensive ocean governance. Second, flow thickness indicates data criticality, with spatial framework and environmental assets showing highest flow volumes as foundational elements. Third, cross-pillar integration reveals interdependencies that traditional siloed approaches cannot capture, emphasizing the need for systematic data integration.
 
-The Sankey diagram above visualizes data flows from Ocean Accounts components (left) through BBNJ pillars (center) to CHM functions (right). Flow width indicates relative importance and data volume. The following table provides detailed mapping specifications:
+The following table details how each Ocean Accounts component supports specific CHM functions:
 
-<div class="table-container" style="overflow-x: auto;">
+| **Ocean Accounts Component** | **CHM Applications** | **Key Metrics** |
+|------------------------------|---------------------|-----------------|
+| **1. Spatial Data Framework**<br>Basic Spatial Units providing three-dimensional ocean representation through depth layers, enabling consistent geographic reference across scales from local bays to entire ocean basins | Standardizes geographic reporting for all BBNJ notifications and reports while enabling data aggregation from local to global levels. Supports three-dimensional mapping essential for water column and seabed management distinctions required across treaty implementation. | BSU identifiers, depth zone classifications, jurisdictional overlap indices, ecosystem boundary delineations |
+| **2. Environmental Assets (Extent & Condition)**<br>Stocks of discrete environmental assets and ecosystem assets measured by spatial extent and ecological condition at specific points in time[^23] | Establishes comprehensive baselines for environmental impact assessments while providing scientific justification for area-based management tool proposals. Enables monitoring of ecosystem extent and condition changes for effectiveness assessment over time.[^24] | Ecosystem extent measurements, habitat condition indices, species diversity measures, resource stock assessments |
+| **3. Social Assets and Conditions**<br>Measures of wellbeing, vulnerability, resilience, and social capital in coastal and ocean-dependent communities including governance arrangements | Assesses equity in marine genetic resource benefit distribution across communities while documenting traditional knowledge systems and customary management practices. Identifies vulnerable populations requiring targeted capacity building support through CHM mechanisms. | Ocean dependency ratios, traditional use documentation, social vulnerability indices, governance effectiveness scores |
+| **4. Produced and Financial Assets**<br>Stocks of built capital and financial capital supporting ocean activities including vessels, ports, research infrastructure, and investment mechanisms | Identifies infrastructure gaps that limit participation in BBNJ implementation while assessing technology transfer needs for developing state parties. Tracks ocean science investments and documents financial mechanisms available for conservation activities. | Research vessel capacity, laboratory facilities, blue finance instruments, infrastructure investment levels |
+| **5. Flows within the Economy**<br>Economic transactions within the SNA production boundary including ocean-related production, consumption, income, and capital flows through marine value chains | Tracks monetary benefits from marine genetic resource commercialization while quantifying economic capacity for ocean management and conservation. Monitors blue economy development patterns and calculates financial contributions to benefit-sharing mechanisms established under the treaty. | MGR product revenues, ocean economy GDP, blue economy employment, technology licensing values |
+| **6. Flows and Activities within Society beyond the SNA**<br>Important social activities outside the SNA production boundary including subsistence fishing, customary stewardship, volunteer conservation, and unpaid household labor | Documents traditional and customary management practices for formal recognition while capturing volunteer conservation efforts and citizen science contributions. Records non-monetary cultural and spiritual relationships with ocean spaces that inform equitable benefit-sharing arrangements. | Subsistence harvest levels, volunteer hours contributed, traditional practices documented, cultural use patterns |
+| **7. Flows and Interactions within the Environment**<br>Ecological processes maintaining ecosystem functioning including biogeochemical cycles, energy flows, species migrations, and other ecosystem dynamics | Understands ecosystem connectivity essential for area-based management tool network design while assessing ecological support functions for environmental impact analysis. Maps species migration routes crossing jurisdictional boundaries that require coordinated management approaches. | Larval connectivity indices, nutrient flux rates, migration corridor mapping, trophic transfer efficiencies |
+| **8. Flows of Pollution, Waste and Other Residuals**<br>Human-generated outputs affecting marine environments including point and diffuse pollution, solid waste, noise, and other anthropogenic pressures | Assesses cumulative environmental impacts for comprehensive environmental impact assessments while tracking pollution sources and pathways for targeted mitigation planning. Attributes environmental pressures to specific economic sectors to inform policy responses and compliance monitoring. | Plastic waste inputs, nutrient loading rates, noise pollution levels, chemical discharge volumes |
+| **9. Monetary Flows between Assets and Economic Sectors**<br>Financial transactions associated with ocean-related produced and financial assets including investments, depreciation, insurance, and market transactions | Tracks investments in marine genetic resource research infrastructure while monitoring financial flows supporting capacity building initiatives. Documents insurance and risk management mechanisms for ocean activities that inform treaty implementation costs and financing needs. | R&D investment levels, infrastructure financing, technology transfer values, risk management costs |
+| **10. Contributions of Social Conditions to Activities**<br>Bidirectional relationships between social conditions and social or economic activities, showing how social capital enables ocean activities | Understands how social capital enables sustainable ocean management while assessing socio-economic impacts of area-based management measures. Identifies equity implications of access and benefit-sharing policies through analysis of feedback loops between ocean governance and community wellbeing. | Social capital indices, livelihood dependency measures, participation rates, equity distribution patterns |
+| **11. Supply and Use of Final Ecosystem Services**<br>Services flowing directly from marine ecosystems to human wellbeing including provisioning, regulating, and cultural services | Quantifies marine genetic resource values for benefit-sharing calculations while determining monetary and non-monetary benefits requiring equitable distribution. Analyzes trade-offs between conservation and utilization objectives to inform balanced policy decisions under treaty implementation. | Genetic materials extracted, carbon sequestration rates, coastal protection values, recreation visitor days |
+| **12. Supply and Use of Intermediate Ecosystem Services**<br>Ecological processes supporting ecosystem functioning without directly benefiting humans, such as nursery habitats, nutrient cycling, and primary productivity | Maintains ecological integrity essential for long-term conservation success while understanding support systems underpinning final ecosystem services. Establishes restoration priorities based on ecosystem support functions that sustain the natural capital foundation for treaty objectives. | Primary productivity rates, nursery habitat quality, nutrient cycling efficiency, ecosystem connectivity indices |
 
-| **OA Component** | **Primary CHM Functions** | **Secondary Functions** | **Data Flow Type** | **Integration Priority** |
-|-----------------|---------------------------|------------------------|-------------------|------------------------|
-| **Spatial Data Framework** | • Geographic standardization<br>• BSU-based reporting<br>• 3D ocean mapping | • Cross-scale aggregation<br>• Boundary delineation | Continuous spatial reference | **Critical** - Foundation for all spatial reporting |
-| **Environmental Assets** | • EIA baselines<br>• ABMT designation<br>• Conservation targets | • MGR habitat mapping<br>• Vulnerability assessment | Periodic stock assessments | **Critical** - Essential for impact assessment |
-| **Social Conditions** | • Equity assessment<br>• Stakeholder mapping<br>• Vulnerability analysis | • Traditional use documentation<br>• Benefit distribution | Annual social surveys | **High** - Ensures equitable implementation |
-| **Produced Assets** | • Capacity assessment<br>• Infrastructure gaps<br>• Technology needs | • Investment tracking<br>• Maintenance requirements | Infrastructure inventories | **High** - Identifies CB&TT priorities |
-| **Economic Flows** | • MGR benefit calculation<br>• Value chain analysis<br>• Trade monitoring | • Investment patterns<br>• Market dynamics | Transaction records | **Critical** - Core to benefit-sharing |
-| **Social Activities** | • Traditional knowledge<br>• Community practices<br>• Volunteer efforts | • Cultural protocols<br>• Subsistence use | Qualitative assessments | **Medium** - Captures non-market contributions |
-| **Environmental Flows** | • Ecosystem connectivity<br>• Ecological processes<br>• Resilience indicators | • Cumulative impacts<br>• Tipping points | Process monitoring | **High** - Informs ecosystem-based management |
-| **Pollution & Residuals** | • Pressure tracking<br>• Source attribution<br>• Cumulative loads | • Mitigation priorities<br>• Cleanup targets | Discharge monitoring | **High** - Critical for EIAs |
-| **Monetary Flows** | • Financial tracking<br>• Subsidy analysis<br>• Investment flows | • Cost-benefit analysis<br>• Resource mobilization | Financial transactions | **Medium** - Supports transparency |
-| **Social-Economic Feedbacks** | • Impact pathways<br>• Compliance drivers<br>• Adaptation responses | • Unintended consequences<br>• Policy effectiveness | System dynamics modeling | **Medium** - Reveals complex interactions |
-| **Final Ecosystem Services** | • Benefit documentation<br>• Trade-off analysis<br>• Valuation support | • Public communication<br>• Political support | Service flow accounting | **High** - Demonstrates conservation value |
-| **Intermediate Services** | • Ecological support<br>• System functioning<br>• Resilience maintenance | • Restoration priorities<br>• Protection targets | Ecological monitoring | **Medium** - Maintains system integrity |
+Countries implement these components through modular pathways adapted to national contexts, typically beginning with pilot accounts addressing specific challenges—sustainable fisheries, coastal tourism, marine pollution—before expanding coverage systematically.[^21] This incremental approach, detailed in GOAP Technical Guidance, allows learning-by-doing while building technical capacity and stakeholder engagement.
 
-</div>
+Implementation models vary according to institutional arrangements. Some countries position national statistics offices as leads emphasizing economic dimensions, while others operate through environment agencies prioritizing ecological accounts. Multi-agency collaborative approaches under high-level coordination increasingly emerge as best practice, recognizing that ocean accounts span traditional bureaucratic boundaries. For CHM integration, this institutional flexibility enables parties to build on existing ocean information systems rather than creating parallel structures.
 
-### Integration Architecture
+The framework's "rapid assessment" option using global datasets ensures all parties can participate regardless of technical capacity.[^29][^30] Countries with limited resources establish baseline accounts quickly before developing detailed national compilations, creating natural capacity-building pathways. With GOAP supporting over 30 countries, proven approaches exist for diverse development contexts, with early adopters supporting later implementers through technical cooperation facilitated by the CHM itself.[^73]
 
-The visualization reveals three critical insights for CHM implementation:
+## 4. Implementation Pathways
 
-1. **Convergence Points**: Multiple OA components converge at each BBNJ pillar, demonstrating the integrated nature of ocean governance. No single component suffices; systematic integration is essential.
+Implementation of Ocean Accounts-CHM integration requires a phased approach building on established SEEA standards and GOAP Technical Guidance, leveraging proven approaches from participating countries.[^31][^32] Ocean economy measurement methodologies provide essential foundations for tracking economic dimensions of treaty implementation.[^53] The following roadmap outlines the progression from foundation to full operation, aligned with integrated ocean management principles:[^65]
 
-2. **Flow Intensity**: The thickness of flows indicates data volume and importance. Spatial framework and environmental assets show highest flow volumes, confirming their foundational role in CHM architecture.
-
-3. **Distribution Patterns**: CHM functions receive inputs from multiple pillars, highlighting the need for cross-pillar data integration. Traditional siloed approaches will fail to capture these interdependencies.
-
-Through systematic integration of these twelve components, Ocean Accounts transforms CHM from a passive repository to an active intelligence system supporting evidence-based ocean governance.[^48]
-
-### 4.4 Technical Integration Specifications
-
-The operational integration of Ocean Accounts with CHM requires specific technical protocols ensuring data quality, interoperability, and accessibility. The following specifications provide the technical foundation for implementation:
-
-**Data Exchange Formats:** The CHM should adopt JSON-LD (JSON for Linked Data) as the primary format for structured data exchange, enabling semantic interoperability while maintaining human readability. GeoJSON specifications should govern spatial data transfer, ensuring compatibility with existing marine spatial planning tools and GIS platforms. For tabular accounting data, the Statistical Data and Metadata eXchange (SDMX) standard provides established protocols for time-series and cross-sectional data used in national accounts.
-
-**Metadata Standards:** Implementation should follow ISO 19115-3:2016 for geographic information metadata, extended with BBNJ-specific elements for MGR batch identifiers, traditional knowledge attribution, and compliance tracking. Each data element requires minimum metadata including: temporal coverage and compilation date; spatial resolution and geographic extent; data quality indicators and uncertainty ranges; source attribution and access restrictions; and processing methods and validation status.
-
-**API Specifications:** RESTful APIs following OpenAPI 3.0 specifications should enable programmatic access to both Ocean Accounts data and CHM functions. Core endpoints should include: `/accounts/{country}/assets` for environmental asset queries; `/flows/mgr/{batchID}` for tracking genetic resource utilization chains; `/indicators/{pillar}/` for accessing derived metrics by BBNJ pillar; `/compliance/{party}/reports` for retrieving notification and reporting history. Rate limiting and authentication protocols must balance open access principles with system stability and data sovereignty requirements.
-
-**Version Control and Update Protocols:** Given the long compilation cycles for Ocean Accounts (typically annual) and real-time CHM notification requirements, the system must implement sophisticated versioning. Each account compilation should receive a unique version identifier with clear documentation of revisions. The CHM should maintain provisional accounts updated with high-frequency data (e.g., vessel tracking, permit notifications) while preserving validated annual compilations for official reporting.
-
-**Data Quality Indicators:** All data transmitted between Ocean Accounts and CHM should include standardized quality indicators: completeness scores indicating data coverage; consistency flags for logical validation; timeliness metrics for data currency; accuracy assessments where validation data exists; and comparability indices for multi-source integration. These indicators enable users to assess fitness-for-purpose rather than assuming uniform data quality.
-
-**Validation Rules:** Automated validation should apply accounting identities (e.g., opening stock + additions - removals = closing stock) and ecological constraints (e.g., extraction cannot exceed stock estimates). Cross-validation between Ocean Accounts components can identify inconsistencies, such as economic flows without corresponding environmental impacts. Machine learning algorithms can flag anomalous patterns for human review while avoiding false positives that might discourage reporting.
-
-These technical specifications must evolve through pilot implementation and stakeholder feedback, balancing sophistication with accessibility to ensure that all BBNJ parties can participate regardless of technical capacity. Open-source reference implementations and comprehensive documentation will be essential for achieving the inclusive, interoperable system envisioned by both Ocean Accounts and CHM frameworks.
-
-## 5. Implementation Pathway: Practical Steps
-
-The following roadmap consolidates near-term, medium-term, and long-term actions for Ocean Accounts-CHM integration:
-
-<div class="table-container" style="overflow-x: auto;">
+<div class="table-container">
 
 | **Phase** | **Timeline** | **Key Actions** | **Responsible Parties** | **Resources Required** | **Success Indicators** |
 |-----------|-------------|-----------------|------------------------|----------------------|----------------------|
-| **Phase 1: Foundation** | Pre-COP1<br>(2025-2026) | • Establish OA-CHM Technical Expert Group<br>• Develop proof-of-concept pilots<br>• Adapt SEEA Ocean guidelines for MGRs<br>• Create API specifications<br>• Design metadata standards | • PrepCom Secretariat<br>• GOAP members<br>• National statistics offices<br>• Ocean agencies<br>• SIDS/LDC representatives | • $2-3M pilot funding<br>• 10-15 technical experts<br>• 3-5 pilot countries<br>• IT infrastructure | • Expert group operational<br>• 3+ pilot projects launched<br>• Draft standards published<br>• COP-1 recommendations ready |
-| **Phase 2: Early Implementation** | COP1-COP3<br>(2026-2029) | • Deploy CHM core architecture<br>• Integrate pilot country data<br>• Develop user interfaces<br>• Launch capacity-building program<br>• Establish regional nodes | • COP Secretariat<br>• Early adopter countries<br>• Regional organizations<br>• Training institutions<br>• Technology partners | • $10-15M core funding<br>• 20-30 participating countries<br>• Regional coordinators<br>• Training facilities | • CHM operational<br>• 20+ countries reporting<br>• 100+ users trained<br>• Regional networks active |
-| **Phase 3: Expansion** | COP3-COP5<br>(2029-2032) | • Scale to global coverage<br>• Automate data flows<br>• Integrate real-time monitoring<br>• Deploy decision support tools<br>• Establish quality assurance | • All BBNJ Parties<br>• Scientific institutions<br>• Private sector partners<br>• Indigenous organizations | • $20-30M sustained funding<br>• 50+ countries participating<br>• Advanced IT systems<br>• QA/QC protocols | • 50+ countries integrated<br>• Automated reporting active<br>• Decision tools deployed<br>• Data quality verified |
+| **Phase 1: Foundation** | Pre-COP1<br>(2025-2026) | • Establish OA-CHM Technical Expert Group<br>• Develop proof-of-concept pilots<br>• Adapt SEEA Ocean guidelines for MGRs<br>• Align with UNOC Nice commitments | • PrepCom Secretariat<br>• GOAP members<br>• National statistics offices<br>• Ocean agencies<br>• SIDS/LDC representatives | • $2-3M pilot funding<br>• 10-15 technical experts<br>• 3-5 pilot countries<br>• GOAP technical support | • Expert group operational<br>• 3+ pilot projects launched<br>• Draft standards published<br>• COP-1 recommendations ready |
+| **Phase 2: Early Implementation** | COP1-COP3<br>(2026-2029) | • Deploy CHM core architecture<br>• Integrate pilot country data<br>• Develop user interfaces<br>• Launch capacity-building program<br>• Establish regional nodes | • COP Secretariat<br>• Early adopter countries<br>• Regional organizations<br>• Training institutions<br>• GOAP network | • $10-15M core funding<br>• 20-30 participating countries<br>• Regional coordinators<br>• Training facilities | • CHM operational<br>• 20+ countries reporting<br>• 100+ users trained<br>• Regional networks active |
+| **Phase 3: Expansion** | COP3-COP5<br>(2029-2032) | • Scale to global coverage<br>• Automate data flows<br>• Integrate real-time monitoring<br>• Deploy decision support tools<br>• Align with CBD reporting | • All BBNJ Parties<br>• Scientific institutions<br>• Private sector partners<br>• Indigenous organizations | • $20-30M sustained funding<br>• 50+ countries participating<br>• Advanced IT systems<br>• Quality protocols | • 50+ countries integrated<br>• Automated reporting active<br>• Decision tools deployed<br>• Data quality verified |
 | **Phase 4: Full Operation** | Post-COP5<br>(2032+) | • Achieve universal participation<br>• Enable predictive analytics<br>• Support adaptive management<br>• Drive policy innovation<br>• Demonstrate impact | • Global ocean community<br>• All stakeholder groups<br>• Research networks<br>• Policy makers | • $30M+ annual budget<br>• All parties participating<br>• Advanced analytics<br>• Impact assessment | • Universal coverage<br>• Evidence-based decisions<br>• Measurable ocean improvements<br>• Sustainable financing |
 
 </div>
 
-### Practical Implementation Pathways
+The practical pathway from national Ocean Accounts implementation to global CHM integration follows established patterns demonstrated across 30+ countries currently developing ocean accounting systems. Rather than requiring wholesale system redesign, countries can progressively extend existing statistical and environmental monitoring programs:
 
-<div class="table-container" style="overflow-x: auto;">
+- **Building on Existing Foundations**: Countries with established environmental-economic accounting under SEEA can extend these systems to incorporate BBNJ-relevant data. For instance, fisheries accounts tracking national stocks can expand spatial coverage to document straddling and highly migratory species interactions with ABNJ. Tourism satellite accounts can disaggregate cruise operations to identify ABNJ components. This incremental approach leverages existing institutional capacity and data collection mechanisms rather than creating parallel systems.
 
-| **Implementation Stage** | **National OA Development** | **Extension to ABNJ/CHM** | **Data Integration Requirements** | **Capacity Building Priorities** |
-|-------------------------|---------------------------|--------------------------|----------------------------------|--------------------------------|
-| **Stage 1: Foundation** | Establish BSU spatial framework for national waters including EEZ and continental shelf | Extend BSUs to adjacent ABNJ areas using same classification system | • Harmonize with GEBCO bathymetry<br>• Align with ISA mining areas<br>• Match RFMO statistical zones | • GIS and spatial data management<br>• SEEA-Ocean methodology training<br>• Statistical compilation skills |
-| **Stage 2: Priority Assets** | Compile environmental asset accounts for key ecosystems (coral reefs, seamounts, fishing grounds) | Include transboundary and straddling stocks connecting to ABNJ | • Link national monitoring to global datasets<br>• Integrate satellite observations<br>• Connect to OBIS biodiversity data | • Remote sensing analysis<br>• Ecosystem assessment methods<br>• Data quality assurance |
-| **Stage 3: Economic Flows** | Track ocean economy production including fisheries, tourism, and maritime transport | Add MGR research activities and benefit flows from ABNJ resources | • Connect to patent databases for MGR tracking<br>• Link to trade statistics for marine products<br>• Interface with financial reporting | • Economic accounting expertise<br>• Value chain analysis<br>• Benefit distribution assessment |
-| **Stage 4: Governance Integration** | Document management effectiveness for national MPAs and resource regulations | Incorporate BBNJ compliance reporting and international commitments | • Align reporting formats with CHM requirements<br>• Standardize effectiveness indicators<br>• Enable automated data transfer | • Legal and institutional analysis<br>• Compliance monitoring systems<br>• International reporting protocols |
-| **Stage 5: Full Integration** | Operate comprehensive Ocean Accounts with regular compilation and reporting cycles | Seamlessly integrate ABNJ data enabling complete ocean system view | • Real-time data feeds from multiple sources<br>• Predictive modeling capabilities<br>• Decision support tool deployment | • Advanced analytics<br>• System maintenance<br>• Continuous improvement processes |
+- **Regional Collaboration Models**: The Pacific Community's Regional Ocean Accounts Framework demonstrates how countries can pool resources for ABNJ monitoring. Small Island Developing States sharing marine ecosystems jointly compile accounts for transboundary assets like tuna stocks, coral reef networks, and ocean currents. This collaborative approach distributes costs while building collective capacity—essential for regions where national resources alone cannot support comprehensive monitoring.
+
+- **Leveraging Global Datasets**: Countries can begin Ocean Accounts implementation using freely available global datasets—satellite observations, oceanographic models, vessel tracking systems—before developing national monitoring capacity. The Global Ocean Accounts Partnership provides data starter packs enabling rapid assessment while countries build institutional frameworks. This approach particularly benefits developing countries seeking to participate in CHM from day one rather than waiting years for perfect national data.
+
+- **Traditional Knowledge Integration**: Indigenous and local knowledge systems offer essential information often absent from scientific monitoring, particularly regarding ecosystem changes, species behavior, and sustainable practices developed over generations.[^34] Ocean Accounts provides structured approaches for incorporating this knowledge while respecting data sovereignty through Free, Prior, and Informed Consent protocols.[^68] Countries like Canada and New Zealand demonstrate how traditional knowledge can enhance scientific accounts while maintaining indigenous control over sensitive information, supporting coastal and marine governance effectiveness.[^55]
+
+Through these practical pathways, Ocean Accounts enables all countries to contribute to and benefit from CHM regardless of current capacity, creating an inclusive system where perfect data does not become the enemy of good governance.[^47]
+
+
+## 5. Implementation Pathway: Learning from Experience
+
+The implementation of integrated Ocean Accounts-CHM systems can draw from extensive practical experience across diverse contexts, from Small Island Developing States managing vast ocean territories to developed countries with sophisticated monitoring systems. Rather than prescribing rigid pathways, successful implementation emerges from understanding what has worked, what has failed, and why.
+
+### 5.1 Lessons from Early Adopters
+
+Australia's National Ocean Accounts demonstrate how established environmental-economic accounting systems can progressively incorporate ABNJ-relevant data.[^52][^58] Beginning with fisheries statistics tracking southern bluefin tuna across national boundaries, Australia extended its accounts to monitor transboundary species interactions and economic flows connecting national waters to the high seas. The key insight: building on existing statistical infrastructure reduces implementation costs and leverages established institutional relationships between statistics offices, fisheries agencies, and research institutions.
+
+The Pacific Community's regional approach offers different lessons for resource-constrained settings.[^59] By pooling technical capacity and sharing monitoring costs, Pacific Island countries collectively compile accounts for shared ecosystems spanning multiple jurisdictions. Tuna stocks managed by the Western and Central Pacific Fisheries Commission now have integrated accounts tracking biological assets, economic flows, and governance effectiveness across the region. This collaborative model, supported by South-South cooperation mechanisms,[^54] demonstrates how regional organizations can facilitate CHM integration even where individual countries lack comprehensive national systems. The EU's Ocean Observation Initiative provides parallel examples from developed regions.[^60]
+
+### 5.2 Evolutionary Implementation Patterns
+
+Successful Ocean Accounts development follows predictable stages, each building capacity for more sophisticated integration. The foundation stage establishes basic spatial frameworks using existing nautical charts and management boundaries, progressively refined through better data and community input. Countries typically begin with priority ecosystems—coral reefs for tropical nations, coastal wetlands for temperate regions—before expanding to comprehensive ecosystem coverage.
+
+Economic integration follows similar patterns, starting with major ocean industries already captured in national accounts. Tourism satellite accounts disaggregate marine components; fisheries statistics expand to include processing and distribution; maritime transport data incorporates port activities and vessel operations. This sectoral approach allows countries to demonstrate value quickly while building technical capacity for more complex integration.
+
+The governance dimension emerges as countries recognize the need to track management effectiveness alongside environmental and economic trends. Early accounts simply document existing regulations and protected areas. Over time, countries develop indicators measuring compliance rates, enforcement capacity, and management outcomes. This evolution reflects growing recognition that institutions shape outcomes as much as biophysical processes and economic activities.
+
+### 5.3 Critical Success Factors
+
+Political commitment proves essential but insufficient for sustained implementation. Australia's accounts stalled during periods of political change until cross-party support was secured through demonstrated policy relevance. Pacific Island countries maintain momentum through high-level regional commitments linking Ocean Accounts to climate adaptation and sustainable development goals. The lesson: implementation requires both top-level endorsement and operational support from working-level technical staff.
+
+Technical capacity development must balance ambition with realism. Countries attempting comprehensive systems from the start often become overwhelmed by data requirements and methodological complexity. Successful implementers begin with simple accounts using available data before adding sophistication. The Global Ocean Accounts Partnership's "rapid assessment" approach enables countries to establish baseline accounts within months, providing immediate value while building toward comprehensive implementation.
+
+Institutional arrangements prove more important than technical specifications. Countries struggle when Ocean Accounts fall between agencies—too environmental for statistics offices, too economic for environment departments. Success requires clear institutional homes with adequate authority and resources. New Zealand's joint Environment-Statistics mandate provides a successful model, while France's inter-ministerial approach demonstrates alternative arrangements for different governmental structures.
+
+### 5.4 Scaling to CHM Integration
+
+The transition from national Ocean Accounts to CHM integration follows established patterns but requires new forms of international cooperation. Countries with mature accounts become regional hubs, providing technical assistance to neighbors while contributing high-quality data to global systems. This hub-and-spoke model enables rapid scaling while maintaining quality standards.
+
+Data harmonization emerges organically through regional networks rather than top-down standardization. Countries using similar methods naturally develop compatible accounts, while GOAP technical guidance provides common frameworks for diverse national approaches. The result: interoperable systems emerging from bottom-up coordination rather than imposed uniformity.
+
+Regional cooperation proves essential for ABNJ coverage. Individual countries cannot monitor high seas areas, but regional groups can pool resources for shared monitoring systems. The challenge lies in creating governance arrangements that ensure all countries benefit from shared investments while contributing fairly to collective costs. Successful models from other domains—such as regional fisheries monitoring—provide templates for adaptation to comprehensive Ocean Accounts.
+
+Success ultimately depends on demonstrating value for national priorities while contributing to global knowledge, aligned with the UN Ocean Decade's vision for transformative ocean science.[^66][^67] Countries maintain Ocean Accounts because they improve domestic decision-making, not merely to satisfy international reporting requirements. CHM integration succeeds when it enhances national accounts rather than creating parallel obligations. This alignment of national interest with global benefit creates sustainable implementation that can weather political changes and resource constraints.
+
+## 6. Recommendations
+
+The convergence of Ocean Accounts methodological maturity with BBNJ implementation urgency creates an unprecedented window for establishing integrated ocean information architecture. The following recommendations provide actionable pathways for realizing this opportunity through immediate actions, inclusive implementation, and sustainable systems.
+
+### 6.1 Immediate Actions for Treaty Implementation
+
+<div class="table-container">
+
+| **Recommendation** | **Responsible Actors** | **Timeline** | **Expected Outcomes** | **Critical Dependencies** |
+|-------------------|------------------------|--------------|----------------------|---------------------------|
+| **Establish OA-CHM Technical Working Group** | PrepCom Secretariat, with balanced representation from developed/developing countries, GOAP institutions, BBNJ pillar experts | By PrepCom-2 (Q3 2025) | Integration protocols drafted with capacity needs assessed and equity safeguards defined. Technical standards proposed for comprehensive implementation framework. | PrepCom mandate expansion with GOAP technical support and voluntary country participation. Initial funding of $500K required. |
+| **Adopt Ocean Accounts Principles** | Conference of Parties (COP-1) | COP-1 Decision (2026) | Stocks/flows distinction established with spatial consistency required and temporal comparability ensured. Accounting standards recognized as foundational for CHM architecture. | Technical Working Group recommendations incorporated into draft COP decision text. Member state consensus and SEEA alignment confirmed. |
+| **Launch Demonstration Projects** | 5-8 volunteer countries (SIDS, developed, regional groups) | Start Q4 2025, report COP-1 | Practical lessons documented with integration challenges identified and cost estimates refined. Success metrics established for scaling to global implementation. | BBNJ financial mechanism providing $2-3M pilot funding with GOAP technical assistance and regional coordination structures. |
+| **Develop CHM Data Standards** | CHM Secretariat with ISO, UNSD, GOAP | Draft by COP-1, adopt COP-2 | SDMX profiles defined with ISO 19115 metadata adopted and API specifications published. Quality protocols established for data validation and uncertainty documentation. | Technical architecture decisions through stakeholder consultation with interoperability testing and comprehensive documentation resources. |
 
 </div>
 
-This staged approach allows countries to progressively build Ocean Accounts capabilities while immediately supporting CHM implementation. Countries with existing fisheries statistics can begin by extending catch data to include ABNJ areas. Those with MPA monitoring programs can apply the same assessment methods to proposed ABMTs. Nations tracking blue economy investments can add MGR research and development activities to their accounts.
+These immediate actions establish the institutional and technical foundations for Ocean Accounts-CHM integration, creating momentum that becomes increasingly difficult to reverse as implementation progresses.
 
-## 6. Addressing Implementation Challenges
+### 6.2 Building Inclusive Implementation Architecture
 
-The following matrix maps key implementation challenges to Ocean Accounts-based solutions:
+<div class="table-container">
 
-<div class="table-container" style="overflow-x: auto;">
-
-| **Challenge Category** | **Specific Challenge** | **Ocean Accounts Solution** | **Implementation Requirements** | **Risk Mitigation** |
-|----------------------|----------------------|---------------------------|-------------------------------|-------------------|
-| **Technical Challenges** | | | | |
-| Data heterogeneity | Multiple formats, scales, and quality levels across national systems[^62] | • Flexible aggregation rules<br>• Metadata documentation<br>• Harmonization protocols | • Common data models<br>• Translation layers<br>• Quality indicators | • Preserve local specificity<br>• Document uncertainty<br>• Gradual standardization |
-| Semantic alignment | Inconsistent terminology across disciplines and languages[^63] | • Controlled vocabularies<br>• Ontology mapping<br>• Multi-lingual support | • Term registries<br>• Cross-walks<br>• Expert validation | • Inclusive development<br>• Regular updates<br>• Context preservation |
-| Temporal mismatches | Real-time CHM needs vs. periodic OA compilation[^64] | • Hybrid architecture<br>• Tiered reporting<br>• Event-driven updates | • Streaming infrastructure<br>• Batch processing<br>• Cache management | • Priority notifications<br>• Periodic reconciliation<br>• Version control |
-| System interoperability | Integration with existing databases and conventions | • API standards<br>• Data exchange protocols<br>• Federated queries | • Technical specifications<br>• Testing environments<br>• Partner agreements | • Phased integration<br>• Backward compatibility<br>• Fallback options |
-| **Institutional Challenges** | | | | |
-| Agency coordination | Statistics offices vs. ocean agencies with different mandates[^65] | • Multi-agency frameworks<br>• Clear role definition<br>• Joint protocols | • MOUs/agreements<br>• Coordination bodies<br>• Resource sharing | • High-level mandate<br>• Regular communication<br>• Shared benefits |
-| Reporting burden | Multiple convention obligations creating duplication[^66] | • Integrated reporting<br>• Once-only principle<br>• Automated generation | • Requirement mapping<br>• Common formats<br>• Convention alignment | • Stakeholder engagement<br>• Efficiency metrics<br>• Gradual adoption |
-| Resource mobilization | Sustaining funding beyond initial pilots[^67] | • Demonstrated ROI<br>• Cost-sharing models<br>• Efficiency gains | • Business cases<br>• Impact assessment<br>• Donor coordination | • Quick wins<br>• Regular reporting<br>• Diversified funding |
-| Capacity constraints | Limited technical expertise in developing countries | • Modular implementation<br>• Regional cooperation<br>• Technology transfer | • Training programs<br>• Expert networks<br>• Technical assistance | • South-South learning<br>• Mentorship programs<br>• Long-term support |
-| **Equity Considerations** | | | | |
-| SIDS/LDC participation | Structural inequalities in technical and financial capacity[^68] | • Rapid assessment tools<br>• Simplified interfaces<br>• Targeted support | • Dedicated funding<br>• Regional hubs<br>• Peer assistance | • Prioritized access<br>• Flexible timelines<br>• Success recognition |
-| Traditional knowledge | Protecting indigenous data sovereignty[^69] | • FPIC protocols<br>• Access controls<br>• Attribution systems | • Community agreements<br>• Data governance<br>• Benefit-sharing | • Trust building<br>• Cultural protocols<br>• Legal frameworks |
-| Digital divide | Varying technical sophistication and infrastructure[^70] | • Multiple interfaces<br>• Offline capabilities<br>• Mobile access | • Progressive enhancement<br>• Low-bandwidth options<br>• Local hosting | • Basic functionality first<br>• Graceful degradation<br>• Alternative channels |
-| Language barriers | Multi-lingual requirements for global participation | • Translation services<br>• Local terminology<br>• Visual communication | • Professional translation<br>• Community review<br>• Icon systems | • Priority languages<br>• Machine translation<br>• Cultural adaptation |
+| **Recommendation** | **Responsible Actors** | **Timeline** | **Expected Outcomes** | **Critical Dependencies** |
+|-------------------|------------------------|--------------|----------------------|---------------------------|
+| **Leverage Existing National Systems** | National statistics offices, environment agencies, ocean ministries | Continuous from 2025 | SEEA extensions for BBNJ with reduced implementation costs through institutional capacity utilization. Reporting burden minimized through system integration. | National SEEA programs requiring inter-agency coordination with technical guidance and incremental funding support. |
+| **Enable Regional Cooperation** | Regional seas programs, fisheries organizations, ocean partnerships | Establish by 2027 | Shared monitoring systems enabling joint account compilation with cost efficiencies achieved. Transboundary coverage for ecosystem-scale management. | Regional agreements establishing data sharing protocols with harmonized methods and pooled resources for collective monitoring. |
+| **Protect Knowledge Sovereignty** | Indigenous organizations, local communities, national governments | Protocols by COP-1 | FPIC protocols established with community data governance and benefit-sharing arrangements.[^27][^28] Traditional knowledge integrated while maintaining indigenous control. | Rights frameworks through community consultation with legal protections and capacity support for knowledge holders. |
+| **Design Tiered Access Systems** | CHM developers, user representatives, accessibility experts | Deploy 2026-2027 | Basic data entry available alongside advanced APIs operational for sophisticated users. Multiple languages supported with offline capabilities for connectivity-limited regions. | User requirements analysis informing interface testing with translation resources and comprehensive technical documentation. |
 
 </div>
 
-### Solution Integration Strategy
+Inclusive architecture ensures that Ocean Accounts-CHM systems serve diverse stakeholders rather than privileging those with existing technical advantages, creating equitable participation essential for treaty legitimacy.[^69] Addressing interdependencies between sustainable development goals strengthens system coherence.[^57]
 
-Ocean Accounts provides systematic approaches to each challenge category through:
+### 6.3 Technical Specifications for Interoperability
 
-1. **Technical solutions** leveraging established SEEA standards and flexible architecture accommodating diverse national contexts while maintaining global comparability.
+<div class="table-container">
 
-2. **Institutional solutions** building on existing statistical and environmental accounting frameworks, reducing duplication while enhancing coordination.
+| **Recommendation** | **Responsible Actors** | **Timeline** | **Expected Outcomes** | **Critical Dependencies** |
+|-------------------|------------------------|--------------|----------------------|---------------------------|
+| **Adopt International Standards** | CHM Technical Committee, standards organizations | Standards suite by 2026 | SEEA accounting structures with SDMX data exchange and ISO 19115 metadata specifications. OGC spatial services enabling geographic interoperability. | Standards review through compatibility testing with implementation guides and training materials for technical capacity building. |
+| **Implement Progressive Data Quality** | Data providers, quality assurance teams | Framework by COP-2 | Uncertainty documented with quality tiers defined and improvement pathways clear. Transparency maintained through comprehensive metadata and validation processes. | Quality metrics established with validation tools and peer review processes supported by metadata standards. |
+| **Create Modular System Architecture** | System architects, software developers | Core system 2026-2027 | Components independently deployable with flexible integration options and scalable infrastructure. Version control implemented for systematic updates and maintenance. | Architecture decisions requiring development resources with testing environments and comprehensive documentation systems. |
+| **Ensure Semantic Interoperability** | Domain experts, ontology developers | Ontologies by 2027 | Common vocabularies adopted with cross-domain mapping and machine-readable definitions. Translation protocols enabling multilingual access and understanding. | Terminology agreements through ontology development with validation processes and long-term maintenance procedures. |
 
-3. **Equity solutions** ensuring meaningful participation through tiered implementation, regional cooperation, and respect for diverse knowledge systems.
+</div>
 
-Success requires recognizing these challenges as opportunities for innovation rather than barriers to implementation, with Ocean Accounts providing the structured framework for systematic solutions.
+Technical specifications that prioritize interoperability over innovation reduce implementation barriers while ensuring that diverse systems can contribute to and benefit from integrated ocean knowledge.
 
-## 7. Recommendations and Conclusion
+### 6.4 Ensuring Long-term Sustainability
 
-### 7.1 Policy Recommendations
+<div class="table-container">
 
-The Preparatory Commission and first Conference of Parties should formally adopt Ocean Accounts Framework principles as the foundational data architecture for CHM development, providing the standardization essential for systematic implementation while maintaining flexibility for national circumstances. This adoption need not require comprehensive Ocean Accounts implementation immediately but should establish accounting principles—stocks versus flows, spatial consistency, temporal comparability—as design requirements shaping CHM technical specifications.
+| **Recommendation** | **Responsible Actors** | **Timeline** | **Expected Outcomes** | **Critical Dependencies** |
+|-------------------|------------------------|--------------|----------------------|---------------------------|
+| **Demonstrate National Value** | National governments, research institutions | Continuous from pilots | Domestic benefits documented with policy improvements measured, cost savings quantified, and political support secured through evidence-based communication | Use case development integrated with impact assessment methodologies, communication strategies tailored to stakeholder needs, and cultivation of political champions |
+| **Diversify Funding Sources** | Development partners, private foundations, blue finance | Strategy by 2026 | Core funding secured while innovation funds accessed and private investment attracted to achieve long-term financial sustainability[^56][^41] | Funding proposals aligned with partnership agreements, revenue models developed for self-sustaining operations, and investment cases demonstrating returns |
+| **Build Progressive Capacity** | Training institutions, regional centers, GOAP network | Programs from 2025 | Staged learning pathways established with regional expertise developed through South-South cooperation ensuring knowledge retention | Curriculum development matched to capacity needs, training resources adapted to regional contexts, exchange programs facilitating knowledge transfer, and certification systems recognizing competencies |
+| **Establish Governance Mechanisms** | COP, Scientific Committee, stakeholder groups | Formalize by COP-3 | Clear decision processes established with stakeholder participation ensuring adaptive management and effective conflict resolution | Governance frameworks balancing efficiency with inclusiveness, participation rules ensuring equitable representation, review procedures enabling adaptation, and amendment processes maintaining relevance |
 
-Establishing an Ocean Accounts-CHM Technical Working Group under PrepCom auspices with balanced representation from developed and developing countries, technical experts and policy practitioners, would provide the collaborative mechanism needed to develop detailed integration protocols before COP-1 decisions lock in architectural choices. This group's mandate should extend beyond technical specifications to encompass capacity-building strategies, resource mobilization plans, and equity safeguards ensuring that integration serves all parties rather than privileging those with existing accounting systems.
+</div>
 
-Pilot projects in volunteer countries representing diverse contexts—SIDS with traditional knowledge systems, developed countries with established accounts, regional collaborations pooling resources—should commence immediately to generate practical lessons informing broader implementation. These pilots should receive dedicated support from the BBNJ financial mechanism once established, demonstrating that Ocean Accounts-CHM integration represents a priority investment in treaty effectiveness rather than an optional enhancement.
+Sustainable implementation requires demonstrating value that justifies continued investment, building capacity that reduces dependence on external support, and establishing governance that maintains legitimacy through changing political and environmental conditions.
 
-### 7.2 Technical Recommendations
-
-CHM data standards should build on SEEA principles while extending them for BBNJ-specific requirements, particularly around MGR tracking, traditional knowledge integration, and governance indicators not traditionally included in environmental-economic accounts. API specifications enabling automated data exchange between national Ocean Accounts and the global CHM should prioritize simplicity and reliability over sophisticated features that might exclude parties with limited technical infrastructure.
-
-Modular implementation approaches allowing countries to begin with basic components—spatial framework, key ecosystem assets, priority economic flows—before adding complexity reduces entry barriers while building toward comprehensive coverage. This modularity should extend to the CHM interface, where simple data entry options coexist with sophisticated automated feeds, ensuring that all parties can participate regardless of technical capacity.
-
-Data quality assurance protocols must balance scientific rigor with practical constraints, accepting that imperfect data systematically compiled provides more value than perfect data sporadically available. Ocean Accounts' emphasis on documenting uncertainty and data quality through metadata provides a model for maintaining transparency about information limitations while avoiding paralysis from pursuing unattainable perfection.
-
-### 7.3 Conclusion
+## 7. Conclusion
 
 Ocean Accounts offers more than technical solutions to CHM implementation challenges—it provides a conceptual framework for transforming how humanity understands and governs ocean spaces that belong to all yet are managed by none. By systematically documenting relationships between ocean ecosystems, human economies, and social wellbeing, integrated Ocean Accounts-CHM systems can shift ocean governance from reactive regulation of problems to proactive management of opportunities.
 
@@ -284,152 +266,220 @@ The convergence of Ocean Accounts methodological maturity with BBNJ implementati
 
 Ultimately, Ocean Accounts-CHM integration represents investment in ocean governance infrastructure as fundamental as ports and research vessels—invisible yet essential foundations enabling evidence-based decisions about humanity's largest shared resource. The choice facing BBNJ parties is not whether to integrate these systems but how quickly ambition can match the urgency of ocean challenges demanding systematic solutions.
 
+## 8. Additional Reading
+
+### Ocean Economy and Valuation
+The economic dimensions of ocean governance benefit from understanding marine ecosystem services[^43] and their global valuation methodologies,[^44] though implementation challenges persist in translating conceptual frameworks to operational systems.[^45][^46] Fisheries economics particularly illustrate these complexities through comprehensive subsidy analyses[^39] and efficiency assessments demonstrating the economic costs of unsustainable practices.[^40]
+
+### Climate-Ocean Nexus
+Ocean-climate interactions represent critical governance considerations, with comprehensive analyses of ocean-based climate solutions[^35] demonstrating potential contributions to mitigation and adaptation. Understanding warming impacts on ocean systems[^36] proves essential for anticipating future management challenges under changing environmental conditions.
+
+### Pollution and Marine Litter
+Marine pollution assessment provides essential baselines for environmental impact evaluations, including detailed microplastics research documenting sources and pathways[^37] and global pollution assessments quantifying the scale of marine contamination challenges.[^38] These assessments inform both preventive measures and remediation priorities.
+
+### Traditional and Indigenous Knowledge
+Traditional ecological knowledge systems[^34] offer alternative frameworks for understanding ocean relationships beyond Western scientific paradigms, providing insights developed over generations of close observation and sustainable practice. Integration approaches respecting knowledge sovereignty demonstrate pathways for meaningful inclusion in governance systems.
+
+### Ecosystem Services Assessment
+Marine ecosystem service frameworks[^42] provide methodologies for integrating natural and social sciences in management contexts, supporting comprehensive valuation that captures both market and non-market benefits. Global biodiversity assessments[^26] contextualize ocean ecosystems within broader planetary systems, highlighting interconnections often overlooked in sectoral approaches.
+
+### Global Fisheries Status
+Comprehensive fisheries assessments[^33] contextualize sustainability challenges within broader blue transformation agendas, documenting both crisis dimensions and solution pathways. These analyses inform evidence-based approaches to fisheries governance aligned with ecosystem-based management principles.
+
+### Preparatory Committee Documents
+Technical working documents from BBNJ PrepCom sessions[^48][^49] provide detailed implementation considerations emerging from diplomatic negotiations, while ISO metadata standards[^50] establish technical frameworks for information management. These documents bridge high-level policy objectives with operational requirements.
+
+### Ocean Solutions and Sustainability
+Integrated assessments of ocean solutions[^51] demonstrate pathways balancing human benefits with ecological integrity, identifying win-win opportunities while acknowledging necessary trade-offs. Human impact assessments[^62] quantify cumulative pressures on ocean systems, while spatial data management guidelines[^63] provide technical specifications for integrated monitoring and assessment frameworks.
+
 ## References
 
-[^1]: Agreement under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction, June 19, 2023, Article 51. https://www.un.org/bbnj/sites/www.un.org.bbnj/files/draft_agreement_advanced_unedited_for_posting_v1.pdf
+[^1]: Agreement under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction, adopted June 19, 2023, UN Doc. A/CONF.232/2023/4, Article 51.
 
-[^2]: High Seas Alliance, *Operationalizing the Clearing-House Mechanism*, PrepCom Deep Dive Series (April 2025), 3-5. https://highseasalliance.org/wp-content/uploads/2025/04/PrepCom-Deep-Dive-CIHM-April-2025-1.pdf
+[^2]: High Seas Alliance, [*Operationalizing the Clearing-House Mechanism*](https://highseasalliance.org/wp-content/uploads/2025/04/PrepCom-Deep-Dive-CIHM-April-2025-1.pdf), PrepCom Deep Dive Series (April 2025), 3-5.
 
-[^3]: Global Ocean Accounts Partnership (GOAP), *Ocean Accounting for Sustainable Ocean Development: Technical Guidance* (2025). https://www.oceanaccounts.org [hereinafter OA-Guidance].
+[^3]: Global Ocean Accounts Partnership (GOAP), [*Ocean Accounting for Sustainable Ocean Development: Technical Guidance*](https://www.oceanaccounts.org) (2025) [hereinafter OA-Guidance].
 
 [^4]: OA-Guidance, Section 3.5 (Spatial Data Framework).
 
-[^5]: Lawson, C., et al., "Data Management and the 'BBNJ Standardized Batch Identifier' under the BBNJ Agreement," in *Decoding MGR Governance under the BBNJ Agreement* (Springer, 2024), 145-167. https://doi.org/10.1007/978-3-031-72100-7_2
+[^5]: Lawson, C., et al., ["Data Management and the 'BBNJ Standardized Batch Identifier' under the BBNJ Agreement,"](https://doi.org/10.1007/978-3-031-72100-7_2) in *Decoding MGR Governance under the BBNJ Agreement* (Springer, 2024), 145-167.
 
-[^6]: Boettcher, M., & Brent, K., "The potential of the BBNJ clearing house mechanism to enhance knowledge pluralism in marine carbon dioxide removal assessment," *Frontiers in Climate* 6 (2024): 1497476. https://doi.org/10.3389/fclim.2024.1497476
+[^6]: Boettcher, M., & Brent, K., ["The potential of the BBNJ clearing house mechanism to enhance knowledge pluralism in marine carbon dioxide removal assessment,"](https://doi.org/10.3389/fclim.2024.1497476) *Frontiers in Climate* 6 (2024): 1497476.
 
 [^7]: OA-Guidance, Section 3.5 (Environmental Assets).
 
-[^8]: United Nations, *System of Environmental-Economic Accounting—Ecosystem Accounting* (2021), Chapter 12. https://seea.un.org/ecosystem-accounting
+[^8]: United Nations, [*System of Environmental-Economic Accounting—Ecosystem Accounting*](https://seea.un.org/ecosystem-accounting) (2021), Chapter 12.
 
-[^9]: IDDRI, *The first substantive BBNJ Agreement Preparatory Committee: Preparing the ground for future implementation*, Policy Brief (April 2025), 8-10. https://www.iddri.org/en/publications-and-events/policy-brief/first-substantive-bbnj-agreement-preparatory-committee
+[^9]: IDDRI, [*The first substantive BBNJ Agreement Preparatory Committee: Preparing the ground for future implementation*](https://www.iddri.org/en/publications-and-events/policy-brief/first-substantive-bbnj-agreement-preparatory-committee), Policy Brief (April 2025), 8-10.
 
-[^10]: Gaebel, C., et al., "The BBNJ clearing-house mechanism: considerations for its diverse functions, users, and sources," *Frontiers in Ocean Sustainability* 3 (2025): 1584927. https://doi.org/10.3389/focsu.2025.1584927
+[^10]: Gaebel, C., et al., ["The BBNJ clearing-house mechanism: considerations for its diverse functions, users, and sources,"](https://doi.org/10.3389/focsu.2025.1584927) *Frontiers in Ocean Sustainability* 3 (2025): 1584927.
 
-[^11]: UN General Assembly Resolution 72/249, December 24, 2017. https://documents.un.org/doc/undoc/gen/n17/468/77/pdf/n1746877.pdf
+[^11]: [UN General Assembly Resolution 72/249](https://documents.un.org/doc/undoc/gen/n17/468/77/pdf/n1746877.pdf), December 24, 2017.
 
 [^12]: BBNJ Agreement, Articles 10-13 (Marine Genetic Resources).
 
-[^13]: Kim, R.E., "The Likely Impact of the BBNJ Agreement on the Architecture of Ocean Governance," *Marine Policy* 165 (2024): 106190. https://doi.org/10.1016/j.marpol.2024.106190
+[^13]: Kim, R.E., ["The Likely Impact of the BBNJ Agreement on the Architecture of Ocean Governance,"](https://doi.org/10.1016/j.marpol.2024.106190) *Marine Policy* 165 (2024): 106190.
 
 [^14]: BBNJ Agreement, Article 51.
 
-[^15]: PrepCom-1 Report, UN Doc. A/CONF.232/2025/1, paras. 45-52.
+[^15]: Report of the Preparatory Committee established under the BBNJ Agreement, First Session (2025), paras. 45-52.
 
 [^16]: OA-Guidance, Section 3.3 (Definition and Scope).
 
-[^17]: United Nations, *System of Environmental-Economic Accounting 2012: Central Framework* (2014). https://seea.un.org/content/seea-central-framework
+[^17]: United Nations, [*System of Environmental-Economic Accounting 2012: Central Framework*](https://seea.un.org/content/seea-central-framework) (2014).
 
-[^18]: Fenichel, E.P., et al., "Modifying national accounts for sustainable ocean development," *Nature Sustainability* 3 (2020): 889-895. https://doi.org/10.1038/s41893-020-0592-8
+[^18]: Fenichel, E.P., et al., ["Modifying national accounts for sustainable ocean development,"](https://doi.org/10.1038/s41893-020-0592-8) *Nature Sustainability* 3 (2020): 889-895.
 
-[^19]: Tessler, S., "Enforcement and Compliance under the BBNJ Agreement: The Role of the Clearing-House Mechanism," *Ocean Development & International Law* 55(3) (2024): 245-267. https://doi.org/10.1080/00908320.2024.2301234
+[^19]: OA-Guidance, Section 3.5 (Conceptual Components).
 
-[^20]: OA-Guidance, Section 3.5 (Conceptual Components).
+[^20]: Keith, D.A., et al., ["A function-based typology for Earth's ecosystems,"](https://doi.org/10.1038/s41586-022-05318-4) *Nature* 610 (2022): 513-518.
 
-[^21]: Keith, D.A., et al., "A function-based typology for Earth's ecosystems," *Nature* 610 (2022): 513-518. https://doi.org/10.1038/s41586-022-05318-4
+[^21]: Pacific Community, *Pacific Ocean Accounts Initiative: Regional Framework* (2024).
 
-[^22]: Pacific Community, *Pacific Ocean Accounts Initiative: Regional Framework* (2024).
+[^22]: Vierros, M.K., et al., ["Considering Indigenous Peoples and local communities in governance of the global ocean commons,"](https://doi.org/10.1016/j.marpol.2020.104039) *Marine Policy* 119 (2020): 104039.
 
-[^23]: Vierros, M.K., et al., "Considering Indigenous Peoples and local communities in governance of the global ocean commons," *Marine Policy* 119 (2020): 104039. https://doi.org/10.1016/j.marpol.2020.104039
+[^23]: SEEA-EA, Chapter 5 (Ecosystem Condition Accounts).
 
-[^24]: SEEA-EA, Chapter 5 (Ecosystem Condition Accounts).
+[^24]: Australian Bureau of Statistics, *Experimental Ocean Accounts* (2022).
 
-[^25]: Australian Bureau of Statistics, *Experimental Ocean Accounts* (2022).
+[^25]: Vardon, M., et al., ["How the System of Environmental-Economic Accounting can improve environmental information systems and data quality for decision making,"](https://doi.org/10.1016/j.envsci.2018.07.003) *Environmental Science & Policy* 89 (2018): 83-92.
 
-[^26]: Vardon, M., et al., "How the System of Environmental-Economic Accounting can improve environmental information systems and data quality for decision making," *Environmental Science & Policy* 89 (2018): 83-92. https://doi.org/10.1016/j.envsci.2018.07.003
+[^26]: IPBES, [*Global Assessment Report on Biodiversity and Ecosystem Services*](https://doi.org/10.5281/zenodo.3831673) (2019), Chapter 2.
 
-[^27]: IPBES, *Global Assessment Report on Biodiversity and Ecosystem Services* (2019), Chapter 2. https://doi.org/10.5281/zenodo.3831673
+[^27]: Bennett, N.J., et al., ["Blue growth and blue justice: Ten risks and solutions for the ocean economy,"](https://doi.org/10.1016/j.marpol.2020.104387) *Marine Policy* 125 (2021): 104387.
 
-[^28]: Bennett, N.J., et al., "Blue growth and blue justice: Ten risks and solutions for the ocean economy," *Marine Policy* 125 (2021): 104387. https://doi.org/10.1016/j.marpol.2020.104387
+[^28]: Cisneros-Montemayor, A.M., et al., ["Social equity and benefits as the nexus of a transformative Blue Economy: A sectoral review of implications,"](https://doi.org/10.1016/j.marpol.2019.103702) *Marine Policy* 109 (2019): 103702.
 
-[^29]: Cisneros-Montemayor, A.M., et al., "Social equity and benefits as the nexus of a transformative Blue Economy: A sectoral review of implications," *Marine Policy* 109 (2019): 103702. https://doi.org/10.1016/j.marpol.2019.103702
+[^29]: OECD, *Ocean Economy Database* (2024).
 
-[^30]: OECD, *Ocean Economy Database* (2024).
+[^30]: IOC-UNESCO, [*Global Ocean Science Report 2020: Charting Capacity for Ocean Sustainability*](https://unesdoc.unesco.org/ark:/48223/pf0000375147) (Paris: UNESCO, 2020).
 
-[^31]: IOC-UNESCO, *Global Ocean Science Report 2020: Charting Capacity for Ocean Sustainability* (Paris: UNESCO, 2020). https://unesdoc.unesco.org/ark:/48223/pf0000375147
+[^31]: Jolliffe, J., Jolly, C., & Stevens, B., ["Blueprint for improved measurement of the international ocean economy: An exploration of satellite accounting for ocean economic activity,"](https://doi.org/10.1787/aff5375b-en) OECD Science, Technology and Industry Working Papers, No. 2021/04 (Paris: OECD Publishing, 2021).
 
-[^32]: Jolliffe, J., Jolly, C., & Stevens, B., "Blueprint for improved measurement of the international ocean economy: An exploration of satellite accounting for ocean economic activity," OECD Science, Technology and Industry Working Papers, No. 2021/04 (Paris: OECD Publishing, 2021). https://doi.org/10.1787/aff5375b-en
+[^32]: Colgan, C.S., ["Measurement of the ocean economy from national income accounts to the sustainable blue economy,"](https://doi.org/10.15351/2373-8456.1061) *Journal of Ocean and Coastal Economics* 2(2) (2016): Article 12.
 
-[^33]: Colgan, C.S., "Measurement of the ocean economy from national income accounts to the sustainable blue economy," *Journal of Ocean and Coastal Economics* 2(2) (2016): Article 12. https://doi.org/10.15351/2373-8456.1061
+[^33]: FAO, [*The State of World Fisheries and Aquaculture 2024: Blue Transformation in Action*](https://doi.org/10.4060/cd0683en) (Rome: FAO, 2024).
 
-[^34]: FAO, *The State of World Fisheries and Aquaculture 2024: Blue Transformation in Action* (Rome: FAO, 2024). https://doi.org/10.4060/cd0683en
+[^34]: Berkes, F., *Sacred Ecology* (4th ed., Routledge, 2018).
 
-[^35]: Berkes, F., *Sacred Ecology* (4th ed., Routledge, 2018).
+[^35]: Hoegh-Guldberg, O., et al., [*The Ocean as a Solution to Climate Change: Five Opportunities for Action*](https://oceanpanel.org/sites/default/files/2019-10/HLP_Report_Ocean_Solution_Climate_Change_final.pdf), Report (Washington, DC: World Resources Institute, 2019).
 
-[^36]: Hoegh-Guldberg, O., et al., *The Ocean as a Solution to Climate Change: Five Opportunities for Action*, Report (Washington, DC: World Resources Institute, 2019). https://oceanpanel.org/sites/default/files/2019-10/HLP_Report_Ocean_Solution_Climate_Change_final.pdf
+[^36]: Laffoley, D., & Baxter, J., *Ocean Connections: Rising Risks from a Warming Ocean* (2018).
 
-[^37]: Laffoley, D., & Baxter, J., *Ocean Connections: Rising Risks from a Warming Ocean* (2018).
+[^37]: GESAMP, [*Sources, Fate and Effects of Microplastics in the Marine Environment: Part 2 of a Global Assessment*](http://www.gesamp.org/publications/microplastics-in-the-marine-environment-part-2), IMO/FAO/UNESCO-IOC/UNIDO/WMO/IAEA/UN/UNEP/UNDP/ISA Joint Group of Experts on the Scientific Aspects of Marine Environmental Protection, Reports and Studies No. 93 (2020).
 
-[^38]: GESAMP, *Sources, Fate and Effects of Microplastics in the Marine Environment: Part 2 of a Global Assessment*, IMO/FAO/UNESCO-IOC/UNIDO/WMO/IAEA/UN/UNEP/UNDP/ISA Joint Group of Experts on the Scientific Aspects of Marine Environmental Protection, Reports and Studies No. 93 (2020). http://www.gesamp.org/publications/microplastics-in-the-marine-environment-part-2
+[^38]: UNEP, [*From Pollution to Solution: A Global Assessment of Marine Litter and Plastic Pollution*](https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution) (Nairobi: UNEP, 2021).
 
-[^39]: UNEP, *From Pollution to Solution: A Global Assessment of Marine Litter and Plastic Pollution* (Nairobi: UNEP, 2021). https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution
+[^39]: Sumaila, U.R., et al., ["Updated estimates and analysis of global fisheries subsidies,"](https://doi.org/10.1016/j.marpol.2019.103695) *Marine Policy* 109 (2019): 103695.
 
-[^40]: Sumaila, U.R., et al., "Updated estimates and analysis of global fisheries subsidies," *Marine Policy* 109 (2019): 103695. https://doi.org/10.1016/j.marpol.2019.103695
+[^40]: World Bank, [*The Sunken Billions Revisited: Progress and Challenges in Global Marine Fisheries*](https://doi.org/10.1596/978-1-4648-0919-4) (Washington, DC: World Bank, 2017).
 
-[^41]: World Bank, *The Sunken Billions Revisited: Progress and Challenges in Global Marine Fisheries* (Washington, DC: World Bank, 2017). https://doi.org/10.1596/978-1-4648-0919-4
+[^41]: Österblom, H., et al., ["Transnational corporations as 'keystone actors' in marine ecosystems,"](https://doi.org/10.1371/journal.pone.0127533) *PLOS ONE* 10(5) (2015): e0127533.
 
-[^42]: Österblom, H., et al., "Transnational corporations as 'keystone actors' in marine ecosystems," *PLOS ONE* 10(5) (2015): e0127533. https://doi.org/10.1371/journal.pone.0127533
+[^42]: Alexander, K.A., et al., ["Progress in integrating natural and social science in marine ecosystem-based management research,"](https://doi.org/10.1016/j.marpol.2019.103642) *Marine Policy* 108 (2019): 103642.
 
-[^43]: Alexander, K.A., et al., "Progress in integrating natural and social science in marine ecosystem-based management research," *Marine Policy* 108 (2019): 103642. https://doi.org/10.1016/j.marpol.2019.103642
+[^43]: Barbier, E.B., ["Marine ecosystem services,"](https://doi.org/10.1016/j.cub.2017.03.020) *Current Biology* 27(11) (2017): R507-R510.
 
-[^44]: Barbier, E.B., "Marine ecosystem services," *Current Biology* 27(11) (2017): R507-R510. https://doi.org/10.1016/j.cub.2017.03.020
+[^44]: De Groot, R., et al., ["Global estimates of the value of ecosystems and their services in monetary units,"](https://doi.org/10.1016/j.ecoser.2012.07.005) *Ecosystem Services* 1(1) (2012): 50-61.
 
-[^45]: De Groot, R., et al., "Global estimates of the value of ecosystems and their services in monetary units," *Ecosystem Services* 1(1) (2012): 50-61. https://doi.org/10.1016/j.ecoser.2012.07.005
+[^45]: Liquete, C., et al., ["Current status and future prospects for the assessment of marine and coastal ecosystem services: A systematic review,"](https://doi.org/10.1016/j.scitotenv.2013.05.042) *Science of the Total Environment* 463-464 (2013): 1-14.
 
-[^46]: Liquete, C., et al., "Current status and future prospects for the assessment of marine and coastal ecosystem services: A systematic review," *Science of the Total Environment* 463-464 (2013): 1-14. https://doi.org/10.1016/j.scitotenv.2013.05.042
+[^46]: Townsend, M., et al., ["The challenge of implementing the marine ecosystem service concept,"](https://doi.org/10.3389/fmars.2018.00359) *Frontiers in Marine Science* 5 (2018): 359.
 
-[^47]: Townsend, M., et al., "The challenge of implementing the marine ecosystem service concept," *Frontiers in Marine Science* 5 (2018): 359. https://doi.org/10.3389/fmars.2018.00359
+[^47]: Ruijs, A., Vardon, M., Bass, S., & Ahlroth, S., ["Natural capital accounting for better policy,"](https://doi.org/10.1007/s13280-018-1107-y) *Ambio* 48 (2019): 714-725.
 
-[^48]: Ruijs, A., Vardon, M., Bass, S., & Ahlroth, S., "Natural capital accounting for better policy," *Ambio* 48 (2019): 714-725. https://doi.org/10.1007/s13280-018-1107-y
+[^48]: Working Documents of the Preparatory Committee established under the BBNJ Agreement, Second Session (2025).
 
-[^49]: PrepCom-2 Working Document, UN Doc. A/CONF.232/2025/WP.1.
+[^49]: High Seas Alliance, *PrepCom Deep Dive Series* (2025), 12-15.
 
-[^50]: High Seas Alliance, *PrepCom Deep Dive Series* (2025), 12-15.
+[^50]: ISO 19115-3:2016, *Geographic information — Metadata*.
 
-[^51]: ISO 19115-3:2016, *Geographic information — Metadata*.
+[^51]: Stuchtey, M., et al., *Ocean Solutions That Benefit People, Nature and the Economy*, Report (Washington, DC: World Resources Institute, 2020). https://oceanpanel.org/sites/default/files/2020-10/Ocean%20Solutions%20Report%20FINAL.pdf
 
-[^52]: Stuchtey, M., et al., *Ocean Solutions That Benefit People, Nature and the Economy*, Report (Washington, DC: World Resources Institute, 2020). https://oceanpanel.org/sites/default/files/2020-10/Ocean%20Solutions%20Report%20FINAL.pdf
+[^52]: Australian Bureau of Statistics, *Ocean Accounts Implementation Guide* (2023).
 
-[^53]: Australian Bureau of Statistics, *Ocean Accounts Implementation Guide* (2023).
+[^53]: Gacutan, J., et al., "Marine spatial planning and ocean accounting: Synergistic tools enhancing integration in ocean governance," *Marine Policy* 136 (2022): 104936. https://doi.org/10.1016/j.marpol.2021.104936
 
-[^54]: Gacutan, J., et al., "Marine spatial planning and ocean accounting: Synergistic tools enhancing integration in ocean governance," *Marine Policy* 136 (2022): 104936. https://doi.org/10.1016/j.marpol.2021.104936
+[^54]: UNDP, *South-South Cooperation for Ocean Governance* (2024).
 
-[^55]: UNDP, *South-South Cooperation for Ocean Governance* (2024).
+[^55]: Chen, W., Van Assche, K., Hynes, S., Bekkby, T., Christie, H.C., & Gundersen, H., "Ecosystem accounting's potential to support coastal and marine governance," *Marine Policy* 112 (2020): 103758. https://doi.org/10.1016/j.marpol.2019.103758
 
-[^56]: Chen, W., Van Assche, K., Hynes, S., Bekkby, T., Christie, H.C., & Gundersen, H., "Ecosystem accounting's potential to support coastal and marine governance," *Marine Policy* 112 (2020): 103758. https://doi.org/10.1016/j.marpol.2019.103758
+[^56]: Virdin, J., et al., *The Ocean 100: Transnational Corporations in the Ocean Economy*, Science Advances 7(16) (2021): eabc8041. https://doi.org/10.1126/sciadv.abc8041
 
-[^57]: Virdin, J., et al., *The Ocean 100: Transnational Corporations in the Ocean Economy*, Science Advances 7(16) (2021): eabc8041. https://doi.org/10.1126/sciadv.abc8041
+[^57]: Nash, K.L., et al., "To achieve a sustainable blue future, progress assessments must include interdependencies between the sustainable development goals," *One Earth* 2(2) (2020): 161-173. https://doi.org/10.1016/j.oneear.2020.01.008
 
-[^58]: Nash, K.L., et al., "To achieve a sustainable blue future, progress assessments must include interdependencies between the sustainable development goals," *One Earth* 2(2) (2020): 161-173. https://doi.org/10.1016/j.oneear.2020.01.008
+[^58]: Australian Department of Environment, *National Ocean Accounts Progress Report* (2024).
 
-[^59]: Australian Department of Environment, *National Ocean Accounts Progress Report* (2024).
+[^59]: Pacific Community, *Regional Ocean Accounts Framework* (2024).
 
-[^60]: Pacific Community, *Regional Ocean Accounts Framework* (2024).
+[^60]: European Commission, *EU Ocean Observation Initiative* (2023).
 
-[^61]: European Commission, *EU Ocean Observation Initiative* (2023).
+[^61]: Pendleton, L., et al., "Disrupting data sharing for a healthier ocean," *ICES Journal of Marine Science* 76(6) (2019): 1415-1423. https://doi.org/10.1093/icesjms/fsz068
 
-[^62]: Pendleton, L., et al., "Disrupting data sharing for a healthier ocean," *ICES Journal of Marine Science* 76(6) (2019): 1415-1423. https://doi.org/10.1093/icesjms/fsz068
+[^62]: Halpern, B.S., et al., "Recent pace of change in human impact on the world's ocean," *Scientific Reports* 9 (2019): 11609. https://doi.org/10.1038/s41598-019-47201-9
 
-[^63]: Halpern, B.S., et al., "Recent pace of change in human impact on the world's ocean," *Scientific Reports* 9 (2019): 11609. https://doi.org/10.1038/s41598-019-47201-9
+[^63]: CBD Secretariat, *Technical Series No. 101: Guidelines for Marine Spatial Data Management* (Montreal: CBD, 2023). https://www.cbd.int/doc/publications/cbd-ts-101-en.pdf
 
-[^64]: CBD Secretariat, *Technical Series No. 101: Guidelines for Marine Spatial Data Management* (Montreal: CBD, 2023). https://www.cbd.int/doc/publications/cbd-ts-101-en.pdf
+[^64]: UNSD, *Institutional Arrangements for Environmental-Economic Accounting: A Global Assessment* (New York: UN, 2022). https://seea.un.org/content/global-assessment-environmental-economic-accounting
 
-[^65]: UNSD, *Institutional Arrangements for Environmental-Economic Accounting: A Global Assessment* (New York: UN, 2022). https://seea.un.org/content/global-assessment-environmental-economic-accounting
+[^65]: Winther, J.G., et al., *Integrated Ocean Management*, Blue Paper (Washington, DC: World Resources Institute, 2020). https://oceanpanel.org/sites/default/files/2020-10/Integrated%20Ocean%20Management.pdf
 
-[^66]: Winther, J.G., et al., *Integrated Ocean Management*, Blue Paper (Washington, DC: World Resources Institute, 2020). https://oceanpanel.org/sites/default/files/2020-10/Integrated%20Ocean%20Management.pdf
+[^66]: Claudet, J., et al., "A Roadmap for Using the UN Decade of Ocean Science for Sustainable Development in Support of Science Policy Action," *One Earth* 2(1) (2020): 34-42. https://doi.org/10.1016/j.oneear.2019.12.002
 
-[^67]: Claudet, J., et al., "A Roadmap for Using the UN Decade of Ocean Science for Sustainable Development in Support of Science Policy Action," *One Earth* 2(1) (2020): 34-42. https://doi.org/10.1016/j.oneear.2019.12.002
+[^67]: Singh, G.G., et al., "Will understanding the ocean lead to 'the ocean we want'? A critical analysis of the UN Decade of Ocean Science for Sustainable Development," *Frontiers in Marine Science* 6 (2019): 924. https://doi.org/10.3389/fmars.2019.00924
 
-[^68]: Singh, G.G., et al., "Will understanding the ocean lead to 'the ocean we want'? A critical analysis of the UN Decade of Ocean Science for Sustainable Development," *Frontiers in Marine Science* 6 (2019): 924. https://doi.org/10.3389/fmars.2019.00924
+[^68]: Pascual, U., et al., "Valuing nature's contributions to people: the IPBES approach," *Current Opinion in Environmental Sustainability* 26-27 (2017): 7-16. https://doi.org/10.1016/j.cosust.2016.12.006
 
-[^69]: Pascual, U., et al., "Valuing nature's contributions to people: the IPBES approach," *Current Opinion in Environmental Sustainability* 26-27 (2017): 7-16. https://doi.org/10.1016/j.cosust.2016.12.006
+[^69]: Bennett, N.J., "Navigating a just and inclusive path towards sustainable oceans," *Marine Policy* 97 (2018): 139-146. https://doi.org/10.1016/j.marpol.2018.06.012
 
-[^70]: Bennett, N.J., "Navigating a just and inclusive path towards sustainable oceans," *Marine Policy* 97 (2018): 139-146. https://doi.org/10.1016/j.marpol.2018.06.012
+[^70]: Refer to footnote 10 above (Gaebel et al. 2025).
 
-[^71]: Refer to footnote 10 above (Gaebel et al. 2025).
+[^71]: Humphries, F., Rabone, M., & Jaspars, M., "The Novel Notification and Information System for Marine Genetic Resources under the BBNJ Agreement," in *Ocean Governance and the Implementation of SDG 14* (Springer, 2024), 189-215. https://doi.org/10.1007/978-3-031-20740-2_9
 
-[^72]: Humphries, F., Rabone, M., & Jaspars, M., "The Novel Notification and Information System for Marine Genetic Resources under the BBNJ Agreement," in *Ocean Governance and the Implementation of SDG 14* (Springer, 2024), 189-215. https://doi.org/10.1007/978-3-031-20740-2_9
+[^72]: Refer to footnote 22 above (Vierros et al. 2020).
 
-[^73]: Refer to footnote 23 above (Vierros et al. 2020).
+[^73]: Refer to footnote 3 above (OA-Guidance).
 
-[^74]: Refer to footnote 3 above (OA-Guidance).
+<style>
+/* Match table width to Sankey diagram */
+.observablehq table {
+  max-width: 928px !important;  /* Same as Sankey width */
+  width: 100%;
+  margin: 1rem auto;  /* Center align like Sankey */
+}
+
+/* Style table containers to match Sankey width */
+.table-container {
+  max-width: 928px;
+  margin: 1rem auto;
+  overflow-x: auto;  /* Allow scrolling on very small screens */
+}
+
+/* Ensure tables don't get constrained by default max-width */
+.observablehq table,
+.observablehq .table-container table {
+  max-width: 928px !important;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 960px) {
+  .observablehq table,
+  .table-container {
+    max-width: 100%;
+  }
+  
+  .table-container {
+    overflow-x: auto;  /* Enable horizontal scroll on mobile */
+    -webkit-overflow-scrolling: touch;  /* Smooth scrolling on iOS */
+  }
+}
+
+/* Ensure SVG diagrams also maintain consistent width */
+.observablehq svg {
+  max-width: 928px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+</style>

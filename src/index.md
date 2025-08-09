@@ -1,111 +1,101 @@
 ---
-toc: true
+toc: false
+---
+# Ocean Accounts as Infrastructure for the BBNJ Clearing-House Mechanism
+
+**Integrating Environmental, Economic, and Social Data for Evidence-Based Ocean Governance**
+
+![Deep Sea Fan](data/Deep-Sea-Fan.png)
+
+Ben Milligan | Centre for Sustainable Development Reform | University of New South Wales | Technical Paper • ${new Date().getFullYear()} | Working Draft Not for Citation
+
+
+## Summary
+
+The 2023 Agreement on Biodiversity Beyond National Jurisdiction (BBNJ) establishes a Clearing-House Mechanism (CHM) as its digital backbone for transparency, compliance, and benefit-sharing across all treaty functions. Yet the Agreement provides limited technical specifications for CHM implementation, creating risks of fragmented development and missed opportunities for systematic ocean governance.
+
+Ocean Accounts—a structured framework for integrating environmental, economic, and social ocean data aligned with international statistical standards—offers a proven architecture that can operationalize CHM requirements while enabling evidence-based decision-making for sustainable ocean development.
+
+This research demonstrates that Ocean Accounts provides essential infrastructure for CHM success through five key synergies: standardized spatial data architecture enabling consistent geographic reporting; flow accounting systems that can track marine genetic resource utilization chains; baseline condition accounts supporting robust environmental impact assessments; asset monitoring frameworks measuring conservation effectiveness; and standardized indicators facilitating capacity-building and technology transfer.
+
+[Download Full Research Paper (PDF)](BBNJ-CHM.pdf)
+
+## Key Findings
+
+<div class="grid grid-cols-2">
+  <div class="card">
+    <h3>Spatial Architecture</h3>
+    <p>Ocean Accounts' Basic Spatial Unit framework provides three-dimensional geographic reference system essential for consistent BBNJ reporting across all treaty pillars.</p>
+  </div>
+  <div class="card">
+    <h3>Resource Tracking</h3>
+    <p>Flow accounting systems enable comprehensive tracking of marine genetic resource utilization chains from extraction through commercialization for equitable benefit-sharing.</p>
+  </div>
+  <div class="card">
+    <h3>Impact Assessment</h3>
+    <p>Environmental asset accounts establish robust baselines supporting comprehensive environmental impact assessments and area-based management effectiveness monitoring.</p>
+  </div>
+  <div class="card">
+    <h3>Capacity Building</h3>
+    <p>Standardized indicators and modular implementation enable all countries to participate regardless of technical capacity while building toward comprehensive systems.</p>
+  </div>
+</div>
+
+## Implementation Pathway
+
+The integration follows a phased approach leveraging proven experience from the Global Ocean Accounts Partnership's work with 30+ countries:
+
+1. **Foundation Phase** (Pre-COP1): Establish technical working groups and pilot projects
+2. **Early Implementation** (COP1-COP3): Deploy core CHM architecture with pilot country integration  
+3. **Expansion Phase** (COP3-COP5): Scale to global coverage with automated data flows
+4. **Full Operation** (Post-COP5): Achieve universal participation with predictive analytics
+
+This approach builds on existing environmental-economic accounting systems rather than creating parallel structures, reducing costs while accelerating implementation through regional cooperation and traditional knowledge integration.
+
 ---
 
-<div class="hero">
-  <h1>Technical Report</h1>
-  <h2>Welcome to your new app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
-  <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
-</div>
-
-<div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "Your awesomeness over time 🚀",
-      subtitle: "Up and to the right!",
-      width,
-      y: {grid: true, label: "Awesomeness"},
-      marks: [
-        Plot.ruleY([0]),
-        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
-      ]
-    }))
-  }</div>
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "How big are penguins, anyway? 🐧",
-      width,
-      grid: true,
-      x: {label: "Body mass (g)"},
-      y: {label: "Flipper length (mm)"},
-      color: {legend: true},
-      marks: [
-        Plot.linearRegressionY(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species"}),
-        Plot.dot(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species", tip: true})
-      ]
-    }))
-  }</div>
-</div>
-
----
-
-## Next steps
-
-Here are some ideas of things you could try…
-
-<div class="grid grid-cols-4">
-  <div class="card">
-    Chart your own data using <a href="https://observablehq.com/framework/lib/plot"><code>Plot</code></a> and <a href="https://observablehq.com/framework/files"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript#resize(render)"><code>resize</code></a>.
-  </div>
-  <div class="card">
-    Create a <a href="https://observablehq.com/framework/project-structure">new page</a> by adding a Markdown file (<code>whatever.md</code>) to the <code>src</code> folder.
-  </div>
-  <div class="card">
-    Add a drop-down menu using <a href="https://observablehq.com/framework/inputs/select"><code>Inputs.select</code></a> and use it to filter the data shown in a chart.
-  </div>
-  <div class="card">
-    Write a <a href="https://observablehq.com/framework/loaders">data loader</a> that queries a local database or API, generating a data snapshot on build.
-  </div>
-  <div class="card">
-    Import a <a href="https://observablehq.com/framework/imports">recommended library</a> from npm, such as <a href="https://observablehq.com/framework/lib/leaflet">Leaflet</a>, <a href="https://observablehq.com/framework/lib/dot">GraphViz</a>, <a href="https://observablehq.com/framework/lib/tex">TeX</a>, or <a href="https://observablehq.com/framework/lib/duckdb">DuckDB</a>.
-  </div>
-  <div class="card">
-    Ask for help, or share your work or ideas, on our <a href="https://github.com/observablehq/framework/discussions">GitHub discussions</a>.
-  </div>
-  <div class="card">
-    Visit <a href="https://github.com/observablehq/framework">Framework on GitHub</a> and give us a star. Or file an issue if you’ve found a bug!
-  </div>
-</div>
+**Access the Full Research Paper:** Navigate to the [Research Paper](/BBNJ-CHM) section for the complete analysis, technical specifications, and detailed recommendations.
 
 <style>
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: var(--sans-serif);
-  margin: 4rem 0 8rem;
-  text-wrap: balance;
-  text-align: center;
+.card {
+  background: var(--theme-background-alt);
+  border: 1px solid var(--theme-foreground-faint);
+  padding: 1rem;
+  border-radius: 4px;
 }
 
-.hero h1 {
-  margin: 1rem 0;
-  padding: 1rem 0;
-  max-width: none;
-  font-size: 14vw;
-  font-weight: 900;
-  line-height: 1;
-  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--theme-foreground-focus);
 }
 
-.hero h2 {
+.card p {
   margin: 0;
-  max-width: 34em;
-  font-size: 20px;
-  font-style: initial;
-  font-weight: 500;
+  font-size: 0.95rem;
   line-height: 1.5;
-  color: var(--theme-foreground-muted);
 }
 
-@media (min-width: 640px) {
-  .hero h1 {
-    font-size: 90px;
+a[href$=".pdf"] {
+  display: inline-block;
+  background: var(--theme-foreground-focus);
+  color: var(--theme-background) !important;
+  padding: 0.5rem 1rem;
+  text-decoration: none !important;
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+a[href$=".pdf"]:hover {
+  background: var(--theme-foreground);
+  text-decoration: none !important;
+}
+
+@media (max-width: 640px) {
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
   }
 }
-
 </style>

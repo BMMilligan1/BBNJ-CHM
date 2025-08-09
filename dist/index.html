@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="generator" content="Observable Framework v1.13.3">
-<title>Technical Report</title>
+<title>Ocean Accounts as Infrastructure for the BBNJ Clearing-House Mechanism | Ocean Accounts for BBNJ Implementation</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
 <link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.dcdbf18e.css">
@@ -13,80 +13,14 @@
 <link rel="modulepreload" href="./_observablehq/client.d5e61d4a.js">
 <link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.24b62b2e.js">
-<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/d761ef9b.js">
-<link rel="modulepreload" href="./_npm/d3@7.9.0/e780feca.js">
-<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
-<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
-<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
-<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
-<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
-<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
-<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
-<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
-<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/5ced1d52.js">
-<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
-<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
-<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
-<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
-<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
-<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
-<link rel="modulepreload" href="./_npm/d3-format@3.1.0/86074ef6.js">
-<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
-<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
-<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
-<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
-<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
-<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
-<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
-<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/843b6a76.js">
-<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
-<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
-<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
-<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
-<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
-<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
-<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
-<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
-<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
-<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
-<link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
-<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
 <link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
 <script type="module">
 
 import {define} from "./_observablehq/client.d5e61d4a.js";
 
-define({id: "7935742a", mode: "inline", inputs: ["resize","Plot","aapl","display"], body: async (resize,Plot,aapl,display) => {
+define({id: "96d32142", mode: "inline", inputs: ["display"], body: async (display) => {
 display(await(
-    resize((width) => Plot.plot({
-      title: "Your awesomeness over time 🚀",
-      subtitle: "Up and to the right!",
-      width,
-      y: {grid: true, label: "Awesomeness"},
-      marks: [
-        Plot.ruleY([0]),
-        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
-      ]
-    }))
-  
-))
-}});
-
-define({id: "699041c1", mode: "inline", inputs: ["resize","Plot","penguins","display"], body: async (resize,Plot,penguins,display) => {
-display(await(
-    resize((width) => Plot.plot({
-      title: "How big are penguins, anyway? 🐧",
-      width,
-      grid: true,
-      x: {label: "Body mass (g)"},
-      y: {label: "Flipper length (mm)"},
-      color: {legend: true},
-      marks: [
-        Plot.linearRegressionY(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species"}),
-        Plot.dot(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species", tip: true})
-      ]
-    }))
-  
+new Date().getFullYear()
 ))
 }});
 
@@ -98,128 +32,100 @@ display(await(
 <nav id="observablehq-sidebar">
   <ol>
     <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
-    <li class="observablehq-link observablehq-link-active"><a href="./">Technical Report</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./">Ocean Accounts for BBNJ Implementation</a></li>
   </ol>
   <ol>
-    <li class="observablehq-link"><a href="./BBNJ-CHM-backup">Ocean Accounts as Infrastructure for the BBNJ Clearing-House Mechanism: A Technical Brief on Data Architecture for Sustainable Ocean Governance</a></li>
-    <li class="observablehq-link"><a href="./BBNJ-CHM">Ocean Accounts as Infrastructure for the BBNJ Clearing-House Mechanism: A Technical Brief on Data Architecture for Sustainable Ocean Governance</a></li>
-    <li class="observablehq-link"><a href="./example-dashboard">Example dashboard</a></li>
-    <li class="observablehq-link"><a href="./example-report%20copy">Example report 2</a></li>
-    <li class="observablehq-link"><a href="./example-report">Example report 2</a></li>
-    <li class="observablehq-link"><a href="./footnote-test">Footnote Test</a></li>
-    <li class="observablehq-link"><a href="./data/BBNJ-CHM-narrative">Design Features of the 2023 BBNJ (High Seas) Treaty</a></li>
-    <li class="observablehq-link"><a href="./data/BBNJ-references">BBNJ References</a></li>
-    <li class="observablehq-link"><a href="./data/CHM-references">Untitled</a></li>
-    <li class="observablehq-link"><a href="./data/OA-Guidance">General Introduction to Ocean Accounts</a></li>
-    <li class="observablehq-link"><a href="./data/brief-structure">Technical Brief Structure: Ocean Accounts Relevance to BBNJ-CHM Implementation</a></li>
-    <li class="observablehq-link"><a href="./data/download-instructions">Research Source Download System</a></li>
-    <li class="observablehq-link"><a href="./data/sources/CLEAN-STATUS">🎯 Clean Download Status Report</a></li>
-    <li class="observablehq-link"><a href="./data/sources/DOWNLOAD-REPORT">Comprehensive Download Report</a></li>
-    <li class="observablehq-link"><a href="./data/sources/FINAL-REPORT">📊 FINAL DOWNLOAD REPORT</a></li>
-    <li class="observablehq-link"><a href="./data/sources/INDEX">Downloaded Research Sources Index</a></li>
-    <li class="observablehq-link"><a href="./data/sources/quality-report">File Quality Assessment Report</a></li>
-    <li class="observablehq-link"><a href="./data/sources/urls-report">Extracted URLs Report</a></li>
-    <li class="observablehq-link"><a href="./data/sources/article/ECO_Law_Blog">How does the new BBNJ Agreement regulate access to and benefit-sharing of marine genetic resources at deep-sea hydrothermal vents? – ECO LAW Blog</a></li>
-    <li class="observablehq-link"><a href="./data/sources/article/IDDRI_Policy_Brief_April_2025">The first substantive BBNJ Agreement Preparatory Committee: Preparing the ground for future implementation | IDDRI</a></li>
-    <li class="observablehq-link"><a href="./data/sources/article/Inside_EU_Life_Sciences">Historic Marine Biodiversity Treaty creates new Access and Benefit-Sharing obligations for life sciences companies | Inside EU Life Sciences</a></li>
-    <li class="observablehq-link"><a href="./data/sources/article/NCLOS_Blog">CITES and the BBNJ Treaty: Some Reflections – The NCLOS Blog</a></li>
-    <li class="observablehq-link"><a href="./data/sources/article/Opinio_Juris">Governance of MGRs in ABNJ and Interests of Developing States: A Move Away from Scientific Colonialism? - Opinio Juris</a></li>
-    <li class="observablehq-link"><a href="./data/sources/article/file_82">Document</a></li>
-    <li class="observablehq-link"><a href="./data/sources/article/first-substantive-bbnj-agreement-preparatory-committee">The first substantive BBNJ Agreement Preparatory Committee: Preparing the ground for future implementation | IDDRI</a></li>
-    <li class="observablehq-link"><a href="./data/sources/doi/j.marpol.2023">Redirecting</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./">Overview</a></li>
+    <li class="observablehq-link"><a href="./BBNJ-CHM">Research Paper</a></li>
   </ol>
 </nav>
 <script>{const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
 <div id="observablehq-center">
-<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
-<nav>
-<div>Contents</div>
-<ol>
-<li class="observablehq-secondary-link"><a href="#next-steps">Next steps</a></li>
-</ol>
-</nav>
-</aside>
 <main id="observablehq-main" class="observablehq">
-<div class="hero">
-  <h1>Technical Report</h1>
-  <h2>Welcome to your new app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
-  <a href="https://observablehq.com/framework/getting-started" target="_blank" rel="noopener noreferrer">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
+<h1 id="ocean-accounts-as-infrastructure-for-the-bbnj-clearing-house-mechanism" tabindex="-1"><a class="observablehq-header-anchor" href="#ocean-accounts-as-infrastructure-for-the-bbnj-clearing-house-mechanism">Ocean Accounts as Infrastructure for the BBNJ Clearing-House Mechanism</a></h1>
+<p><strong>Integrating Environmental, Economic, and Social Data for Evidence-Based Ocean Governance</strong></p>
+<p><img src="./_file/data/Deep-Sea-Fan.008cd512.png" alt="Deep Sea Fan"></p>
+<p>Ben Milligan | Centre for Sustainable Development Reform | University of New South Wales | Technical Paper • <observablehq-loading></observablehq-loading><!--:96d32142:--> | Working Draft Not for Citation</p>
+<h2 id="summary" tabindex="-1"><a class="observablehq-header-anchor" href="#summary">Summary</a></h2>
+<p>The 2023 Agreement on Biodiversity Beyond National Jurisdiction (BBNJ) establishes a Clearing-House Mechanism (CHM) as its digital backbone for transparency, compliance, and benefit-sharing across all treaty functions. Yet the Agreement provides limited technical specifications for CHM implementation, creating risks of fragmented development and missed opportunities for systematic ocean governance.</p>
+<p>Ocean Accounts—a structured framework for integrating environmental, economic, and social ocean data aligned with international statistical standards—offers a proven architecture that can operationalize CHM requirements while enabling evidence-based decision-making for sustainable ocean development.</p>
+<p>This research demonstrates that Ocean Accounts provides essential infrastructure for CHM success through five key synergies: standardized spatial data architecture enabling consistent geographic reporting; flow accounting systems that can track marine genetic resource utilization chains; baseline condition accounts supporting robust environmental impact assessments; asset monitoring frameworks measuring conservation effectiveness; and standardized indicators facilitating capacity-building and technology transfer.</p>
+<p><a href="./BBNJ-CHM.pdf">Download Full Research Paper (PDF)</a></p>
+<h2 id="key-findings" tabindex="-1"><a class="observablehq-header-anchor" href="#key-findings">Key Findings</a></h2>
+<div class="grid grid-cols-2">
+  <div class="card">
+    <h3>Spatial Architecture</h3>
+    <p>Ocean Accounts' Basic Spatial Unit framework provides three-dimensional geographic reference system essential for consistent BBNJ reporting across all treaty pillars.</p>
+  </div>
+  <div class="card">
+    <h3>Resource Tracking</h3>
+    <p>Flow accounting systems enable comprehensive tracking of marine genetic resource utilization chains from extraction through commercialization for equitable benefit-sharing.</p>
+  </div>
+  <div class="card">
+    <h3>Impact Assessment</h3>
+    <p>Environmental asset accounts establish robust baselines supporting comprehensive environmental impact assessments and area-based management effectiveness monitoring.</p>
+  </div>
+  <div class="card">
+    <h3>Capacity Building</h3>
+    <p>Standardized indicators and modular implementation enable all countries to participate regardless of technical capacity while building toward comprehensive systems.</p>
+  </div>
 </div>
-<div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
-  <div class="card"><observablehq-loading></observablehq-loading><!--:7935742a:--></div>
-  <div class="card"><observablehq-loading></observablehq-loading><!--:699041c1:--></div>
-</div>
+<h2 id="implementation-pathway" tabindex="-1"><a class="observablehq-header-anchor" href="#implementation-pathway">Implementation Pathway</a></h2>
+<p>The integration follows a phased approach leveraging proven experience from the Global Ocean Accounts Partnership's work with 30+ countries:</p>
+<ol>
+<li><strong>Foundation Phase</strong> (Pre-COP1): Establish technical working groups and pilot projects</li>
+<li><strong>Early Implementation</strong> (COP1-COP3): Deploy core CHM architecture with pilot country integration</li>
+<li><strong>Expansion Phase</strong> (COP3-COP5): Scale to global coverage with automated data flows</li>
+<li><strong>Full Operation</strong> (Post-COP5): Achieve universal participation with predictive analytics</li>
+</ol>
+<p>This approach builds on existing environmental-economic accounting systems rather than creating parallel structures, reducing costs while accelerating implementation through regional cooperation and traditional knowledge integration.</p>
 <hr>
-<h2 id="next-steps" tabindex="-1"><a class="observablehq-header-anchor" href="#next-steps">Next steps</a></h2>
-<p>Here are some ideas of things you could try…</p>
-<div class="grid grid-cols-4">
-  <div class="card">
-    Chart your own data using <a href="https://observablehq.com/framework/lib/plot" target="_blank" rel="noopener noreferrer"><code>Plot</code></a> and <a href="https://observablehq.com/framework/files" target="_blank" rel="noopener noreferrer"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript#resize(render)" target="_blank" rel="noopener noreferrer"><code>resize</code></a>.
-  </div>
-  <div class="card">
-    Create a <a href="https://observablehq.com/framework/project-structure" target="_blank" rel="noopener noreferrer">new page</a> by adding a Markdown file (<code>whatever.md</code>) to the <code>src</code> folder.
-  </div>
-  <div class="card">
-    Add a drop-down menu using <a href="https://observablehq.com/framework/inputs/select" target="_blank" rel="noopener noreferrer"><code>Inputs.select</code></a> and use it to filter the data shown in a chart.
-  </div>
-  <div class="card">
-    Write a <a href="https://observablehq.com/framework/loaders" target="_blank" rel="noopener noreferrer">data loader</a> that queries a local database or API, generating a data snapshot on build.
-  </div>
-  <div class="card">
-    Import a <a href="https://observablehq.com/framework/imports" target="_blank" rel="noopener noreferrer">recommended library</a> from npm, such as <a href="https://observablehq.com/framework/lib/leaflet" target="_blank" rel="noopener noreferrer">Leaflet</a>, <a href="https://observablehq.com/framework/lib/dot" target="_blank" rel="noopener noreferrer">GraphViz</a>, <a href="https://observablehq.com/framework/lib/tex" target="_blank" rel="noopener noreferrer">TeX</a>, or <a href="https://observablehq.com/framework/lib/duckdb" target="_blank" rel="noopener noreferrer">DuckDB</a>.
-  </div>
-  <div class="card">
-    Ask for help, or share your work or ideas, on our <a href="https://github.com/observablehq/framework/discussions" target="_blank" rel="noopener noreferrer">GitHub discussions</a>.
-  </div>
-  <div class="card">
-    Visit <a href="https://github.com/observablehq/framework" target="_blank" rel="noopener noreferrer">Framework on GitHub</a> and give us a star. Or file an issue if you’ve found a bug!
-  </div>
-</div>
+<p><strong>Access the Full Research Paper:</strong> Navigate to the <a href="./BBNJ-CHM">Research Paper</a> section for the complete analysis, technical specifications, and detailed recommendations.</p>
 <style>
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: var(--sans-serif);
-  margin: 4rem 0 8rem;
-  text-wrap: balance;
-  text-align: center;
+.card {
+  background: var(--theme-background-alt);
+  border: 1px solid var(--theme-foreground-faint);
+  padding: 1rem;
+  border-radius: 4px;
 }
 
-.hero h1 {
-  margin: 1rem 0;
-  padding: 1rem 0;
-  max-width: none;
-  font-size: 14vw;
-  font-weight: 900;
-  line-height: 1;
-  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--theme-foreground-focus);
 }
 
-.hero h2 {
+.card p {
   margin: 0;
-  max-width: 34em;
-  font-size: 20px;
-  font-style: initial;
-  font-weight: 500;
+  font-size: 0.95rem;
   line-height: 1.5;
-  color: var(--theme-foreground-muted);
 }
 
-@media (min-width: 640px) {
-  .hero h1 {
-    font-size: 90px;
+a[href$=".pdf"] {
+  display: inline-block;
+  background: var(--theme-foreground-focus);
+  color: var(--theme-background) !important;
+  padding: 0.5rem 1rem;
+  text-decoration: none !important;
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+a[href$=".pdf"]:hover {
+  background: var(--theme-foreground);
+  text-decoration: none !important;
+}
+
+@media (max-width: 640px) {
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
   }
 }
-
-</style>
-</main>
+</style></main>
 <footer id="observablehq-footer">
-<nav><a rel="next" href="./BBNJ-CHM-backup"><span>Ocean Accounts as Infrastructure for the BBNJ Clearing-House Mechanism: A Technical Brief on Data Architecture for Sustainable Ocean Governance</span></a></nav>
+<nav><a rel="next" href="./BBNJ-CHM"><span>Research Paper</span></a></nav>
 <div>Centre for Sustainable Development Reform on Aug 9, 2025.</div>
 </footer>
 </div>
