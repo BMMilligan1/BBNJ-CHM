@@ -105,9 +105,7 @@ const diagram = createSankeyDiagram(flowData);
 display(diagram);
 ```
 
-Three critical patterns emerge from this architecture: First, multiple OA components converge at each BBNJ pillar, demonstrating that no single data type suffices for comprehensive ocean governance. Second, flow thickness indicates data criticality, with spatial framework and environmental assets showing highest flow volumes as foundational elements. Third, cross-pillar integration reveals interdependencies that traditional siloed approaches cannot capture, emphasizing the need for systematic data integration.
-
-The following table details how each Ocean Accounts component supports specific CHM functions:
+Three critical patterns emerge from this architecture: First, multiple OA components converge at each BBNJ pillar, demonstrating that no single data type suffices for comprehensive ocean governance. Second, flow thickness indicates data criticality, with spatial framework and environmental assets showing highest flow volumes as foundational elements. Third, cross-pillar integration reveals interdependencies that traditional siloed approaches cannot capture, emphasizing the need for systematic data integration. The following table details how each Ocean Accounts component supports specific CHM functions:
 
 | **Ocean Accounts Component** | **CHM Applications** | **Key Metrics** |
 |------------------------------|---------------------|-----------------|
