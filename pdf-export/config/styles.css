@@ -395,7 +395,7 @@ table {
   border-collapse: collapse !important;
   width: 100% !important;
   margin: 1rem 0 !important;
-  page-break-inside: avoid;
+  /* Allow tables to break across pages */
 }
 
 th, td {
@@ -404,6 +404,7 @@ th, td {
   text-align: left !important;
   line-height: 1.1 !important;
   font-size: 8.5pt !important;
+  page-break-inside: avoid !important;
 }
 
 th {
@@ -415,6 +416,30 @@ th {
 /* Remove alternating row colors for academic style */
 tr:nth-child(even) {
   background-color: transparent !important;
+}
+
+/* Prevent rows from breaking across pages */
+tr {
+  page-break-inside: avoid !important;
+}
+
+
+/* Ensure table headers repeat on new pages */
+thead {
+  display: table-header-group !important;
+}
+
+tbody {
+  display: table-row-group !important;
+}
+
+tfoot {
+  display: table-footer-group !important;
+}
+
+/* Optional: Keep small tables together */
+table.keep-together {
+  page-break-inside: avoid !important;
 }
 
 /* Blockquotes - Academic style (updated above) */
