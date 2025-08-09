@@ -267,8 +267,8 @@ p {
   hyphens: manual !important;
   -webkit-hyphens: manual !important;
   -moz-hyphens: manual !important;
-  orphans: 3;
-  widows: 3;
+  orphans: 2;
+  widows: 2;
   line-height: 1.35 !important;
   padding: 0 !important;
 }
