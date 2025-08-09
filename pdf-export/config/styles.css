@@ -406,7 +406,7 @@ table {
 }
 
 th, td {
-  border: 0.3px solid #000 !important;
+  border: 0.5px solid #666 !important;
   padding: 0.3rem 0.5rem !important;
   text-align: left !important;
   line-height: 1.1 !important;
@@ -446,10 +446,10 @@ tfoot {
   font-size: 8pt !important;
 }
 
-/* Ensure all table elements have consistent font size */
-table * {
+/* Removed aggressive table * rule to allow proper footnote sizing */
+/* table * {
   font-size: 8pt !important;
-}
+} */
 
 /* Extra specificity for Observable tables */
 .observablehq table,
@@ -464,29 +464,15 @@ table * {
 
 /* Target main content area tables specifically */
 main table,
-main table *,
-#observablehq-main table,
-#observablehq-main table * {
+#observablehq-main table {
   font-size: 8pt !important;
 }
+/* Removed main table * rules to allow proper footnote sizing */
 
-/* Fix footnote sizing within tables - must come after universal table rules */
+/* Simple footnote sizing for tables - just make them smaller */
 table sup,
-table .footnote-ref,
-table .footnote-ref a,
-td sup,
-th sup,
-.observablehq table sup,
-.observablehq table .footnote-ref,
-main table sup,
-main table .footnote-ref,
-#observablehq-main table sup,
-#observablehq-main table .footnote-ref {
-  font-size: 0.65em !important;
-  line-height: 0 !important;
-  vertical-align: super !important;
-  position: relative !important;
-  top: -0.2em !important;
+table .footnote-ref {
+  font-size: 5pt !important;
 }
 
 /* Optional: Keep small tables together */
@@ -574,8 +560,8 @@ svg .chart-title {
 /* D3 chart lines and paths for print */
 svg .axis line,
 svg .axis path {
-  stroke: #000 !important;
-  stroke-width: 0.3px !important;
+  stroke: #666 !important;
+  stroke-width: 0.5px !important;
 }
 
 svg .grid line {
