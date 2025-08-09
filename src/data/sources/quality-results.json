@@ -1,0 +1,251 @@
+{
+  "valid": [
+    {
+      "name": "380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Architecture_of_Ocean_Governance.html",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/380493071_The_Likely_Impact_of_the_BBNJ_Agreement_on_the_Architecture_of_Ocean_Governance.html",
+      "dir": "academic",
+      "size": 0,
+      "type": "html"
+    },
+    {
+      "name": "978-3-031-13235-6_9.html",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/978-3-031-13235-6_9.html",
+      "dir": "academic",
+      "size": 0,
+      "type": "html"
+    },
+    {
+      "name": "978-3-031-72100-7_2.html",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/978-3-031-72100-7_2.html",
+      "dir": "academic",
+      "size": 0,
+      "type": "html"
+    },
+    {
+      "name": "ECO_Law_Blog.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/ECO_Law_Blog.md",
+      "dir": "article",
+      "size": 18900,
+      "type": "markdown",
+      "valid": true,
+      "lines": 346,
+      "hasMarkdown": true
+    },
+    {
+      "name": "IDDRI_Policy_Brief_April_2025.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/IDDRI_Policy_Brief_April_2025.md",
+      "dir": "article",
+      "size": 5161,
+      "type": "markdown",
+      "valid": true,
+      "lines": 182,
+      "hasMarkdown": true
+    },
+    {
+      "name": "Inside_EU_Life_Sciences.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/Inside_EU_Life_Sciences.md",
+      "dir": "article",
+      "size": 15811,
+      "type": "markdown",
+      "valid": true,
+      "lines": 257,
+      "hasMarkdown": true
+    },
+    {
+      "name": "NCLOS_Blog.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/NCLOS_Blog.md",
+      "dir": "article",
+      "size": 17516,
+      "type": "markdown",
+      "valid": true,
+      "lines": 169,
+      "hasMarkdown": true
+    },
+    {
+      "name": "Opinio_Juris.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/Opinio_Juris.md",
+      "dir": "article",
+      "size": 17950,
+      "type": "markdown",
+      "valid": true,
+      "lines": 86,
+      "hasMarkdown": true
+    },
+    {
+      "name": "file_82.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/file_82.md",
+      "dir": "article",
+      "size": 149,
+      "type": "markdown",
+      "valid": true,
+      "lines": 7,
+      "hasMarkdown": true
+    },
+    {
+      "name": "first-substantive-bbnj-agreement-preparatory-committee.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/first-substantive-bbnj-agreement-preparatory-committee.md",
+      "dir": "article",
+      "size": 4569,
+      "type": "markdown",
+      "valid": true,
+      "lines": 136,
+      "hasMarkdown": true
+    },
+    {
+      "name": "IOCreportforBBNJPrepCom-FINAL.pdf",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/IOCreportforBBNJPrepCom-FINAL.pdf",
+      "dir": "official",
+      "size": 1194167,
+      "type": "pdf",
+      "valid": true
+    },
+    {
+      "name": "httpshighseasalliance.orgwp-contentuploads202504PrepCom-Deep-Dive-CIHM-April-2025-1.pdf",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/httpshighseasalliance.orgwp-contentuploads202504PrepCom-Deep-Dive-CIHM-April-2025-1.pdf",
+      "dir": "pdf",
+      "size": 906406,
+      "type": "pdf",
+      "valid": true
+    },
+    {
+      "name": "httpsiucn.orgsitesdefaultfiles2024-01iucn-bbnj-treaty-policy-brief.pdf",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/httpsiucn.orgsitesdefaultfiles2024-01iucn-bbnj-treaty-policy-brief.pdf",
+      "dir": "pdf",
+      "size": 383980,
+      "type": "pdf",
+      "valid": true
+    },
+    {
+      "name": "httpswww.isa.org.jmwp-contentuploads202406The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/httpswww.isa.org.jmwp-contentuploads202406The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "dir": "pdf",
+      "size": 6858303,
+      "type": "pdf",
+      "valid": true
+    },
+    {
+      "name": "iucn-bbnj-treaty-policy-brief.pdf",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/iucn-bbnj-treaty-policy-brief.pdf",
+      "dir": "pdf",
+      "size": 383980,
+      "type": "pdf",
+      "valid": true
+    }
+  ],
+  "corrupted": [
+    {
+      "name": "httpswww.un.orgDeptslosbiodiversityworkinggroupIOCreportforBBNJPrepCom-FINAL.PDF",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/official/httpswww.un.orgDeptslosbiodiversityworkinggroupIOCreportforBBNJPrepCom-FINAL.PDF",
+      "dir": "official",
+      "size": 262,
+      "type": "pdf",
+      "valid": false,
+      "reason": "Invalid PDF header"
+    }
+  ],
+  "binary": [
+    {
+      "name": "full.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/academic/full.md",
+      "dir": "academic",
+      "size": 82031,
+      "type": "markdown",
+      "valid": false,
+      "reason": "Binary content in markdown file"
+    },
+    {
+      "name": "file_123.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/file_123.md",
+      "dir": "article",
+      "size": 12515,
+      "type": "markdown",
+      "valid": false,
+      "reason": "Binary content in markdown file"
+    },
+    {
+      "name": "file_124.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/file_124.md",
+      "dir": "article",
+      "size": 19762,
+      "type": "markdown",
+      "valid": false,
+      "reason": "Binary content in markdown file"
+    },
+    {
+      "name": "file_75.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/file_75.md",
+      "dir": "article",
+      "size": 20294,
+      "type": "markdown",
+      "valid": false,
+      "reason": "Binary content in markdown file"
+    },
+    {
+      "name": "file_78.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/file_78.md",
+      "dir": "article",
+      "size": 18583,
+      "type": "markdown",
+      "valid": false,
+      "reason": "Binary content in markdown file"
+    },
+    {
+      "name": "high-seas-biodiversity-treaty-explanatory-guide-factsheet.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/high-seas-biodiversity-treaty-explanatory-guide-factsheet.md",
+      "dir": "article",
+      "size": 28036,
+      "type": "markdown",
+      "valid": false,
+      "reason": "Binary content in markdown file"
+    },
+    {
+      "name": "high-seas-biodiversity-treaty.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/article/high-seas-biodiversity-treaty.md",
+      "dir": "article",
+      "size": 23808,
+      "type": "markdown",
+      "valid": false,
+      "reason": "Binary content in markdown file"
+    }
+  ],
+  "empty": [
+    {
+      "name": "IF12398.pdf",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/IF12398.pdf",
+      "dir": "pdf",
+      "size": 0,
+      "type": "pdf",
+      "valid": false,
+      "reason": "Empty file"
+    },
+    {
+      "name": "The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+      "dir": "pdf",
+      "size": 0,
+      "type": "pdf",
+      "valid": false,
+      "reason": "Empty file"
+    },
+    {
+      "name": "inside-the-new-high-seas-treaty.pdf",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/pdf/inside-the-new-high-seas-treaty.pdf",
+      "dir": "pdf",
+      "size": 0,
+      "type": "pdf",
+      "valid": false,
+      "reason": "Empty file"
+    }
+  ],
+  "suspicious": [
+    {
+      "name": "j.marpol.2023.md",
+      "path": "/Users/benmilligan/github/BBNJ-CHM/src/data/sources/doi/j.marpol.2023.md",
+      "dir": "doi",
+      "size": 74,
+      "type": "markdown",
+      "valid": false,
+      "reason": "Too little text content"
+    }
+  ]
+}

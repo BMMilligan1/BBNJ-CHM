@@ -1,0 +1,57 @@
+[
+  {
+    "name": "httpswww.un.orgDeptslosbiodiversityworkinggroupIOCreportforBBNJPrepCom-FINAL.PDF",
+    "dir": "official",
+    "reason": "Invalid PDF header"
+  },
+  {
+    "name": "IF12398.pdf",
+    "dir": "pdf",
+    "reason": "Empty file"
+  },
+  {
+    "name": "The_contribution_of_ISA_to_the_BBNJ_objectives.pdf",
+    "dir": "pdf",
+    "reason": "Empty file"
+  },
+  {
+    "name": "inside-the-new-high-seas-treaty.pdf",
+    "dir": "pdf",
+    "reason": "Empty file"
+  },
+  {
+    "name": "full.md",
+    "dir": "academic",
+    "reason": "Binary content in markdown file"
+  },
+  {
+    "name": "file_123.md",
+    "dir": "article",
+    "reason": "Binary content in markdown file"
+  },
+  {
+    "name": "file_124.md",
+    "dir": "article",
+    "reason": "Binary content in markdown file"
+  },
+  {
+    "name": "file_75.md",
+    "dir": "article",
+    "reason": "Binary content in markdown file"
+  },
+  {
+    "name": "file_78.md",
+    "dir": "article",
+    "reason": "Binary content in markdown file"
+  },
+  {
+    "name": "high-seas-biodiversity-treaty-explanatory-guide-factsheet.md",
+    "dir": "article",
+    "reason": "Binary content in markdown file"
+  },
+  {
+    "name": "high-seas-biodiversity-treaty.md",
+    "dir": "article",
+    "reason": "Binary content in markdown file"
+  }
+]

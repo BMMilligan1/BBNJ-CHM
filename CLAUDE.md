@@ -97,3 +97,54 @@ To customize PDF output:
 1. Edit `pdf-export/config/styles.css` for print styling
 2. Modify `pdf-export/config/config.json` for page settings
 3. Add document-specific rules based on filename patterns
+
+## Technical Brief Writing Instructions
+
+### Current Task: Ocean Accounts & BBNJ-CHM Technical Brief
+
+#### Manuscript Location
+- Main document: `/BBNJ-CHM.md` (5000 words target)
+- Structure guide: `/src/data/brief-structure.md`
+- Sources: `/src/data/sources/` (cleaned PDFs and markdown)
+- Key guidance: `/src/data/OA-Guidance.md` (Ocean Accounts framework)
+
+#### Writing Methodology: Iterative/Recursive Verification
+
+**Phase 1: Section Drafting**
+- Write each section per structure guide
+- Maintain word count targets (±10%)
+- Draw directly from source materials
+- Academic rigor with policy accessibility
+
+**Phase 2: Source Verification (After Each Section)**
+- Verify every claim against sources
+- Add specific citations (Author Year: section)
+- Confirm quote accuracy
+- Identify multi-source support for key arguments
+
+**Phase 3: Recursive Refinement (NO EXPANSION)**
+- Compare narrative to sources
+- Adjust claims for accuracy
+- Increase citation density (3-5 per paragraph)
+- Replace general statements with specific examples
+- Compress text while adding references
+
+#### Source Hierarchy
+1. Primary: BBNJ Agreement text, OA-Guidance.md
+2. Secondary: Academic papers (Gaebel, Kim, Foster)
+3. Supporting: Policy briefs (IDDRI, High Seas Alliance)
+4. Context: Blog posts and commentaries
+
+#### Quality Control Protocol
+After each section, verify:
+- Word count within target
+- All claims sourced
+- Technical accuracy
+- OA-CHM balance
+- Actionable recommendations
+
+#### Revision Rules
+- NEVER expand overall length
+- REPLACE weak claims with sourced ones
+- COMPRESS while adding citations
+- SUBSTITUTE generalities with specifics
