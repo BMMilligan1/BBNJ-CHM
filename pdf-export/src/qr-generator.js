@@ -64,17 +64,8 @@ export class QRGenerator {
       return null;
     }
     
-    // Extract relative path from dist folder
-    const filename = basename(filePath, '.html');
-    
-    // Handle special cases
-    if (filename === 'index') {
-      return config.baseUrl;
-    }
-    
-    // Generate GitHub Pages URL
-    // Assuming the structure: baseUrl/filename
-    return `${config.baseUrl}/${filename}`;
+    // Always return the base URL (index page) for all QR codes
+    return config.baseUrl;
   }
 
   /**
