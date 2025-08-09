@@ -406,7 +406,7 @@ table {
 }
 
 th, td {
-  border: 0.4px solid #000 !important;
+  border: 0.3px solid #000 !important;
   padding: 0.3rem 0.5rem !important;
   text-align: left !important;
   line-height: 1.1 !important;
@@ -468,6 +468,25 @@ main table *,
 #observablehq-main table,
 #observablehq-main table * {
   font-size: 8pt !important;
+}
+
+/* Fix footnote sizing within tables - must come after universal table rules */
+table sup,
+table .footnote-ref,
+table .footnote-ref a,
+td sup,
+th sup,
+.observablehq table sup,
+.observablehq table .footnote-ref,
+main table sup,
+main table .footnote-ref,
+#observablehq-main table sup,
+#observablehq-main table .footnote-ref {
+  font-size: 0.65em !important;
+  line-height: 0 !important;
+  vertical-align: super !important;
+  position: relative !important;
+  top: -0.2em !important;
 }
 
 /* Optional: Keep small tables together */
@@ -556,7 +575,7 @@ svg .chart-title {
 svg .axis line,
 svg .axis path {
   stroke: #000 !important;
-  stroke-width: 0.5px !important;
+  stroke-width: 0.3px !important;
 }
 
 svg .grid line {
